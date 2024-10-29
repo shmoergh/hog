@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NSD10-12D5")(type "Legacy")(uri "/Users/peterzimon/Shmoergh/kicad-libs/components/NSD10-12D5.lib")(options "")(descr ""))
+)

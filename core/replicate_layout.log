@@ -1,0 +1,56 @@
+12-02 11:57:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'darwin'
+12-02 11:57:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+12-02 11:57:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.8
+12-02 11:57:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+12-02 11:57:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x128cf43a0>
+12-02 11:57:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with C255 as a reference
+12-02 11:57:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+12-02 11:57:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'C255'
+Located on: ['LFOs']
+With filenames: ['sheets/lfos.kicad_sch']
+With sheet_id:['LFOs']
+12-02 11:57:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('C251', ['LFOs1']), ('C255', ['LFOs'])]
+12-02 11:57:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+12-02 11:57:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'LFOs', file:'sheets/lfos.kicad_sch'
+12-02 11:57:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['LFOs1']]
+12-02 11:57:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['LFOs']
+12-02 11:57:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+12-02 11:57:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(4254, 424)
+12-02 11:57:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(3815, 424)
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'LFOs', file:'sheets/lfos.kicad_sch'
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['LFOs1']]
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['LFOs1']]
+on level: ['LFOs']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+12-02 11:57:21 root 332:updating GUI message: 'Preparing for replication'
+12-02 11:57:21 root 337:updating GUI with: 0
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+12-02 11:57:21 root 337:updating GUI with: 0
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+12-02 11:57:21 root 337:updating GUI with: 50
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+12-02 11:57:21 root 332:updating GUI message: 'Replicating footprints'
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['LFOs1']
+12-02 11:57:21 root 337:updating GUI with: 23
+12-02 11:57:21 root 332:updating GUI message: 'Replicating tracks'
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['LFOs1']
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LFOs1'] :[('Net-(Q208-B)', 'Net-(Q209-B)'), ('GND', 'GND'), ('/Buffers/LFO_A_IN', '/Buffers/LFO_B_IN'), ('Net-(U219A-+)', 'Net-(U220A-+)'), ('+12V', '+12V'), ('Net-(U219A--)', 'Net-(U220A--)'), ('LFO_A_RATE', 'LFO_B_RATE'), ('-12V', '-12V'), ('Net-(U219B-+)', 'Net-(U220B-+)'), ('Net-(Q208-C)', 'Net-(Q209-C)'), ('Net-(R288-Pad1)', 'Net-(R289-Pad1)')]
+12-02 11:57:21 root 332:updating GUI message: 'Replicating zones'
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['LFOs1']
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['LFOs1'] :[('Net-(Q208-B)', 'Net-(Q209-B)'), ('GND', 'GND'), ('/Buffers/LFO_A_IN', '/Buffers/LFO_B_IN'), ('Net-(U219A-+)', 'Net-(U220A-+)'), ('+12V', '+12V'), ('Net-(U219A--)', 'Net-(U220A--)'), ('LFO_A_RATE', 'LFO_B_RATE'), ('-12V', '-12V'), ('Net-(U219B-+)', 'Net-(U220B-+)'), ('Net-(Q208-C)', 'Net-(Q209-C)'), ('Net-(R288-Pad1)', 'Net-(R289-Pad1)')]
+12-02 11:57:21 root 332:updating GUI message: 'Replicating text'
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['LFOs1']
+12-02 11:57:21 root 332:updating GUI message: 'Replicating drawings'
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+12-02 11:57:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['LFOs1']
+12-02 11:57:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete

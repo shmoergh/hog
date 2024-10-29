@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9998e364-b9df-45a0-8318-b7193bd2b6ba)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "CUTOFF" (shape input) (at 135.89 81.28 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 28f84c3d-d8ad-427a-81e0-73f22639671a)
+  )
+  (hierarchical_label "RESO_IN" (shape input) (at 135.89 91.44 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 5cad813e-ed99-45af-9934-47208c1e7e56)
+  )
+  (hierarchical_label "VCF_AUDIO_OUT" (shape output) (at 135.89 77.47 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ac648d9e-386d-426d-bf7f-77854a44490c)
+  )
+  (hierarchical_label "RESO_OUT" (shape input) (at 135.89 95.25 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid cd5b71db-3f2c-4060-b3a0-7afe1ac908c8)
+  )
+  (hierarchical_label "AUDIO_IN" (shape input) (at 135.89 73.66 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f4f5aa2e-31a0-4e0d-a363-2e41a40189e6)
+  )
+)

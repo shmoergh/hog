@@ -1,0 +1,391 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR06
+U 1 1 620580BB
+P 5800 3900
+F 0 "#PWR06" H 5800 3650 50  0001 C CNN
+F 1 "GND" H 5805 3727 50  0000 C CNN
+F 2 "" H 5800 3900 50  0001 C CNN
+F 3 "" H 5800 3900 50  0001 C CNN
+	1    5800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4000 5550 4000
+Wire Wire Line
+	5550 4000 5550 3900
+Wire Wire Line
+	5550 3800 5450 3800
+Wire Wire Line
+	5450 3900 5550 3900
+Connection ~ 5550 3900
+Wire Wire Line
+	5550 3900 5550 3800
+Wire Wire Line
+	5550 3900 5800 3900
+$Comp
+L power:GND #PWR01
+U 1 1 620580C8
+P 4700 3900
+F 0 "#PWR01" H 4700 3650 50  0001 C CNN
+F 1 "GND" H 4705 3727 50  0000 C CNN
+F 2 "" H 4700 3900 50  0001 C CNN
+F 3 "" H 4700 3900 50  0001 C CNN
+	1    4700 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3800 4850 3800
+Wire Wire Line
+	4850 3800 4850 3900
+Wire Wire Line
+	4850 4000 4950 4000
+Wire Wire Line
+	4950 3900 4850 3900
+Connection ~ 4850 3900
+Wire Wire Line
+	4850 3900 4850 4000
+Wire Wire Line
+	4850 3900 4700 3900
+$Comp
+L power:-12V #PWR03
+U 1 1 620580D5
+P 4850 4250
+F 0 "#PWR03" H 4850 4350 50  0001 C CNN
+F 1 "-12V" H 4865 4423 50  0000 C CNN
+F 2 "" H 4850 4250 50  0001 C CNN
+F 3 "" H 4850 4250 50  0001 C CNN
+	1    4850 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 4100 4850 4100
+Wire Wire Line
+	4850 4100 4850 4250
+$Comp
+L power:+12V #PWR02
+U 1 1 620580DD
+P 4850 3600
+F 0 "#PWR02" H 4850 3450 50  0001 C CNN
+F 1 "+12V" H 4865 3773 50  0000 C CNN
+F 2 "" H 4850 3600 50  0001 C CNN
+F 3 "" H 4850 3600 50  0001 C CNN
+	1    4850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3600 4850 3700
+Wire Wire Line
+	4850 3700 4950 3700
+$Comp
+L power:+12V #PWR04
+U 1 1 620580E5
+P 5550 3600
+F 0 "#PWR04" H 5550 3450 50  0001 C CNN
+F 1 "+12V" H 5565 3773 50  0000 C CNN
+F 2 "" H 5550 3600 50  0001 C CNN
+F 3 "" H 5550 3600 50  0001 C CNN
+	1    5550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3600 5550 3700
+Wire Wire Line
+	5550 3700 5450 3700
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 620580ED
+P 5150 3900
+F 0 "J1" H 5200 4317 50  0000 C CNN
+F 1 "Eurorack Power" H 5200 4226 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:Eurorack_Power_Supply" H 5150 3900 50  0001 C CNN
+F 3 "~" H 5150 3900 50  0001 C CNN
+	1    5150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR05
+U 1 1 620580F3
+P 5550 4250
+F 0 "#PWR05" H 5550 4350 50  0001 C CNN
+F 1 "-12V" H 5565 4423 50  0000 C CNN
+F 2 "" H 5550 4250 50  0001 C CNN
+F 3 "" H 5550 4250 50  0001 C CNN
+	1    5550 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 4100 5550 4100
+Wire Wire Line
+	5550 4100 5550 4250
+$Comp
+L Connector:Conn_01x03_Male #J_PWR1
+U 1 1 620580FB
+P 6250 3900
+F 0 "#J_PWR1" H 6222 3832 50  0000 R CNN
+F 1 "Power" H 6222 3923 50  0000 R CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x03_Vertical" H 6250 3900 50  0001 C CNN
+F 3 "~" H 6250 3900 50  0001 C CNN
+	1    6250 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR07
+U 1 1 62058101
+P 6000 3600
+F 0 "#PWR07" H 6000 3450 50  0001 C CNN
+F 1 "+12V" H 6015 3773 50  0000 C CNN
+F 2 "" H 6000 3600 50  0001 C CNN
+F 3 "" H 6000 3600 50  0001 C CNN
+	1    6000 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3600 6000 3800
+Wire Wire Line
+	6000 3800 6050 3800
+$Comp
+L power:-12V #PWR08
+U 1 1 62058109
+P 6000 4250
+F 0 "#PWR08" H 6000 4350 50  0001 C CNN
+F 1 "-12V" H 6015 4423 50  0000 C CNN
+F 2 "" H 6000 4250 50  0001 C CNN
+F 3 "" H 6000 4250 50  0001 C CNN
+	1    6000 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 4000 6000 4000
+Wire Wire Line
+	6000 4000 6000 4250
+Wire Wire Line
+	6050 3900 5800 3900
+Connection ~ 5800 3900
+$Comp
+L Device:CP C1
+U 1 1 62058113
+P 6600 3750
+F 0 "C1" H 6718 3796 50  0000 L CNN
+F 1 "100u" H 6718 3705 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:CP_Radial_D5.0mm_P2.50mm" H 6638 3600 50  0001 C CNN
+F 3 "~" H 6600 3750 50  0001 C CNN
+	1    6600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 62058119
+P 6600 4100
+F 0 "C2" H 6718 4146 50  0000 L CNN
+F 1 "100u" H 6718 4055 50  0000 L CNN
+F 2 "Zimo_Manual_PCB:CP_Radial_D5.0mm_P2.50mm" H 6638 3950 50  0001 C CNN
+F 3 "~" H 6600 4100 50  0001 C CNN
+	1    6600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3950 6600 3900
+$Comp
+L power:GND #PWR09
+U 1 1 62058124
+P 6950 3900
+F 0 "#PWR09" H 6950 3650 50  0001 C CNN
+F 1 "GND" H 6955 3727 50  0000 C CNN
+F 2 "" H 6950 3900 50  0001 C CNN
+F 3 "" H 6950 3900 50  0001 C CNN
+	1    6950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3900 6600 3900
+Connection ~ 6600 3900
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 6206DE6C
+P 4850 4250
+F 0 "#FLG03" H 4850 4325 50  0001 C CNN
+F 1 "PWR_FLAG" V 4850 4377 50  0000 L CNN
+F 2 "" H 4850 4250 50  0001 C CNN
+F 3 "~" H 4850 4250 50  0001 C CNN
+	1    4850 4250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4850 4250
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 6206EF18
+P 4850 3700
+F 0 "#FLG02" H 4850 3775 50  0001 C CNN
+F 1 "PWR_FLAG" V 4850 3827 50  0000 L CNN
+F 2 "" H 4850 3700 50  0001 C CNN
+F 3 "~" H 4850 3700 50  0001 C CNN
+	1    4850 3700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4850 3700
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 6207C187
+P 4700 3900
+F 0 "#FLG01" H 4700 3975 50  0001 C CNN
+F 1 "PWR_FLAG" V 4700 4027 50  0000 L CNN
+F 2 "" H 4700 3900 50  0001 C CNN
+F 3 "~" H 4700 3900 50  0001 C CNN
+	1    4700 3900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 3900
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 62327253
+P 700 700
+F 0 "H1" H 800 746 50  0000 L CNN
+F 1 "MountingHole" H 800 655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 700 700 50  0001 C CNN
+F 3 "~" H 700 700 50  0001 C CNN
+	1    700  700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6232764A
+P 700 900
+F 0 "H2" H 800 946 50  0000 L CNN
+F 1 "MountingHole" H 800 855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 700 900 50  0001 C CNN
+F 3 "~" H 700 900 50  0001 C CNN
+	1    700  900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 62327859
+P 700 1100
+F 0 "H3" H 800 1146 50  0000 L CNN
+F 1 "MountingHole" H 800 1055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 700 1100 50  0001 C CNN
+F 3 "~" H 700 1100 50  0001 C CNN
+	1    700  1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 62327A68
+P 700 1300
+F 0 "H4" H 800 1346 50  0000 L CNN
+F 1 "MountingHole" H 800 1255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 700 1300 50  0001 C CNN
+F 3 "~" H 700 1300 50  0001 C CNN
+	1    700  1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 62744C64
+P 6300 3600
+F 0 "R1" V 6093 3600 50  0000 C CNN
+F 1 "10" V 6184 3600 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 6230 3600 50  0001 C CNN
+F 3 "~" H 6300 3600 50  0001 C CNN
+	1    6300 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 3600 6000 3600
+Connection ~ 6000 3600
+Wire Wire Line
+	6450 3600 6600 3600
+$Comp
+L Device:R R2
+U 1 1 62745DCC
+P 6300 4250
+F 0 "R2" V 6093 4250 50  0000 C CNN
+F 1 "10" V 6184 4250 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:R_Axial_Vertical" V 6230 4250 50  0001 C CNN
+F 3 "~" H 6300 4250 50  0001 C CNN
+	1    6300 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 4250 6000 4250
+Connection ~ 6000 4250
+Wire Wire Line
+	6450 4250 6600 4250
+$Comp
+L Connector:Conn_01x02_Male J_PANEL_GND1
+U 1 1 6286FB73
+P 5900 2700
+F 0 "J_PANEL_GND1" H 6008 2881 50  0000 C CNN
+F 1 "Panel ground" H 6008 2790 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x02_Vertical" H 5900 2700 50  0001 C CNN
+F 3 "~" H 5900 2700 50  0001 C CNN
+	1    5900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR041
+U 1 1 62870612
+P 6300 2900
+F 0 "#PWR041" H 6300 2650 50  0001 C CNN
+F 1 "GND" H 6305 2727 50  0000 C CNN
+F 2 "" H 6300 2900 50  0001 C CNN
+F 3 "" H 6300 2900 50  0001 C CNN
+	1    6300 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2900 6300 2800
+Wire Wire Line
+	6300 2700 6100 2700
+Wire Wire Line
+	6100 2800 6300 2800
+Connection ~ 6300 2800
+Wire Wire Line
+	6300 2800 6300 2700
+$Comp
+L Connector:Conn_01x02_Male J_PANEL_GND2
+U 1 1 62AF7EBD
+P 6800 2700
+F 0 "J_PANEL_GND2" H 6908 2881 50  0000 C CNN
+F 1 "Panel ground" H 6908 2790 50  0000 C CNN
+F 2 "Zimo_Manual_PCB:NSL25_01x02_Vertical" H 6800 2700 50  0001 C CNN
+F 3 "~" H 6800 2700 50  0001 C CNN
+	1    6800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 62AF7EC3
+P 7200 2900
+F 0 "#PWR014" H 7200 2650 50  0001 C CNN
+F 1 "GND" H 7205 2727 50  0000 C CNN
+F 2 "" H 7200 2900 50  0001 C CNN
+F 3 "" H 7200 2900 50  0001 C CNN
+	1    7200 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2900 7200 2800
+Wire Wire Line
+	7200 2700 7000 2700
+Wire Wire Line
+	7000 2800 7200 2800
+Connection ~ 7200 2800
+Wire Wire Line
+	7200 2800 7200 2700
+$EndSCHEMATC

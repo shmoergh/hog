@@ -1,0 +1,105 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bed5769f-062b-4e66-a614-f13232444776")
+	(paper "A4")
+	(title_block
+		(title "Steiner-Parker LP VCF")
+		(date "2022-04-01")
+		(company "Shmøergh")
+	)
+	(lib_symbols)
+	(text "LV11 HOG VCF dimensions\nBoard: 86x44mm\nMounting holes: 78mm"
+		(exclude_from_sim no)
+		(at 176.53 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "884ad537-6309-439d-950e-01c31a4ce24a")
+	)
+	(sheet
+		(at 106.68 86.36)
+		(size 30.48 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000627432e7")
+		(property "Sheetname" "Power & IO"
+			(at 106.68 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/power.kicad_sch"
+			(at 106.68 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "steiner-parker-vcf"
+				(path "/bed5769f-062b-4e66-a614-f13232444776"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 86.36)
+		(size 31.75 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000627485bb")
+		(property "Sheetname" "VCF"
+			(at 151.13 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/vcf.kicad_sch"
+			(at 151.13 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "steiner-parker-vcf"
+				(path "/bed5769f-062b-4e66-a614-f13232444776"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
