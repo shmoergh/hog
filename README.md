@@ -9,6 +9,15 @@ Latest revision: rev #3.
 
 Font used on PCBs: https://departuremono.com
 
+## MIDI2CV
+
+The MIDI2CV module uses [`pico-lib`](https://github.com/peterzimon/pico-lib) submodule. Make sure you clone
+the repo like with its submodules:
+
+```
+git clone --recurse-submodules git@github.com:shmoergh/hog.git
+```
+
 ## License
 
 Shmoergh Hog © 2024
