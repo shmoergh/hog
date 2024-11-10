@@ -9,6 +9,8 @@ Latest revision: rev #3.
 
 Font used on PCBs: https://departuremono.com
 
+Simulations made in [CircuitJS](https://www.falstad.com/circuit/circuitjs.html)
+
 ## Cloning
 
 The MIDI2CV module uses [`pico-lib`](https://github.com/peterzimon/pico-lib) submodule. Make sure you clone
