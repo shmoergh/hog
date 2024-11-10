@@ -4020,7 +4020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ed0c697-5089-4d77-8874-42fe95a683c5")
-		(property "Reference" "TP2"
+		(property "Reference" "TP11"
 			(at 129.54 99.568 0)
 			(effects
 				(font
@@ -4248,7 +4248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82201295-7847-4847-9ce5-ca8ac04fcd6d")
-		(property "Reference" "TP2"
+		(property "Reference" "TP13"
 			(at 97.79 108.458 0)
 			(effects
 				(font
@@ -4389,7 +4389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "910cd87c-c8b2-4c1b-9b39-7d30a6e4f147")
-		(property "Reference" "TP2"
+		(property "Reference" "TP10"
 			(at 175.26 90.932 0)
 			(effects
 				(font
@@ -4545,7 +4545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98735358-1bb6-4df9-a7ca-b4add067d1e2")
-		(property "Reference" "TP2"
+		(property "Reference" "TP12"
 			(at 128.27 121.412 0)
 			(effects
 				(font
@@ -5182,7 +5182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cef1c741-69c4-436f-98ed-e257636422a6")
-		(property "Reference" "TP2"
+		(property "Reference" "TP15"
 			(at 156.21 121.158 0)
 			(effects
 				(font
@@ -5494,7 +5494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e898e3ae-bf06-4231-9d74-8aa2da64b0b0")
-		(property "Reference" "TP2"
+		(property "Reference" "TP14"
 			(at 156.21 103.378 0)
 			(effects
 				(font

@@ -3613,7 +3613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c6b970e-bb4a-45b6-a520-2f134e739a99")
-		(property "Reference" "TP2"
+		(property "Reference" "TP27"
 			(at 111.76 142.748 0)
 			(effects
 				(font
@@ -3684,7 +3684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cea8481-d53e-4d1f-ac9b-66683f73cfb1")
-		(property "Reference" "RV_RINGTIME1"
+		(property "Reference" "RV_RESO_DIRTY1"
 			(at 180.34 102.87 0)
 			(effects
 				(font
@@ -4569,7 +4569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3803088-9706-4487-9396-b017d29e2873")
-		(property "Reference" "RV_RINGTIME1"
+		(property "Reference" "RV_RESO_DIRTY1"
 			(at 105.41 157.48 0)
 			(effects
 				(font

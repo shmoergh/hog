@@ -3322,7 +3322,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76f03dcf-a135-4712-979d-c31633670cf4")
-		(property "Reference" "TP206"
+		(property "Reference" "TP202"
 			(at 200.66 85.725 0)
 			(effects
 				(font

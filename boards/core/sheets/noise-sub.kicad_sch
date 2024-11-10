@@ -3596,7 +3596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "740f6880-3295-46be-887b-b761aea0908d")
-		(property "Reference" "TP206"
+		(property "Reference" "TP202"
 			(at 86.36 65.405 0)
 			(effects
 				(font
@@ -5451,7 +5451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7891629-a2b8-419b-aacb-132e5ae87e88")
-		(property "Reference" "TP206"
+		(property "Reference" "TP202"
 			(at 231.14 112.395 0)
 			(effects
 				(font

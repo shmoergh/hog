@@ -1226,7 +1226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e26797a4-87ce-4470-82cc-bdcd3823d313")
-		(property "Reference" "TP2"
+		(property "Reference" "TP28"
 			(at 165.1 81.788 0)
 			(effects
 				(font

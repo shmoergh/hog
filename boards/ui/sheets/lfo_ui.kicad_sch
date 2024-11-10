@@ -3049,7 +3049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f0faa07-8ff3-4b28-b961-55be92f653e5")
-		(property "Reference" "TP2"
+		(property "Reference" "TP25"
 			(at 81.28 127.508 0)
 			(effects
 				(font
@@ -4991,7 +4991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd4ed8aa-379e-4fd9-9557-f541344265c1")
-		(property "Reference" "TP2"
+		(property "Reference" "TP26"
 			(at 133.35 127.508 0)
 			(effects
 				(font

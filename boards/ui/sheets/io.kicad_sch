@@ -3267,7 +3267,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c3db4b0-e57c-4e15-bf79-e1f6941e2e4f")
-		(property "Reference" "J_VCO2_PITCH1"
+		(property "Reference" "J_MIDI_IN2"
 			(at 120.65 116.84 0)
 			(effects
 				(font
@@ -4829,7 +4829,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e226e23f-0c71-4892-a90f-468cf843ca4c")
-		(property "Reference" "J_EXT_CUTOFF1"
+		(property "Reference" "J_MIDI_IN2"
 			(at 120.65 140.97 0)
 			(effects
 				(font
