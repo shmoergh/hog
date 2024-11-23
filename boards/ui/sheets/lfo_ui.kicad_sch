@@ -2400,6 +2400,17 @@
 		)
 		(uuid "129ccc1f-c200-432e-9e1d-646943a20224")
 	)
+	(text "LED resistor values\nR37 & R41 values should be picked according to:\n- Blue LEDs: 20kΩ\n- Non-blue LEDs: 10kΩ"
+		(exclude_from_sim no)
+		(at 222.504 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a21dada7-6d82-416b-8848-a17f31ac8817")
+	)
 	(text "Min speed resistor\nOn one of the LFO's 150ohm worked as well but\non the other, the oscillator couldn't start.\n220ohm is a safe bet."
 		(exclude_from_sim no)
 		(at 100.33 166.37 0)
