@@ -2164,31 +2164,6 @@
 	)
 	(text "H"
 		(exclude_from_sim no)
-		(at 152.4 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 221 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1fb4dff-b060-4aea-a384-58220d63c133")
-	)
-	(text "THT"
-		(exclude_from_sim no)
-		(at 153.67 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5f6c3f6-182e-4e0c-86d9-df037d26607b")
-	)
-	(text "H"
-		(exclude_from_sim no)
 		(at 104.14 72.39 0)
 		(effects
 			(font
@@ -3223,6 +3198,82 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 149.86 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "650fd1da-cd52-48e6-ba96-c50b7c3593b4")
+		(property "Reference" "R245"
+			(at 149.86 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 149.86 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 149.86 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4216"
+			(at 149.86 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "536a66ba-d159-4bdc-9ac1-d718b663d7bf")
+		)
+		(pin "2"
+			(uuid "a95070d2-6d90-41c6-a970-284ce8cce2ed")
+		)
+		(instances
+			(project "core"
+				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/865c0c7b-5b14-44d4-94d3-6e86ffb26d5b"
+					(reference "R245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 190.5 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3775,74 +3826,6 @@
 			(project "hog-v2-voice-proto"
 				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
 					(reference "C208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 149.86 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa629518-d8c7-486b-9359-92558a9ed0b3")
-		(property "Reference" "R245"
-			(at 149.86 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33k-100k"
-			(at 149.86 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 149.86 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4436b82c-48db-4677-a4a3-b0fa3df50f44")
-		)
-		(pin "2"
-			(uuid "839cc14c-ad17-4309-82a1-54e1054f61b6")
-		)
-		(instances
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/865c0c7b-5b14-44d4-94d3-6e86ffb26d5b"
-					(reference "R245")
 					(unit 1)
 				)
 			)
