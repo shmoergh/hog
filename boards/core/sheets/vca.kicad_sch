@@ -740,167 +740,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_Potentiometer_Trim"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_Trim"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Trim-potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable trimpot trimmer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_Trim_0_1"
-				(polyline
-					(pts
-						(xy 1.524 0.762) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Trim_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "GND_2"
 			(power)
 			(pin_names
@@ -1862,6 +1701,12 @@
 		(uuid "392c64a8-f568-4380-a265-ca36d72c93a4")
 	)
 	(junction
+		(at 154.94 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40f9e2ba-3f6c-47d1-b60a-48418a51d4d3")
+	)
+	(junction
 		(at 210.82 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1963,16 +1808,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 64.77) (xy 157.48 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01f4b83a-bdf3-4a34-95ef-ce429ea6a286")
-	)
-	(wire
-		(pts
 			(xy 134.62 107.95) (xy 144.78 107.95)
 		)
 		(stroke
@@ -2000,6 +1835,16 @@
 			(type default)
 		)
 		(uuid "03a46f76-c058-43a6-b26c-e303685e375d")
+	)
+	(wire
+		(pts
+			(xy 152.4 59.69) (xy 154.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0415dccc-19d0-4286-b1ae-af2643c9854f")
 	)
 	(wire
 		(pts
@@ -2103,6 +1948,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 59.69) (xy 152.4 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fef1e41-b216-444b-bf6e-d0357f2bca41")
+	)
+	(wire
+		(pts
 			(xy 130.81 87.63) (xy 144.78 87.63)
 		)
 		(stroke
@@ -2160,6 +2015,16 @@
 			(type default)
 		)
 		(uuid "49e160ab-c668-4f90-b4e2-d3401bc2f9c5")
+	)
+	(wire
+		(pts
+			(xy 154.94 59.69) (xy 154.94 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfdf614-2b10-431f-bca8-7c675c2f9540")
 	)
 	(wire
 		(pts
@@ -2313,16 +2178,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 53.34) (xy 143.51 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "886263c6-ab32-4ae4-8544-92543ac3dd1d")
-	)
-	(wire
-		(pts
 			(xy 115.57 107.95) (xy 115.57 119.38)
 		)
 		(stroke
@@ -2383,6 +2238,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 59.69) (xy 157.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a989263e-8ddc-41e1-92ba-0c856cb861c8")
+	)
+	(wire
+		(pts
 			(xy 157.48 81.28) (xy 171.45 81.28)
 		)
 		(stroke
@@ -2403,16 +2268,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 53.34) (xy 143.51 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b07d1c29-5a69-4b21-b297-7772d177af50")
-	)
-	(wire
-		(pts
 			(xy 210.82 64.77) (xy 210.82 78.74)
 		)
 		(stroke
@@ -2420,16 +2275,6 @@
 			(type default)
 		)
 		(uuid "b61c7a48-0c6d-43e2-843c-d62fa1507cf3")
-	)
-	(wire
-		(pts
-			(xy 166.37 53.34) (xy 166.37 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8f117e5-eb25-4863-b24e-f1294dc7b2a8")
 	)
 	(wire
 		(pts
@@ -2473,6 +2318,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 59.69) (xy 154.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa5f0bb-9aec-497f-8b05-d66c6ca6f72c")
+	)
+	(wire
+		(pts
 			(xy 179.07 76.2) (xy 185.42 76.2)
 		)
 		(stroke
@@ -2490,26 +2345,6 @@
 			(type default)
 		)
 		(uuid "cf47b6e0-31c1-4ca3-816c-57d5a39ef527")
-	)
-	(wire
-		(pts
-			(xy 158.75 53.34) (xy 166.37 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1af796e-ddee-4bbb-838a-6fb25218b1a2")
-	)
-	(wire
-		(pts
-			(xy 143.51 62.23) (xy 152.4 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d281796f-cdb3-406a-b54b-614dc8c4f328")
 	)
 	(wire
 		(pts
@@ -2613,16 +2448,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 62.23) (xy 152.4 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f28ae8fc-487c-480e-973d-17a0215efd74")
-	)
-	(wire
-		(pts
 			(xy 105.41 87.63) (xy 111.76 87.63)
 		)
 		(stroke
@@ -2640,16 +2465,6 @@
 			(type default)
 		)
 		(uuid "f768620f-fc95-4329-b05a-517a5428d27b")
-	)
-	(wire
-		(pts
-			(xy 157.48 62.23) (xy 166.37 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8c88062-d4f7-4d07-b3f0-329692295d38")
 	)
 	(wire
 		(pts
@@ -2671,20 +2486,6 @@
 		)
 		(uuid "fcdd243f-4ceb-4831-ba67-9ec68a1f0d0c")
 	)
-	(text "H"
-		(exclude_from_sim no)
-		(at 156.21 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 221 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "1768b35b-3b93-451b-910e-7c112c600d79")
-	)
 	(text "External CV input should use 200k\nresistors for proper transistor \nbiasing current."
 		(exclude_from_sim no)
 		(at 77.47 115.57 0)
@@ -2695,17 +2496,6 @@
 			(justify left bottom)
 		)
 		(uuid "3147a34f-34f8-4560-8ae3-28e1b06ba7a8")
-	)
-	(text "Use RV_REJECTION to compensate DC \noffset on the output."
-		(exclude_from_sim no)
-		(at 143.51 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "485bebf2-3476-46dc-a758-27915a0ccd5e")
 	)
 	(text "Internal CV is unused in this version.\nUncomment the resistor and add on PCB\nto use it."
 		(exclude_from_sim no)
@@ -3898,7 +3688,7 @@
 	(symbol
 		(lib_name "+12V_1")
 		(lib_id "power:+12V")
-		(at 154.94 49.53 0)
+		(at 154.94 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3907,7 +3697,7 @@
 		(fields_autoplaced yes)
 		(uuid "799f1992-ddbb-4085-8e13-e1ef0fc780e6")
 		(property "Reference" "#PWR0110"
-			(at 154.94 53.34 0)
+			(at 154.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3706,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 154.94 45.72 0)
+			(at 154.94 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 49.53 0)
+			(at 154.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +3723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 49.53 0)
+			(at 154.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3732,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 49.53 0)
+			(at 154.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,82 +4009,6 @@
 			(project "hog-v2-voice-proto"
 				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
 					(reference "C208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Trim")
-		(at 154.94 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "87345ebb-03d8-4afd-bcf0-a7864d74b66a")
-		(property "Reference" "RV_REJECTION1"
-			(at 154.94 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 154.94 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal"
-			(at 154.94 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5d4582a-5000-4afd-9b74-2baa6728baca")
-		)
-		(pin "2"
-			(uuid "8108f185-e356-49f8-80ce-fa533e4e62f0")
-		)
-		(pin "3"
-			(uuid "c5e4b814-792a-4801-beac-9305c354af40")
-		)
-		(instances
-			(project "shmoergh-funk-live-control"
-				(path "/6d7b782d-8b2e-4b40-a99f-4bf41187d978/6b0f1c86-305d-46a4-9f99-ea8eed307ff5"
-					(reference "RV_REJECTION1")
-					(unit 1)
-				)
-			)
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/dca47c1e-77dc-4eaf-bf96-31f48abca153"
-					(reference "RV_VCA_REJECTION201")
 					(unit 1)
 				)
 			)
