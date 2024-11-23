@@ -2449,6 +2449,207 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:MMBFJ111"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBFJ111"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "20mA min, 35V, 30mOhm max, 3-10V Vgs(off), N-Channel JFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel FET Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBFJ111_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.397) (xy 0.254 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBFJ111_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_names
@@ -3003,6 +3204,12 @@
 		(uuid "70f89739-07fa-42fb-bbf8-4bde18572efc")
 	)
 	(junction
+		(at 223.52 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77a26f05-3982-4a2f-8c77-3e8429c52cf1")
+	)
+	(junction
 		(at 60.96 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3037,6 +3244,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dd5003e-00c0-4549-b573-1f35977a1c6d")
+	)
+	(junction
+		(at 233.68 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eca9bb4-9cf0-4339-b18a-0827fd8f1c5e")
 	)
 	(junction
 		(at 148.59 68.58)
@@ -3103,6 +3316,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc623cd6-53da-477d-ab20-3dd8f7bec3c0")
+	)
+	(junction
+		(at 204.47 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df703528-6acb-419e-a07f-ca2078ad1984")
 	)
 	(junction
 		(at 288.29 135.89)
@@ -3222,7 +3441,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 38.1) (xy 233.68 53.34)
+			(xy 233.68 27.94) (xy 233.68 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3259,6 +3478,16 @@
 			(type default)
 		)
 		(uuid "165f145f-3754-4e3a-a0d4-f658cf477bb5")
+	)
+	(polyline
+		(pts
+			(xy 190.5 24.13) (xy 220.98 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18691cf7-5ffb-4e6d-8401-f18757525ba2")
 	)
 	(wire
 		(pts
@@ -3422,6 +3651,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 33.02) (xy 233.68 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268e1a3a-9275-4165-b2e3-9a0dfe219f15")
+	)
+	(wire
+		(pts
 			(xy 128.27 128.27) (xy 128.27 130.81)
 		)
 		(stroke
@@ -3572,6 +3811,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 40.64) (xy 196.85 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c6f4a5-9d37-401f-857d-f76e18d1e97f")
+	)
+	(wire
+		(pts
 			(xy 161.29 132.08) (xy 166.37 132.08)
 		)
 		(stroke
@@ -3589,6 +3838,16 @@
 			(type default)
 		)
 		(uuid "37f36dbb-80d5-4f11-8b93-b8e061f1a72a")
+	)
+	(wire
+		(pts
+			(xy 204.47 33.02) (xy 204.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a047f05-09ee-4c49-b033-d74325518cca")
 	)
 	(wire
 		(pts
@@ -3880,6 +4139,16 @@
 		)
 		(uuid "76057a58-d5d6-46cc-9f12-8bf5dbbea454")
 	)
+	(polyline
+		(pts
+			(xy 194.31 34.29) (xy 213.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e715df-ee6c-455b-a786-6feabf00adcd")
+	)
 	(wire
 		(pts
 			(xy 39.37 66.04) (xy 46.99 66.04)
@@ -4072,7 +4341,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 38.1) (xy 219.71 38.1)
+			(xy 204.47 27.94) (xy 219.71 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4160,6 +4429,16 @@
 		)
 		(uuid "9dc5a5b4-779e-4480-8091-3be424761fb6")
 	)
+	(polyline
+		(pts
+			(xy 194.31 24.13) (xy 194.31 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6ecdae-c185-4bd3-b50c-8415217ce9e4")
+	)
 	(wire
 		(pts
 			(xy 128.27 68.58) (xy 134.62 68.58)
@@ -4172,7 +4451,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 27.94) (xy 223.52 30.48)
+			(xy 223.52 19.05) (xy 223.52 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4402,6 +4681,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 40.64) (xy 196.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13fc10c-154e-4e14-a011-539b36ecdcac")
+	)
+	(wire
+		(pts
 			(xy 148.59 114.3) (xy 148.59 125.73)
 		)
 		(stroke
@@ -4412,7 +4701,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 38.1) (xy 233.68 38.1)
+			(xy 229.87 27.94) (xy 233.68 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4452,7 +4741,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 38.1) (xy 271.78 27.94)
+			(xy 271.78 38.1) (xy 271.78 19.05)
 		)
 		(stroke
 			(width 0)
@@ -4469,6 +4758,16 @@
 			(type default)
 		)
 		(uuid "d25a0c6f-749c-41f7-ba39-6b746d1addd9")
+	)
+	(wire
+		(pts
+			(xy 196.85 19.05) (xy 223.52 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25aa453-9899-4e7e-8014-f2a9fdda2c9f")
 	)
 	(wire
 		(pts
@@ -4512,7 +4811,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 38.1) (xy 204.47 53.34)
+			(xy 204.47 27.94) (xy 204.47 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4672,6 +4971,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 33.02) (xy 212.09 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e926eca3-f922-4647-b12a-c2b2b64d3246")
+	)
+	(wire
+		(pts
 			(xy 166.37 151.13) (xy 166.37 152.4)
 		)
 		(stroke
@@ -4722,7 +5031,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 27.94) (xy 271.78 27.94)
+			(xy 223.52 19.05) (xy 271.78 19.05)
 		)
 		(stroke
 			(width 0)
@@ -4759,6 +5068,16 @@
 			(type default)
 		)
 		(uuid "fd1fa9a9-dfcb-4f93-ae68-1d559e8fb058")
+	)
+	(wire
+		(pts
+			(xy 233.68 33.02) (xy 233.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5bfe29-d90c-4268-9665-c48f4a9a4445")
 	)
 	(wire
 		(pts
@@ -5086,6 +5405,17 @@
 			(justify left bottom)
 		)
 		(uuid "8a417e2b-d100-49d5-b9b8-6ab3fcc968bb")
+	)
+	(text "ONLY ONE OF THESE J111's\nSHOULD BE SOLDERED.\n\nQ215 is a THT footprint\nfor J111 to provide \nalternative to SMD."
+		(exclude_from_sim no)
+		(at 167.132 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cad70c9-ca5e-4a08-a203-ee6d8b394c36")
 	)
 	(text "H"
 		(exclude_from_sim no)
@@ -9280,6 +9610,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:MMBFJ111")
+		(at 217.17 35.56 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ade5873-c4ea-4875-82db-b9beeb715dd1")
+		(property "Reference" "Q215"
+			(at 222.25 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J111"
+			(at 222.25 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 215.265 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "512-J111"
+			(at 217.17 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64566f41-0fdc-4477-9679-f809e09129db")
+		)
+		(pin "3"
+			(uuid "5406daff-b314-4b58-a6fa-3ebc72bdb15c")
+		)
+		(pin "2"
+			(uuid "674817f6-bbee-4408-8ae3-3f364af16e06")
+		)
+		(instances
+			(project ""
+				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/031e86a6-ca4d-4816-ba7e-c07cacc1df65"
+					(reference "Q211")
+					(unit 1)
+				)
+				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
+					(reference "Q215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 116.84 68.58 90)
 		(unit 1)
@@ -11677,16 +12094,15 @@
 	)
 	(symbol
 		(lib_id "PCM_Transistor_JFET_AKL:MMBFJ111")
-		(at 224.79 35.56 270)
+		(at 224.79 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e78dbfac-6db4-42e2-ab3e-666d6cd5b292")
 		(property "Reference" "Q203"
-			(at 224.79 41.91 90)
+			(at 230.632 21.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11694,7 +12110,7 @@
 			)
 		)
 		(property "Value" "MMBFJ111"
-			(at 224.79 44.45 90)
+			(at 233.172 23.622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11702,7 +12118,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23_Handsoldering"
-			(at 227.33 40.64 0)
+			(at 227.33 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11711,7 +12127,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/2ab8d7a6d6d8a209f9d7deeb52763e9f/J111.pdf"
-			(at 223.52 35.56 0)
+			(at 223.52 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11720,7 +12136,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 35.56 0)
+			(at 224.79 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +12145,7 @@
 			)
 		)
 		(property "LCSC" "C274688"
-			(at 224.79 35.56 90)
+			(at 224.79 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
