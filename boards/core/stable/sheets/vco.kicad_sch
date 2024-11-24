@@ -1323,260 +1323,6 @@
 				)
 			)
 		)
-		(symbol "Device:Thermistor_NTC"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TH"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Thermistor_NTC"
-				(at 3.175 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Thermistor_NTC_0_1"
-				(arc
-					(start -3.048 2.159)
-					(mid -3.0495 2.3143)
-					(end -3.175 2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.048 2.159)
-					(mid -2.9736 1.9794)
-					(end -2.794 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.048 2.794)
-					(mid -2.9736 2.6144)
-					(end -2.794 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 1.905)
-					(mid -2.6144 1.9794)
-					(end -2.54 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 2.54)
-					(mid -2.4393 2.5587)
-					(end -2.159 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 3.048)
-					(mid -2.9736 2.9736)
-					(end -3.048 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.794)
-					(mid -2.6144 2.9736)
-					(end -2.794 3.048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -2.54 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
-						(xy -1.778 -3.429)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Thermistor_NTC_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PCM_Transistor_BJT_AKL:2N3906"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3282,12 +3028,6 @@
 		(uuid "aacb3fa0-825d-4b5d-8101-9dc672b67638")
 	)
 	(junction
-		(at 138.43 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0792744-c979-4099-8b46-1f3827c4edd7")
-	)
-	(junction
 		(at 271.78 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3312,12 +3052,6 @@
 		(uuid "c93fc1fa-cf29-4c85-a783-7ba59798e131")
 	)
 	(junction
-		(at 148.59 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc623cd6-53da-477d-ab20-3dd8f7bec3c0")
-	)
-	(junction
 		(at 204.47 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3328,12 +3062,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e56d2c95-e9c3-4cd9-a66c-cbad2d1c923f")
-	)
-	(junction
-		(at 128.27 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec832b85-d798-4160-ae56-35e236858f90")
 	)
 	(junction
 		(at 233.68 64.77)
@@ -3601,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 68.58) (xy 113.03 68.58)
+			(xy 104.14 68.58) (xy 134.62 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3781,16 +3509,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 82.55) (xy 148.59 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "314a088e-8745-48b8-a29e-4fa9244d8249")
-	)
-	(wire
-		(pts
 			(xy 257.81 74.93) (xy 260.35 74.93)
 		)
 		(stroke
@@ -3858,16 +3576,6 @@
 			(type default)
 		)
 		(uuid "3a36683b-d2a1-4e6d-a925-93ea0fef3cad")
-	)
-	(wire
-		(pts
-			(xy 128.27 77.47) (xy 128.27 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e6a0988-4cd8-40fd-b194-7494606117f3")
 	)
 	(wire
 		(pts
@@ -4129,16 +3837,6 @@
 		)
 		(uuid "7284fb5f-4fca-4f14-82f4-835ddaa52205")
 	)
-	(wire
-		(pts
-			(xy 120.65 77.47) (xy 128.27 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76057a58-d5d6-46cc-9f12-8bf5dbbea454")
-	)
 	(polyline
 		(pts
 			(xy 194.31 34.29) (xy 213.36 34.29)
@@ -4291,16 +3989,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 82.55) (xy 138.43 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b02b4aa-0e37-4d25-a6f8-6ef4ecf48c72")
-	)
-	(wire
-		(pts
 			(xy 246.38 88.9) (xy 299.72 88.9)
 		)
 		(stroke
@@ -4371,16 +4059,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 87.63) (xy 134.62 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94361bba-5c08-4011-b846-bec2da1f1c4c")
-	)
-	(wire
-		(pts
 			(xy 54.61 66.04) (xy 60.96 66.04)
 		)
 		(stroke
@@ -4438,16 +4116,6 @@
 			(type default)
 		)
 		(uuid "9e6ecdae-c185-4bd3-b50c-8415217ce9e4")
-	)
-	(wire
-		(pts
-			(xy 128.27 68.58) (xy 134.62 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f083ba6-6f8f-4ee9-b17d-6d21399ff190")
 	)
 	(wire
 		(pts
@@ -4571,16 +4239,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 77.47) (xy 104.14 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aff6d942-30d9-40c6-8346-9dd6944a23a0")
-	)
-	(wire
-		(pts
 			(xy 274.32 135.89) (xy 274.32 138.43)
 		)
 		(stroke
@@ -4618,16 +4276,6 @@
 			(type default)
 		)
 		(uuid "b6401f4b-fc79-46c9-9939-8d08c7c096d6")
-	)
-	(wire
-		(pts
-			(xy 138.43 91.44) (xy 138.43 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9686174-c896-4daa-a21c-7e06bd30490f")
 	)
 	(wire
 		(pts
@@ -4781,26 +4429,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 82.55) (xy 138.43 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7661393-a210-48e2-a058-711141f4b6ba")
-	)
-	(wire
-		(pts
-			(xy 120.65 68.58) (xy 128.27 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8663af5-7c2a-4050-b78c-a5bb4c14c6ee")
-	)
-	(wire
-		(pts
 			(xy 82.55 55.88) (xy 92.71 55.88)
 		)
 		(stroke
@@ -4838,16 +4466,6 @@
 			(type default)
 		)
 		(uuid "db1b7ea8-cb38-4aea-9a9f-dcaa18ddc545")
-	)
-	(wire
-		(pts
-			(xy 113.03 77.47) (xy 104.14 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db563407-0757-471a-9189-5fd68d47b7aa")
 	)
 	(wire
 		(pts
@@ -5146,9 +4764,9 @@
 		)
 		(uuid "01637a5c-ea67-4bea-9e27-47a53398da01")
 	)
-	(text "R_D1"
+	(text "R_D1 (short)"
 		(exclude_from_sim no)
-		(at 114.3 69.85 0)
+		(at 111.76 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5171,20 +4789,6 @@
 			(justify left bottom)
 		)
 		(uuid "0cac5a8f-791f-4fc2-8667-76f9e75d2b20")
-	)
-	(text "H"
-		(exclude_from_sim no)
-		(at 111.76 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 221 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "20faa24c-df21-4bfb-a38c-03c26b214864")
 	)
 	(text "H"
 		(exclude_from_sim no)
@@ -5237,19 +4841,6 @@
 			(justify left bottom)
 		)
 		(uuid "344bc045-0b73-4297-a0ef-f4ac022bc00e")
-	)
-	(text "R_W2"
-		(exclude_from_sim no)
-		(at 139.7 90.17 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "441c01ea-e5eb-45a0-90d5-cc6826ad54c3")
 	)
 	(text "H"
 		(exclude_from_sim no)
@@ -5355,19 +4946,6 @@
 		)
 		(uuid "76a008c8-2221-431b-a562-fb251479ec49")
 	)
-	(text "TH1"
-		(exclude_from_sim no)
-		(at 114.3 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "829d3fce-ff61-45c7-be0a-9596553f01d7")
-	)
 	(text "R_W1"
 		(exclude_from_sim no)
 		(at 93.98 57.15 0)
@@ -5383,7 +4961,7 @@
 	)
 	(text "H"
 		(exclude_from_sim no)
-		(at 144.78 80.01 0)
+		(at 151.13 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5441,34 +5019,6 @@
 			(justify left bottom)
 		)
 		(uuid "b127b588-fb48-4cbc-ab74-881e3a5de967")
-	)
-	(text "H"
-		(exclude_from_sim no)
-		(at 134.62 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 221 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9c49168-7fce-4251-b194-dc599ddfeecb")
-	)
-	(text "H"
-		(exclude_from_sim no)
-		(at 119.38 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 221 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb0b81e6-b1f0-48c3-8644-8d1b4be662a9")
 	)
 	(text "4.8V"
 		(exclude_from_sim no)
@@ -5896,7 +5446,7 @@
 				)
 			)
 		)
-		(property "Value" "See t.comp. table"
+		(property "Value" "6.2k (50ppm)"
 			(at 138.43 64.77 90)
 			(effects
 				(font
@@ -6242,7 +5792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
 			(at 166.37 53.34 0)
 			(effects
 				(font
@@ -7057,7 +6607,7 @@
 				)
 			)
 		)
-		(property "Value" "See t.comp. table"
+		(property "Value" "20k"
 			(at 96.52 62.23 90)
 			(effects
 				(font
@@ -7241,10 +6791,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e831f38-d237-42e7-9a3c-dd967ab8b78a")
 		(property "Reference" "R208"
-			(at 151.13 74.93 0)
+			(at 140.97 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,8 +6801,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "See t.comp. table"
-			(at 151.13 77.47 0)
+		(property "Value" "4R22 (50ppm)"
+			(at 132.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7728,7 +7277,7 @@
 				)
 			)
 		)
-		(property "Value" "See t.comp. table"
+		(property "Value" "91k"
 			(at 78.74 52.07 90)
 			(effects
 				(font
@@ -8958,7 +8507,7 @@
 		(dnp no)
 		(uuid "6d28294d-9479-4145-b8e0-b3860cbeed0b")
 		(property "Reference" "TH201"
-			(at 151.13 91.44 0)
+			(at 139.7 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8967,7 +8516,7 @@
 			)
 		)
 		(property "Value" "PTS120602B100RP100"
-			(at 151.13 88.9 0)
+			(at 124.46 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,103 +9062,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Trim")
-		(at 138.43 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "86cbd39c-3591-4cd8-9731-1198908bdd30")
-		(property "Reference" "R_WIDTH201"
-			(at 121.92 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "See t.comp. table"
-			(at 116.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal"
-			(at 138.43 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arwill" "https://arwill.hu/termekek/passziv-alkatreszek/trimmer-potmeterek/7401/20k-helitrimmer-potmeter-850118/"
-			(at 138.43 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "975b151f-f81b-4900-96f1-8ae39b5875e7")
-		)
-		(pin "2"
-			(uuid "272b78ef-721b-479a-895d-b530651186e3")
-		)
-		(pin "3"
-			(uuid "20691313-1c91-47b8-a228-9d44f97e8330")
-		)
-		(instances
-			(project "A-psu-voice-proto-4l"
-				(path "/5d498881-b8e2-480b-a9ce-e574f1982d6f/32a5f3fe-5d13-4f32-8a10-5e10571b66fa"
-					(reference "R_WIDTH201")
-					(unit 1)
-				)
-			)
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/031e86a6-ca4d-4816-ba7e-c07cacc1df65"
-					(reference "R_WIDTH203")
-					(unit 1)
-				)
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
-					(reference "R_WIDTH204")
-					(unit 1)
-				)
-			)
-			(project "hog-v2-voice-proto"
-				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
-					(reference "R_WIDTH201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:MMBFJ111")
 		(at 217.17 35.56 270)
 		(mirror x)
@@ -9691,99 +9143,6 @@
 				)
 				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
 					(reference "Q215")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 116.84 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cda122c-ed9e-4f75-a615-4a0620e0d997")
-		(property "Reference" "R205"
-			(at 116.84 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "See t.comp. table"
-			(at 116.84 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 116.84 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Hestore" "https://www.hestore.hu/prod_10020536.html"
-			(at 116.84 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae3fe535-ca73-4441-b383-331379878c6e")
-		)
-		(pin "2"
-			(uuid "6096c892-b76d-44f7-b747-d99d0e25ed49")
-		)
-		(instances
-			(project "A-psu-voice-proto-4l"
-				(path "/5d498881-b8e2-480b-a9ce-e574f1982d6f/32a5f3fe-5d13-4f32-8a10-5e10571b66fa"
-					(reference "R205")
-					(unit 1)
-				)
-			)
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/031e86a6-ca4d-4816-ba7e-c07cacc1df65"
-					(reference "R275")
-					(unit 1)
-				)
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
-					(reference "R276")
-					(unit 1)
-				)
-			)
-			(project "hog-v2-voice-proto"
-				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
-					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -10571,88 +9930,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 138.43 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad57170c-52f2-4b18-b08d-f3b4070b27cc")
-		(property "Reference" "#PWR049"
-			(at 138.43 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abea267b-9591-465d-9eec-06508ea44989")
-		)
-		(instances
-			(project "A-psu-voice-proto-4l"
-				(path "/5d498881-b8e2-480b-a9ce-e574f1982d6f/32a5f3fe-5d13-4f32-8a10-5e10571b66fa"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/031e86a6-ca4d-4816-ba7e-c07cacc1df65"
-					(reference "#PWR0218")
-					(unit 1)
-				)
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
-					(reference "#PWR0228")
-					(unit 1)
-				)
-			)
-			(project "hog-v2-voice-proto"
-				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
-					(reference "#PWR0211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 260.35 38.1 90)
 		(unit 1)
@@ -11200,78 +10477,6 @@
 			(project "hog-v2-voice-proto"
 				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
 					(reference "C209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 116.84 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb1a4e03-6def-43e3-8f20-b5fa56a5afac")
-		(property "Reference" "TH203"
-			(at 117.1575 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "See t.comp. table"
-			(at 117.1575 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92-2"
-			(at 115.57 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d4cdc86-8702-4794-ba6a-15423a9322e6")
-		)
-		(pin "2"
-			(uuid "79ec63e8-66f2-4f6a-803e-908041de0052")
-		)
-		(instances
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/031e86a6-ca4d-4816-ba7e-c07cacc1df65"
-					(reference "TH203")
-					(unit 1)
-				)
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
-					(reference "TH204")
 					(unit 1)
 				)
 			)
