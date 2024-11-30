@@ -112,11 +112,11 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk yes)
-			(outputformat 4)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "pdf/")
+			(outputdirectory "gerber/")
 		)
 	)
 	(net 0 "")
@@ -56578,7 +56578,7 @@
 		(descr "Through hole straight pin header, 2x05, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x05 2.54mm double row")
 		(property "Reference" "J_POWER201"
-			(at 1.27 -2.33 360)
+			(at 1.27 -2.33 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "956fb54d-c5f1-4a8f-b2a0-6db48ae4aa6a")
@@ -56590,7 +56590,7 @@
 			)
 		)
 		(property "Value" "Conn_02x05_Odd_Even"
-			(at 1.27 12.49 360)
+			(at 1.27 12.49 0)
 			(layer "F.Fab")
 			(uuid "aea371f1-a221-4d24-80fb-5b294809837f")
 			(effects

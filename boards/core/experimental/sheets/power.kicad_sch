@@ -2372,16 +2372,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 87.63) (xy 83.82 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0679e11e-fb1d-4fe8-90f2-09d1376add1f")
-	)
-	(wire
-		(pts
 			(xy 93.98 170.18) (xy 102.87 170.18)
 		)
 		(stroke
@@ -2402,16 +2392,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 77.47) (xy 83.82 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ca5d5f8-3a56-4164-897a-84c91bf7f6de")
-	)
-	(wire
-		(pts
 			(xy 45.72 177.8) (xy 76.2 177.8)
 		)
 		(stroke
@@ -2429,16 +2409,6 @@
 			(type default)
 		)
 		(uuid "1de2e75d-240a-46f3-9bd9-6454625218a2")
-	)
-	(wire
-		(pts
-			(xy 82.55 90.17) (xy 83.82 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2057fe47-97eb-4d3a-8096-bef5c1d0546b")
 	)
 	(wire
 		(pts
@@ -2512,16 +2482,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 74.93) (xy 83.82 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3716c6f0-869e-40d0-a903-15c5adb3b5df")
-	)
-	(wire
-		(pts
 			(xy 48.26 53.34) (xy 49.53 53.34)
 		)
 		(stroke
@@ -2549,26 +2509,6 @@
 			(type default)
 		)
 		(uuid "3c30e463-0d20-4d63-9e65-252fa1407485")
-	)
-	(wire
-		(pts
-			(xy 82.55 80.01) (xy 83.82 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4061e130-d472-4b5c-b857-bec7d6b6ae88")
-	)
-	(wire
-		(pts
-			(xy 82.55 92.71) (xy 83.82 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41c98570-0c68-4ae0-8b20-f63184c96f85")
 	)
 	(wire
 		(pts
@@ -3074,20 +3014,6 @@
 	)
 	(text "H"
 		(exclude_from_sim no)
-		(at 91.44 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 221 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "14db001f-09d0-456e-a9c6-dfc4cb488bc7")
-	)
-	(text "H"
-		(exclude_from_sim no)
 		(at 160.02 97.79 0)
 		(effects
 			(font
@@ -3152,20 +3078,6 @@
 			(justify left bottom)
 		)
 		(uuid "b09a1b13-462c-4dcf-94b9-a06bc1a3095f")
-	)
-	(text "H"
-		(exclude_from_sim no)
-		(at 91.44 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 221 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "f26d41e6-f7c5-4dbb-8ce9-0f24a974897d")
 	)
 	(text "Used for octave selector"
 		(exclude_from_sim no)
@@ -4953,83 +4865,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 88.9 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4879d8fd-ab83-4208-a9ba-1c8dcf5566b9")
-		(property "Reference" "J204"
-			(at 91.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 91.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 88.9 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16d30944-ea40-4c42-a08c-b6823dd0d386")
-		)
-		(pin "2"
-			(uuid "578ba5ff-fdc9-4517-9520-f9a1294150c3")
-		)
-		(pin "3"
-			(uuid "badb5888-980f-4499-83ac-4769de0e08de")
-		)
-		(instances
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
-					(reference "J204")
-					(unit 1)
-				)
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/c023b552-a600-4d0f-a991-eb0f5aa9e46b"
-					(reference "J208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 25.4 186.69 0)
 		(unit 1)
@@ -5221,89 +5056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 82.55 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b83fc36-24c4-4182-94f3-71564122177a")
-		(property "Reference" "#PWR044"
-			(at 86.36 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 78.74 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e61ddde-7618-44ed-885c-8012dab75fba")
-		)
-		(instances
-			(project "A-psu-voice-proto-4l"
-				(path "/5d498881-b8e2-480b-a9ce-e574f1982d6f/32a5f3fe-5d13-4f32-8a10-5e10571b66fa"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
-					(reference "#PWR0228")
-					(unit 1)
-				)
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/c023b552-a600-4d0f-a991-eb0f5aa9e46b"
-					(reference "#PWR0365")
-					(unit 1)
-				)
-			)
-			(project "hog-v2-voice-proto"
-				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
-					(reference "#PWR0206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 30.48 181.61 0)
 		(unit 1)
@@ -5393,89 +5145,6 @@
 			(project "hog-v2-voice-proto"
 				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
 					(reference "C202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "698cfe33-3914-4907-b602-b1d54129884e")
-		(property "Reference" "#PWR047"
-			(at 76.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 79.375 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1dcc2b5b-a9ea-46c3-ab28-90a2bdb41417")
-		)
-		(instances
-			(project "A-psu-voice-proto-4l"
-				(path "/5d498881-b8e2-480b-a9ce-e574f1982d6f/32a5f3fe-5d13-4f32-8a10-5e10571b66fa"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
-					(reference "#PWR0209")
-					(unit 1)
-				)
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/c023b552-a600-4d0f-a991-eb0f5aa9e46b"
-					(reference "#PWR0363")
-					(unit 1)
-				)
-			)
-			(project "hog-v2-voice-proto"
-				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
-					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -6231,166 +5900,6 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 82.55 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8dfbd50d-9f6d-487f-97cf-5c1b2f740657")
-		(property "Reference" "#PWR042"
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 79.375 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e195d4b-4499-4cc6-81e5-be155ec29f08")
-		)
-		(instances
-			(project "A-psu-voice-proto-4l"
-				(path "/5d498881-b8e2-480b-a9ce-e574f1982d6f/32a5f3fe-5d13-4f32-8a10-5e10571b66fa"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/c023b552-a600-4d0f-a991-eb0f5aa9e46b"
-					(reference "#PWR0364")
-					(unit 1)
-				)
-			)
-			(project "hog-v2-voice-proto"
-				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5C")
-		(at 82.55 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93610620-df0a-41da-8efd-8cb422360a21")
-		(property "Reference" "#PWR046"
-			(at 86.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5C"
-			(at 78.74 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "151444da-23ef-42a1-bfb2-fee70e45937e")
-		)
-		(instances
-			(project "A-psu-voice-proto-4l"
-				(path "/5d498881-b8e2-480b-a9ce-e574f1982d6f/32a5f3fe-5d13-4f32-8a10-5e10571b66fa"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
-					(reference "#PWR0208")
-					(unit 1)
-				)
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/c023b552-a600-4d0f-a991-eb0f5aa9e46b"
-					(reference "#PWR0362")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5V")
 		(at 48.26 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6473,89 +5982,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 82.55 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a71d3546-490b-4d7e-b8f1-68da4d8a46e3")
-		(property "Reference" "#PWR043"
-			(at 76.2 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 79.375 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e7a8af7-da90-4914-af41-8ef15f33b8fb")
-		)
-		(instances
-			(project "A-psu-voice-proto-4l"
-				(path "/5d498881-b8e2-480b-a9ce-e574f1982d6f/32a5f3fe-5d13-4f32-8a10-5e10571b66fa"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
-					(reference "#PWR0230")
-					(unit 1)
-				)
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/c023b552-a600-4d0f-a991-eb0f5aa9e46b"
-					(reference "#PWR0366")
-					(unit 1)
-				)
-			)
-			(project "hog-v2-voice-proto"
-				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
-					(reference "#PWR0205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-5V")
 		(at 214.63 107.95 180)
 		(unit 1)
@@ -6632,166 +6058,6 @@
 			(project "hog-v2-voice-proto"
 				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
 					(reference "#PWR0227")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 88.9 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8b9fb5f-bf86-4aca-b6eb-964205f2114d")
-		(property "Reference" "J203"
-			(at 91.44 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d446be3-cd2f-4465-ac03-cd10b03e50df")
-		)
-		(pin "2"
-			(uuid "715799ac-e468-4857-9ed0-db60f35d4543")
-		)
-		(pin "3"
-			(uuid "b90d9627-e346-4143-ab6c-01309745947c")
-		)
-		(instances
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
-					(reference "J203")
-					(unit 1)
-				)
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/c023b552-a600-4d0f-a991-eb0f5aa9e46b"
-					(reference "J209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-12V")
-		(at 82.55 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd9f6e5b-2abe-4264-85a0-0a21840139d1")
-		(property "Reference" "#PWR045"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 78.74 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a2d92bc-f51f-48c4-a6b5-b955e7a4dec0")
-		)
-		(instances
-			(project "A-psu-voice-proto-4l"
-				(path "/5d498881-b8e2-480b-a9ce-e574f1982d6f/32a5f3fe-5d13-4f32-8a10-5e10571b66fa"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-			(project "core-rev-3"
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/24bddecc-79ff-4d9f-8d29-90298f4415a6"
-					(reference "#PWR0229")
-					(unit 1)
-				)
-				(path "/91ae1fff-f2ac-4868-8c3f-8c5c03d8b2f6/c023b552-a600-4d0f-a991-eb0f5aa9e46b"
-					(reference "#PWR0367")
-					(unit 1)
-				)
-			)
-			(project "hog-v2-voice-proto"
-				(path "/c8cc1e0f-aa8f-4be8-8992-4a499ea6192c"
-					(reference "#PWR0207")
 					(unit 1)
 				)
 			)

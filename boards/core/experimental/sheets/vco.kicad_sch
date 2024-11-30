@@ -9619,7 +9619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ade5873-c4ea-4875-82db-b9beeb715dd1")
-		(property "Reference" "Q215"
+		(property "Reference" "Q211"
 			(at 222.25 38.354 90)
 			(effects
 				(font
