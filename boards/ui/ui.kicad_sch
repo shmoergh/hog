@@ -2467,6 +2467,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.74 106.68) (xy 462.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b754d27-0602-4941-9757-5cbc4a423abd")
+	)
+	(wire
+		(pts
 			(xy 412.75 26.67) (xy 412.75 31.75)
 		)
 		(stroke
@@ -2774,6 +2784,16 @@
 			(type default)
 		)
 		(uuid "edf77dbb-fb2f-4df9-bfc8-99663f266158")
+	)
+	(wire
+		(pts
+			(xy 459.74 109.22) (xy 462.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee10756b-7700-4210-b8c8-ce3907e6fb74")
 	)
 	(text "DONE"
 		(exclude_from_sim no)
@@ -4544,6 +4564,28 @@
 			)
 		)
 	)
+	(global_label "LED_A(5V)"
+		(shape output)
+		(at 462.28 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6be523b-0a9a-4434-98b2-bdfab80f58e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 474.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FINE_TUNE"
 		(shape input)
 		(at 422.91 41.91 180)
@@ -4650,6 +4692,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_K(GND)"
+		(shape output)
+		(at 462.28 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2b6ec3b-1a47-4d95-b80e-99850ee5445a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 476.5138 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7252,6 +7316,26 @@
 				(justify left)
 			)
 			(uuid "5ec9f220-9010-4bb6-9cd3-1b20d08dac3c")
+		)
+		(pin "LED_K(GND)" output
+			(at 459.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3eb1c6ef-0e7d-483c-b6ec-79bf9dc6f50b")
+		)
+		(pin "LED_A(5V)" output
+			(at 459.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "012ddb67-78a9-442c-be32-0a1c2af1ac18")
 		)
 		(instances
 			(project "ui"
