@@ -1,9 +1,11 @@
 # Hog
 
 Fully analog two-voice monophonic synth for live performances.
-Details and user guide: [shmoergh.com](https://shmoergh.com/)
 
 ![hog-4](https://github.com/user-attachments/assets/5aac2ab4-8e55-40d0-9659-4bc40b0307c7)
+
+
+Details and user guide: [shmoergh.com](https://shmoergh.com/)
 
 Latest revision: rev #3.
 
