@@ -1,7 +1,7 @@
 # Hog
 
 Fully analog two-voice monophonic synth for live performances.
-Details and guide: [shmoergh.com/hog-guide/](https://shmoergh.com/hog-guide/)
+Details and user guide: [shmoergh.com](https://shmoergh.com/)
 
 ![hog-4](https://github.com/user-attachments/assets/5aac2ab4-8e55-40d0-9659-4bc40b0307c7)
 
@@ -20,7 +20,7 @@ The HOG is a very fun but equally advanced electronics project. We've put togeth
 
 ## BOMs
 
-The HOG consists of 5 separate boards which you can find in the `board` folder. Each board has it's own gerber files for JLCPCB PCB and Mouser BOMs in the board's `production` folders. The Core and Filter boards have SMD components too for which you can find JLCPCB assembly files (BOM and position) in the `production/jlcpcb` folder.
+The HOG consists of 5 separate boards which you can find in the `boards` folder. Each board has it's own gerber files for JLCPCB PCB and Mouser BOMs in the board's `production` folders. The Core and Filter boards have SMD components too for which you can find JLCPCB assembly files (BOM and position) in the `production/jlcpcb` folder.
 
 
 ## Cloning
