@@ -516,7 +516,7 @@
   },
   "schematic": {
     "annotate_start_num": 200,
-    "bom_export_filename": "core-test-bom.csv",
+    "bom_export_filename": "CORE-FULL-BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -637,6 +637,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
           "show": false
         }
       ],
