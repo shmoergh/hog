@@ -12,7 +12,11 @@ Use the `./jlcpcb/bom.csv` (BOM) and `./jlcpcb/positions.csv` (CPL — position
 
 > Note: the BOM file contains _all_ parts (including through holes too), so you _will_ get a warning after uploading it. You can ignore this warning and continue with ordering.
 
-**‼️ Make sure you triplecheck the rotation of each SMD component with a dedicated pin order!
+![CleanShot 2024-12-14 at 11 21 11@2x](https://github.com/user-attachments/assets/68c7c8e5-fbf6-4e3e-9f3f-8e7e793af92d)
+
+‼️ **Make sure you triplecheck the rotation of each SMD component with a dedicated pin order!**
+
+![CleanShot 2024-12-14 at 11 21 53@2x](https://github.com/user-attachments/assets/d599f383-cb44-4a01-b2ea-aea06f3712b0)
 
 ## Through hole assembly
 
