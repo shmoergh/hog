@@ -4,7 +4,7 @@ This folder contains all the production files and a complete parts list necessar
 
 ## PCB
 
-Upload the file `./jlcpcb/core.zip` on [jlcpcb.com](https://www.jlcpcb.com) to order the PCB.
+Upload the file `./jlcpcb/steiner-parker-vcf.zip` on [jlcpcb.com](https://www.jlcpcb.com) to order the PCB.
 
 ## SMD assembly
 
@@ -38,7 +38,7 @@ To make ordering through hole components easy we've prepared a CSV file to gener
 1. Go to [https://www.mouser.com](https://www.mouser.com) and log in with your account
 2. Open [BOMs](https://hu.mouser.com/OrderHistory/Boms) from the account menu
 3. Click on Create New BOM
-4. Upload the `./mouser/core-mouser-bom.csv` file from this directory
+4. Upload the `./mouser/steiner-parker-vcf-mouser-bom.csv` file from this directory
 5. Make sure you map the `Quantity 1` and `Mouser Product Number` columns correctly
 6. Create the BOM
 
@@ -46,7 +46,7 @@ You can order all necessary parts at once. If a part is not available you need t
 
 ## Full BOM
 
-The `./core-full-bom.csv` file contains all the parts including SMD and through hole if anyone would need it.
+The `./steiner-parker-vcf-full-bom.csv` file contains all the parts including SMD and through hole if anyone would need it.
 
 ## Disclaimer
 
