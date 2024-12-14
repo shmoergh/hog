@@ -2467,6 +2467,17 @@
 		)
 		(uuid "f8099163-abbf-4130-9d02-3a23340ee051")
 	)
+	(text "You can choose whether to use\nthe main out as a line out\nor headphones out (more current\nconsumption)."
+		(exclude_from_sim no)
+		(at 173.482 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "096c59a8-2c3a-43c4-9014-b1a43c1b705d")
+	)
 	(text "VCO2 pitch defaulted \nto GLIDED_PITCH"
 		(exclude_from_sim no)
 		(at 170.18 118.11 0)
@@ -2478,7 +2489,18 @@
 		)
 		(uuid "29ba26ee-18c2-470b-b091-2b51eb9f02ef")
 	)
-	(text "TLDR: connect gate and pitch1 MIDI connections to\nground if there's no internal MIDI2CV module.\n\nReason: if there's no internal MIDI2CV module that \nnormalizes the gate and pitch inputs, then\nthe MIDI gate and CV connections should be\nconnected to group. This way the GATE and\npitch inputs are normalized to ground and\nnoise inputs are avoided when there's no cable\nplugged in."
+	(text "J8 part number is a 20pin header (male)\nwhich is enough for  J8, J_MIDI_CONN1 and\nJP_PHO-LINE1. Just break it to appropriate\npieces."
+		(exclude_from_sim no)
+		(at 231.394 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60fdb71f-e886-4830-af43-12c63c96453f")
+	)
+	(text "Note: connect gate and pitch1 MIDI connections to\nground if there's no internal MIDI2CV module.\n\nReason: if there's no internal MIDI2CV module that \nnormalizes the gate and pitch inputs, then\nthe MIDI gate and CV connections should be\nconnected to group. This way the GATE and\npitch inputs are normalized to ground and\nnoise inputs are avoided when there's no cable\nplugged in."
 		(exclude_from_sim no)
 		(at 219.71 40.64 0)
 		(effects
@@ -2783,6 +2805,42 @@
 				(hide yes)
 			)
 		)
+		(property "Part No." "303-MF0W4FF8202B00 "
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3Djf3kL"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84f9a36c-1780-4dbb-b4ff-faae6d11c544")
 		)
@@ -2982,6 +3040,42 @@
 				(hide yes)
 			)
 		)
+		(property "Part No." "490-SJ1-3554NG "
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3Qs21VB"
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "410212da-3bc1-4150-b516-67dc1c0ec8b3")
 		)
@@ -3059,7 +3153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Component" "PTD901-1015K-B103"
+		(property "Component" ""
 			(at 67.31 88.9 0)
 			(effects
 				(font
@@ -3068,7 +3162,43 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://mou.sr/4aB7CRn"
+		(property "Mouser" ""
+			(at 67.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "PTD901-1015K-B103"
+			(at 67.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4aB7CRn"
+			(at 67.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 67.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 67.31 88.9 0)
 			(effects
 				(font
@@ -3332,6 +3462,42 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Part No." "490-SJ1-3554NG "
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3Qs21VB"
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3677,6 +3843,42 @@
 				(hide yes)
 			)
 		)
+		(property "Part No." "490-SJ1-3554NG "
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3Qs21VB"
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d9f37f5-90b6-478f-a2ed-7b99f8ea578b")
 		)
@@ -3872,6 +4074,42 @@
 				(hide yes)
 			)
 		)
+		(property "Part No." "490-SJ1-3554NG "
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3Qs21VB"
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2e05846-8789-499a-b903-3dbfe4dd59c9")
 		)
@@ -3964,7 +4202,7 @@
 		(at 240.03 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "90457482-3673-402e-8b9c-ca896fcdecd5")
@@ -4004,7 +4242,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Break from leftover of J8"
+			(at 240.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 240.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 240.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 240.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 240.03 63.5 0)
 			(effects
 				(font
@@ -4081,6 +4355,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "737-PH1-20-UA "
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4gqTRHQ"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 240.03 90.17 0)
 			(effects
 				(font
@@ -4302,6 +4612,42 @@
 				(hide yes)
 			)
 		)
+		(property "Part No." "303-MF0W4FF8202B00 "
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3Djf3kL"
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13c87629-259b-443f-82b1-b8a9d661bcad")
 		)
@@ -4504,6 +4850,42 @@
 				(hide yes)
 			)
 		)
+		(property "Part No." "490-SJ1-3554NG "
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3Qs21VB"
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "63ff3227-4ef3-40de-b981-e8b19c496610")
 		)
@@ -4699,6 +5081,42 @@
 				(hide yes)
 			)
 		)
+		(property "Part No." "490-SJ1-3554NG "
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3Qs21VB"
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4978e839-28ed-41c2-8a63-4397ee8dd77e")
 		)
@@ -4729,7 +5147,7 @@
 		(at 173.99 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4770,7 +5188,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Break from leftover of J8"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 173.99 69.85 0)
 			(effects
 				(font

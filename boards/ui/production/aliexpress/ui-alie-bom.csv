@@ -1,0 +1,3 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP","Part No.","Part URL","Vendor"
+"SW_AUTO_WAH_AB1,SW_GATE_ADSR1,SW_NOISE_SUB1,SW_PLAYGROUND_LVL1,SW_VCO2_OCT_DIR1,SW_VCO2_WAVE1,SW_VIBRATO_AB1","SW_DP3T","~","Shmoergh_Custom_Footprints:DP3T Korg Style Switch","7",,"TS23-E02","https://www.aliexpress.com/item/32958319752.html?spm=a2g0o.order_detail.order_detail_item.7.48b7f19cBbwOXu","Daier"
+"SW_GLIDE1,SW_HOLD1,SW_RING1,SW_SOFT1,SW_TRACK1,SW_VCO2_OCT_AMNT1,SW_VCO2_ON1","SW_DPDT_x2","~","Shmoergh_Custom_Footprints:DPDT Korg Style Switch","7",,"TS-22E01AT15","https://www.aliexpress.com/item/32955400123.html?spm=a2g0o.order_detail.order_detail_item.9.48b7f19cHFLucI","Daier"

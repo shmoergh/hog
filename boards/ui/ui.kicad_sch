@@ -2471,6 +2471,20 @@
 		)
 		(uuid "0fa0bbc7-91d7-4549-b9c1-680b9e601a8b")
 	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 82.042 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 255 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "128ef7ad-3ceb-4a4b-9b0f-c8faee87fd6e")
+	)
 	(text "DONE"
 		(exclude_from_sim no)
 		(at 285.75 77.47 0)
@@ -2507,6 +2521,20 @@
 		)
 		(uuid "1d9530f5-c8fe-4802-bc58-23910f3d4b84")
 	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 212.852 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 255 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "200cdc61-50b2-4b90-a46f-7abd70a2107d")
+	)
 	(text "DONE"
 		(exclude_from_sim no)
 		(at 336.55 48.26 0)
@@ -2530,6 +2558,34 @@
 			(justify left bottom)
 		)
 		(uuid "2bcd2903-5cae-4d2c-8252-cddaeee44a63")
+	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 159.512 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 255 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2eee5413-6888-437c-80eb-c4f4ba0522a3")
+	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 82.296 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 255 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "32b8034c-7921-45b9-b9e5-2f1593a9083d")
 	)
 	(text "DONE"
 		(exclude_from_sim no)
@@ -2648,6 +2704,20 @@
 		)
 		(uuid "6535049e-efac-4944-832c-6787c7cfa063")
 	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 249.936 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 255 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "653b2f85-3d66-4850-8227-f4cf5d2a3cc2")
+	)
 	(text "DONE"
 		(exclude_from_sim no)
 		(at 337.82 67.31 0)
@@ -2683,6 +2753,20 @@
 			(justify left bottom)
 		)
 		(uuid "73f65597-a920-421c-9a8f-83a250247b38")
+	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 247.142 32.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 255 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "748ac5ca-0a2e-4121-9881-1bdcaa830528")
 	)
 	(text "DONE"
 		(exclude_from_sim no)
@@ -2755,6 +2839,20 @@
 			(justify left bottom)
 		)
 		(uuid "87ca2d76-ef21-4c11-9ad7-b0855c9cb294")
+	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 136.906 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 255 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b42229d-d2d1-4582-b032-0ee0c322480d")
 	)
 	(text "DONE"
 		(exclude_from_sim no)
@@ -2852,6 +2950,20 @@
 		)
 		(uuid "bc7df122-a26f-4391-85cc-990f84610d9d")
 	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 213.36 70.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 255 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdaa2578-e77c-4674-a87c-14991e1ee0e3")
+	)
 	(text "Audio path"
 		(exclude_from_sim no)
 		(at 358.775 21.59 0)
@@ -2862,6 +2974,20 @@
 			(justify left bottom)
 		)
 		(uuid "beaa971d-e00c-44cb-8f36-5b4ff9b77cc1")
+	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 451.866 76.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 255 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c407f374-1012-4189-957f-20c80d418b40")
 	)
 	(text "DONE"
 		(exclude_from_sim no)
@@ -2959,6 +3085,20 @@
 		)
 		(uuid "f18b16d0-287d-472f-9ac2-9836ce616f79")
 	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 451.866 98.298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 255 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f20cbe79-964e-4b72-a89e-736ee9e6d152")
+	)
 	(text "DONE"
 		(exclude_from_sim no)
 		(at 336.55 38.1 0)
@@ -2970,6 +3110,20 @@
 			(justify left bottom)
 		)
 		(uuid "f51f673c-2d05-4e1e-9b77-9c2b0a355772")
+	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 81.788 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 255 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb442a4b-97ae-4fe9-9b55-3bc481fa9c32")
 	)
 	(global_label "VCO2_AUDIO"
 		(shape output)
@@ -4164,7 +4318,7 @@
 		(at 364.49 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "073b6cc4-add0-41af-8e09-4e1e4ac3dc63")
@@ -4203,6 +4357,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 364.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "649-1012938191601BLF "
+			(at 364.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3ZS3vh3"
+			(at 364.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 364.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 364.49 39.37 0)
 			(effects
 				(font
@@ -4352,7 +4542,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "264922a6-a4b2-41cb-85cf-c75e5288ac3d")
@@ -4391,6 +4581,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 364.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "737-PH2-10-UA "
+			(at 364.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3D13TAT"
+			(at 364.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 364.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 364.49 102.87 0)
 			(effects
 				(font
@@ -4449,7 +4675,7 @@
 		(at 312.42 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4489,6 +4715,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 312.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "649-1012938191601BLF "
+			(at 312.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3ZS3vh3"
+			(at 312.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 312.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 312.42 71.12 0)
 			(effects
 				(font
@@ -4637,7 +4899,7 @@
 		(at 364.49 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4677,6 +4939,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 364.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "737-PH2-08-UA "
+			(at 364.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/4gxLnib"
+			(at 364.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 364.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 364.49 66.04 0)
 			(effects
 				(font
@@ -5295,7 +5593,7 @@
 		(at 312.42 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5335,6 +5633,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 312.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "649-1012938191601BLF "
+			(at 312.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3ZS3vh3"
+			(at 312.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 312.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 312.42 39.37 0)
 			(effects
 				(font
@@ -5411,7 +5745,7 @@
 		(at 312.42 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5451,6 +5785,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 312.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "649-1012938191601BLF "
+			(at 312.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part URL" "https://mou.sr/3ZS3vh3"
+			(at 312.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Mouser"
+			(at 312.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 312.42 106.68 0)
 			(effects
 				(font
