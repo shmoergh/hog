@@ -578,7 +578,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3001241"
+		(property "LCSC" "C2836438"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -636,6 +636,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1704fe7-9157-4c8d-940f-98cd983e3988")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50fa1472-07b7-44f7-a7a7-fdcc2b176b08")
 			(effects
 				(font
 					(size 1 1)
@@ -12022,7 +12035,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3001241"
+		(property "LCSC" "C2836438"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12080,6 +12093,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e37a70ac-a7a9-4b80-b4c0-a64395e6cbc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3fb507e-ab8d-4190-be1b-c2065fa30115")
 			(effects
 				(font
 					(size 1 1)
@@ -19557,7 +19583,7 @@
 		(descr "SOT-23, Handsoldering")
 		(tags "SOT-23")
 		(property "Reference" "Q206"
-			(at 0 -2.75 -90)
+			(at 0 -2.75 90)
 			(layer "F.SilkS")
 			(uuid "0417d20a-6886-429c-b3f3-686d8c2f95a0")
 			(effects
@@ -19568,7 +19594,7 @@
 			)
 		)
 		(property "Value" "MMBFJ111"
-			(at 0 2.5 -90)
+			(at 0 2.5 90)
 			(layer "F.Fab")
 			(uuid "c531030b-9395-45fc-92a6-5dc2c122a926")
 			(effects
@@ -19684,7 +19710,7 @@
 		(path "/24bddecc-79ff-4d9f-8d29-90298f4415a6/e78dbfac-6db4-42e2-ab3e-666d6cd5b292")
 		(sheetname "VCO")
 		(sheetfile "sheets/vco.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start 0.76 1.58)
 			(end -0.7 1.58)
@@ -21342,6 +21368,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de0137a0-9b0c-41f6-b941-f822535538f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part No." ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "526d7433-40d7-42a9-b6d7-e2e755fc036d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part URL" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b7f3c95-7a76-40db-a9eb-d990fbcdb205")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "JLCPCB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a822154c-713e-4848-8090-89c59f742a9f")
 			(effects
 				(font
 					(size 1 1)
@@ -23596,7 +23661,7 @@
 		(path "/bdcef3bb-2e6f-4047-9e9a-c96c821885ff")
 		(sheetname "Root")
 		(sheetfile "core.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -26314,7 +26379,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3001241"
+		(property "LCSC" "C2836438"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26372,6 +26437,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "39c58c1d-8c0c-485e-bb67-2ad08daee4e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9ca0317-42e5-47af-bcb4-409a3eed37a0")
 			(effects
 				(font
 					(size 1 1)
@@ -33294,6 +33372,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b31585a4-89d9-45fe-89bf-eba967fb7d42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/c023b552-a600-4d0f-a991-eb0f5aa9e46b/c4aad307-2c98-499b-ae87-9a4db231d367")
 		(sheetname "Power")
@@ -39327,6 +39418,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72d2b028-c999-4661-9e63-6b4f32df5251")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6e0d11c-ad67-4f6a-a41a-1b55649adf32")
 			(effects
 				(font
 					(size 1 1)
@@ -46977,6 +47081,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f8a5a83-46d1-45b8-a226-8412eeace67f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/c023b552-a600-4d0f-a991-eb0f5aa9e46b/2a6f85c4-ef92-4689-a72a-b45b12d247f9")
 		(sheetname "Power")
@@ -48417,7 +48534,7 @@
 		(descr "SOT-23, Handsoldering")
 		(tags "SOT-23")
 		(property "Reference" "Q203"
-			(at 0 -2.75 -90)
+			(at 0 -2.75 90)
 			(layer "F.SilkS")
 			(uuid "fa6c8b3b-a021-4092-922b-79ee24daac4a")
 			(effects
@@ -48428,7 +48545,7 @@
 			)
 		)
 		(property "Value" "MMBFJ111"
-			(at 0 2.5 -90)
+			(at 0 2.5 90)
 			(layer "F.Fab")
 			(uuid "0851312f-b41c-4dfb-be90-947e6491cea8")
 			(effects
@@ -48544,7 +48661,7 @@
 		(path "/031e86a6-ca4d-4816-ba7e-c07cacc1df65/e78dbfac-6db4-42e2-ab3e-666d6cd5b292")
 		(sheetname "VCO 2")
 		(sheetfile "sheets/vco.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start 0.76 1.58)
 			(end -0.7 1.58)
@@ -48818,7 +48935,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3001241"
+		(property "LCSC" "C2836438"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48876,6 +48993,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5714efb-76c3-4104-a527-3919f6d3f022")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "baa5b2e3-70fd-4a46-85a1-48aa76cd9c8f")
 			(effects
 				(font
 					(size 1 1)
@@ -52619,7 +52749,7 @@
 		(path "/00529934-0d39-43cb-bb16-c86a6976730b")
 		(sheetname "Root")
 		(sheetfile "core.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 3.87 -1.33)
 			(end 3.87 19.11)
@@ -60972,6 +61102,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f686d2a3-4cac-471b-82ad-a1cbe79e9ac1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/c023b552-a600-4d0f-a991-eb0f5aa9e46b/e225d504-d4cf-4696-bc9b-ad44f01705f2")
 		(sheetname "Power")
@@ -64698,18 +64841,6 @@
 				)
 			)
 		)
-		(property "Field4" "C22962"
-			(at 325.97097 345.710932 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eca52e78-c336-4426-aa7b-d2181da61973")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Mouser" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -64749,7 +64880,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "JLCPCB"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64762,7 +64893,7 @@
 				)
 			)
 		)
-		(property "LCSC" "JLCPCB"
+		(property "LCSC" "C22962"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67384,7 +67515,7 @@
 		(path "/c023b552-a600-4d0f-a991-eb0f5aa9e46b/7b52d4c7-3e3c-4d1e-8f6c-919e54935488")
 		(sheetname "Power")
 		(sheetfile "sheets/power.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -69657,7 +69788,7 @@
 		(path "/57b7d88c-1bb4-4998-8d0f-91532e9005f5")
 		(sheetname "Root")
 		(sheetfile "core.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 3.87 -1.33)
 			(end 3.87 19.11)
@@ -72420,6 +72551,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b4fd62a1-7ebe-4f59-af84-2217d857e5a8")
 		(at 125.476 236.855 180)
@@ -76188,6 +76320,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6a8f2412-c24b-4e58-b9c2-846d8a9bbdfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53a1f8a2-1c95-4ba8-a9dd-3d9ee489a2c8")
 			(effects
 				(font
 					(size 1 1)
@@ -86581,7 +86726,7 @@
 		(path "/ae4137d3-628a-4d22-823e-8e2505f9a32e")
 		(sheetname "Root")
 		(sheetfile "core.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -101425,6 +101570,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed3d503d-bc72-453b-ae66-2929afc69069")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2911ca96-c495-421b-b0d5-50771bbfdc1e")
 			(effects
 				(font
 					(size 1 1)

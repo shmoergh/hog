@@ -5314,7 +5314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "C22962"
+		(property "LCSC" "C22962"
 			(at 130.81 93.98 0)
 			(effects
 				(font
@@ -5350,16 +5350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
-			(at 130.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "JLCPCB"
+		(property "Vendor" "JLCPCB"
 			(at 130.81 93.98 0)
 			(effects
 				(font
