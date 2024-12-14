@@ -45,7 +45,7 @@
 "R260,R314","2.2M","~","Resistor_SMD:R_0603_1608Metric","2","","C22938","","","JLCPCB"
 "R261,R300,R315","240k","~","Resistor_SMD:R_0603_1608Metric","3","","-- mixed values --","","","JLCPCB"
 "R265","75k","~","Resistor_SMD:R_0603_1608Metric","1","","C23242","","","JLCPCB"
-"R268","470","~","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","1","","","303-CFR0W4J0471B00 ","https://mou.sr/49DiyPd","Mouser"
+"R268","470","~","Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","1","","","603-CFR50SJT-52-470R ","https://mou.sr/49C5zwV","Mouser"
 "R269,R272,R277,R294,R295","1k","~","Resistor_SMD:R_0603_1608Metric","5","","C21190","","","JLCPCB"
 "R270","100k","~","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","1","","C25803","","","JLCPCB"
 "R271","150","~","Resistor_SMD:R_0603_1608Metric","1","","C22808","","","JLCPCB"

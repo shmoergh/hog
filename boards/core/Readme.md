@@ -20,4 +20,3 @@ Circuit for all core modules of HOG:
 - This board uses PTS100 for thermal compensation
 - It is designed for SMD manufacturing. Note that some parts are not available at JLCPCB. We kept these THT whereever it's possible for easy build.
 - +/-5V precision output is removed. Instead +/-12V resistor divider is used where needed, as approximate values were fine on the Core board.
--
