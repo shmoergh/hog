@@ -3339,6 +3339,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 190.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/6b0e5525-8b2d-4fac-b6b4-0453cf464a13"
@@ -3711,6 +3720,15 @@
 			)
 		)
 		(property "Vendor" "N/A"
+			(at 190.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 190.5 123.19 0)
 			(effects
 				(font
