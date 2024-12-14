@@ -13,7 +13,7 @@ Simulations made in [CircuitJS](https://www.falstad.com/circuit/circuitjs.html)
 
 ## Build
 
-The HOG is a very fun but equally advanced electronics project. It's fully open source and we've put together a full build guide for the brave ones who decide to build one. Let us know if you have questions and definitely share some pics of your builds (social handles in bio).
+The HOG is a very fun but equally advanced electronics project. It's fully open source and we've put together a build guide for the brave ones who decide to build one. Let us know if you have questions and definitely share some pics of your builds (follow [Shmøergh on Instagram](https://www.instagram.com/shmoergh/)).
 
 [Open build guide](https://shmoergh.notion.site/HOG-build-guide-15c0c596898880f7b9f0f85d2e50b125)
 
