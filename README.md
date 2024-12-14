@@ -11,6 +11,18 @@ Font used on PCBs: https://departuremono.com
 
 Simulations made in [CircuitJS](https://www.falstad.com/circuit/circuitjs.html)
 
+## Build
+
+The HOG is a very fun but equally advanced electronics project. We've put together a full build guide for the brave ones who decide to build one. Let us know if you have questions and definitely share some pics of your builds (social handles in bio).
+
+[Open build guide](https://shmoergh.notion.site/HOG-build-guide-15c0c596898880f7b9f0f85d2e50b125)
+
+
+## BOMs
+
+The HOG consists of 5 separate boards which you can find in the `board` folder. Each board has it's own gerber files for JLCPCB PCB and Mouser BOMs in the board's `production` folders. The Core and Filter boards have SMD components too for which you can find JLCPCB assembly files (BOM and position) in the `production/jlcpcb` folder.
+
+
 ## Cloning
 
 The MIDI2CV module uses [`pico-lib`](https://github.com/peterzimon/pico-lib) submodule. Make sure you clone
