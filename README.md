@@ -9,15 +9,11 @@ Details and user guide: [shmoergh.com](https://shmoergh.com/)
 
 Latest revision: rev #3.
 
-Font used on PCBs: https://departuremono.com
-
-Simulations made in [CircuitJS](https://www.falstad.com/circuit/circuitjs.html)
-
 ## Build
 
 The HOG is a very fun but equally advanced electronics project. It's fully open source and we've put together a build guide for the brave ones who decide to build one. Let us know if you have questions and definitely share some pics of your builds (follow [Shmøergh on Instagram](https://www.instagram.com/shmoergh/)).
 
-[Open build guide](https://shmoergh.notion.site/HOG-build-guide-15c0c596898880f7b9f0f85d2e50b125)
+[Open build guide &rarr;](https://www.shmoergh.com/hog-build-guide)
 
 
 ## BOMs
@@ -41,3 +37,7 @@ Shmoergh Hog © 2024
 Hardware is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 Software is licensed under [MIT](https://opensource.org/license/mit).
+
+Font used on PCBs: https://departuremono.com
+
+Simulations made in [CircuitJS](https://www.falstad.com/circuit/circuitjs.html)
