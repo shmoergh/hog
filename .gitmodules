@@ -1,0 +1,3 @@
+[submodule "boards/midi2cv/pico-lib"]
+	path = boards/midi2cv/pico-lib
+	url = git@github.com:peterzimon/pico-lib.git
