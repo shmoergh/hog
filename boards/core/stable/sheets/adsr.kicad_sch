@@ -6719,7 +6719,6 @@
 	(hierarchical_label "SUSTAIN"
 		(shape input)
 		(at 53.34 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6731,7 +6730,6 @@
 	(hierarchical_label "ENVELOPE"
 		(shape output)
 		(at 261.62 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6743,7 +6741,6 @@
 	(hierarchical_label "ATTACK"
 		(shape input)
 		(at 153.67 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6755,7 +6752,6 @@
 	(hierarchical_label "DECAY_MAX"
 		(shape output)
 		(at 88.9 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6767,7 +6763,6 @@
 	(hierarchical_label "DECAY"
 		(shape input)
 		(at 105.41 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6779,7 +6774,6 @@
 	(hierarchical_label "RELEASE"
 		(shape input)
 		(at 119.38 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6791,7 +6785,6 @@
 	(hierarchical_label "GATE"
 		(shape input)
 		(at 80.01 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6891,6 +6884,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 187.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 187.96 48.26 0)
 			(effects
 				(font
@@ -7118,6 +7120,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 166.37 102.87 0)
 			(effects
 				(font
@@ -7360,6 +7371,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 87.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b738c81-1bd1-4844-933f-c95c0525c376")
 		)
@@ -7484,6 +7504,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -7717,6 +7746,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd64087d-7ed0-4ddb-a460-6e1574d50b78")
 		)
@@ -7846,6 +7884,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 247.65 139.7 0)
 			(effects
 				(font
@@ -8037,6 +8084,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 60.96 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 60.96 177.8 0)
 			(effects
 				(font
@@ -8374,6 +8430,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff90561c-7060-4f6f-a51c-e3d2d72b5385")
 		)
@@ -8485,6 +8550,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -8623,6 +8697,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 217.17 57.15 0)
 			(effects
 				(font
@@ -8774,6 +8857,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 85.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 85.09 45.72 0)
 			(effects
 				(font
@@ -8958,6 +9050,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 52.07 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 52.07 177.8 0)
 			(effects
 				(font
@@ -9200,6 +9301,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9114fd43-0c55-4313-9865-d77c13d60d59")
 		)
@@ -9317,6 +9427,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 124.46 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 124.46 99.06 0)
 			(effects
 				(font
@@ -9455,6 +9574,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 95.25 132.08 0)
 			(effects
 				(font
@@ -9651,6 +9779,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 86.36 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e6473f1-1980-4805-b6a8-283b3b7b8c42")
 		)
@@ -9772,6 +9909,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 124.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 124.46 133.35 0)
 			(effects
 				(font
@@ -10062,6 +10208,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51fca308-dc2a-40af-b07c-c2bb9d68d677")
 		)
@@ -10260,6 +10415,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 86.36 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb743679-852e-4d51-99c5-d464b712013a")
 		)
@@ -10390,6 +10554,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 78.74 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "607e8935-f346-412d-8065-3a7b0a2493f2")
 		)
@@ -10484,6 +10657,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 247.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 247.65 46.99 0)
 			(effects
 				(font
@@ -10609,6 +10791,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 95.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d89c678-aa8a-4ceb-af56-10cb84e8e453")
 		)
@@ -10683,6 +10874,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 133.35 83.82 0)
 			(effects
 				(font
@@ -10780,6 +10980,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2c380dc-1971-4dc8-ac80-a05ba585851e")
 		)
@@ -10869,7 +11078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-CFR50SJT-52-470R "
+		(property "Part No." "603-MFR-25FBF52-470R"
 			(at 163.83 53.34 0)
 			(effects
 				(font
@@ -10878,7 +11087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/49C5zwV"
+		(property "Part URL" "https://mou.sr/3FKKllB"
 			(at 163.83 53.34 0)
 			(effects
 				(font
@@ -10897,6 +11106,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 163.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 163.83 53.34 0)
 			(effects
 				(font
@@ -11096,6 +11314,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 26.67 177.8 0)
 			(effects
 				(font
@@ -11679,6 +11906,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 144.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e249caf0-ccff-49e1-afb5-1d8c195969e1")
 		)
@@ -11857,6 +12093,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 166.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 166.37 132.08 0)
 			(effects
 				(font
@@ -12139,6 +12384,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 236.22 53.34 0)
 			(effects
 				(font

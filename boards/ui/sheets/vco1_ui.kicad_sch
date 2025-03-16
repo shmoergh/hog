@@ -3176,7 +3176,6 @@
 	(hierarchical_label "VIBRATO_CV"
 		(shape input)
 		(at 187.96 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3188,7 +3187,6 @@
 	(hierarchical_label "OCTAVE_CV"
 		(shape output)
 		(at 180.34 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3200,7 +3198,6 @@
 	(hierarchical_label "PWM_LFO_CV"
 		(shape input)
 		(at 78.74 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3264,7 +3261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF1503B00 "
+		(property "Part No." "603-MFR-25FBF52-150K"
 			(at 121.92 129.54 0)
 			(effects
 				(font
@@ -3273,7 +3270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3BpW47z"
+		(property "Part URL" "https://mou.sr/3DLvBCw"
 			(at 121.92 129.54 0)
 			(effects
 				(font
@@ -3739,7 +3736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF1003T50 "
+		(property "Part No." "603-MFR-25FRF52100K"
 			(at 194.31 43.18 0)
 			(effects
 				(font
@@ -3748,7 +3745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3BGpE8K"
+		(property "Part URL" "https://mou.sr/4hEwI4G"
 			(at 194.31 43.18 0)
 			(effects
 				(font
@@ -3959,7 +3956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF1003T50 "
+		(property "Part No." "603-MFR-25FRF52100K"
 			(at 194.31 57.15 0)
 			(effects
 				(font
@@ -3968,7 +3965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3BGpE8K"
+		(property "Part URL" "https://mou.sr/4hEwI4G"
 			(at 194.31 57.15 0)
 			(effects
 				(font
@@ -4254,7 +4251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF1003T50 "
+		(property "Part No." "603-MFR-25FRF52100K"
 			(at 121.92 140.97 0)
 			(effects
 				(font
@@ -4263,7 +4260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3BGpE8K"
+		(property "Part URL" "https://mou.sr/4hEwI4G"
 			(at 121.92 140.97 0)
 			(effects
 				(font
@@ -5278,7 +5275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF1003T50 "
+		(property "Part No." "603-MFR-25FRF52100K"
 			(at 194.31 29.21 0)
 			(effects
 				(font
@@ -5287,7 +5284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3BGpE8K"
+		(property "Part URL" "https://mou.sr/4hEwI4G"
 			(at 194.31 29.21 0)
 			(effects
 				(font
@@ -5626,7 +5623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF1003T50 "
+		(property "Part No." "603-MFR-25FRF52100K"
 			(at 194.31 73.66 0)
 			(effects
 				(font
@@ -5635,7 +5632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3BGpE8K"
+		(property "Part URL" "https://mou.sr/4hEwI4G"
 			(at 194.31 73.66 0)
 			(effects
 				(font

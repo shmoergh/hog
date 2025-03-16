@@ -5086,7 +5086,6 @@
 	)
 	(label "HI_FREQ_COMP"
 		(at 173.99 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5097,7 +5096,6 @@
 	)
 	(label "I_REF"
 		(at 124.46 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5108,7 +5106,6 @@
 	)
 	(label "HI_FREQ_COMP"
 		(at 83.82 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5119,7 +5116,6 @@
 	)
 	(label "I_REF"
 		(at 157.48 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5131,7 +5127,6 @@
 	(hierarchical_label "HARD_SYNC"
 		(shape input)
 		(at 209.55 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5143,7 +5138,6 @@
 	(hierarchical_label "CV_INT"
 		(shape input)
 		(at 39.37 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5155,7 +5149,6 @@
 	(hierarchical_label "RAW_SAW"
 		(shape output)
 		(at 229.87 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5167,7 +5160,6 @@
 	(hierarchical_label "CV_EXT"
 		(shape input)
 		(at 39.37 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5179,7 +5171,6 @@
 	(hierarchical_label "FM"
 		(shape input)
 		(at 46.99 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5280,6 +5271,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 49.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 49.53 133.35 0)
 			(effects
 				(font
@@ -5489,6 +5489,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 297.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1c5a520-2454-459a-8b24-2d580e67ad7d")
 		)
@@ -5616,6 +5625,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -5755,6 +5773,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 49.53 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd518dd2-afd1-4933-93f4-33bf2af462ce")
 		)
@@ -5839,6 +5866,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 271.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 271.78 48.26 0)
 			(effects
 				(font
@@ -6043,6 +6079,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 166.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "804b8057-96e6-421e-973a-be68e28f149a")
 		)
@@ -6184,6 +6229,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6ec4123-3225-4e12-a067-b3946bc4e07d")
 		)
@@ -6295,6 +6349,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 62.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 62.23 133.35 0)
 			(effects
 				(font
@@ -6516,6 +6579,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 246.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfb562e6-9b01-4b15-99e9-c56261ae4915")
 		)
@@ -6727,6 +6799,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 241.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f16e26de-360d-4a90-aece-273b7feeebe8")
 		)
@@ -6867,6 +6948,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 166.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "776ac3da-9e53-418c-bbef-dbd710f4f15c")
 		)
@@ -6990,6 +7080,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 111.76 123.19 0)
 			(effects
 				(font
@@ -7136,6 +7235,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cf34541-8595-4f97-a622-b49c86bd5996")
 		)
@@ -7262,6 +7370,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 43.18 88.9 0)
 			(effects
 				(font
@@ -7412,6 +7529,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b5d37c5-d697-4c32-8dc3-1e4b672f1c26")
 		)
@@ -7535,6 +7661,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 41.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 41.91 137.16 0)
 			(effects
 				(font
@@ -7692,6 +7827,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 234.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9941cb85-b769-4ee2-b0fe-c9f0fcc038d6")
 		)
@@ -7803,6 +7947,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 166.37 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 166.37 137.16 0)
 			(effects
 				(font
@@ -8022,6 +8175,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9b36897-8cfe-44d8-a6ae-b6931ac1d547")
 		)
@@ -8106,6 +8268,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 161.29 132.08 0)
 			(effects
 				(font
@@ -8462,6 +8633,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 139.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c317de90-a2d3-43e4-a0a1-66ff1c0e0c4a")
 		)
@@ -8682,6 +8862,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 215.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08f84b5a-856a-4518-af87-e0f7ef097377")
 		)
@@ -8803,6 +8992,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 214.63 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 214.63 64.77 0)
 			(effects
 				(font
@@ -8957,6 +9155,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b45a28d-3940-4317-88f8-2cbef6151170")
 		)
@@ -9086,6 +9293,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2aee9fb-a00b-49d5-840a-895b8841f9ab")
 		)
@@ -9188,6 +9404,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 238.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 238.76 88.9 0)
 			(effects
 				(font
@@ -9304,6 +9529,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 271.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 271.78 73.66 0)
 			(effects
 				(font
@@ -9432,6 +9666,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 260.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 260.35 67.31 0)
 			(effects
 				(font
@@ -9576,6 +9819,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9163107-f051-4465-a938-0416352c7d4e")
 		)
@@ -9698,6 +9950,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 163.83 125.73 0)
 			(effects
 				(font
@@ -9953,6 +10214,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 148.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "280e6531-5668-4977-b93b-d6b7a096f440")
 		)
@@ -10136,6 +10406,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 281.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36cefdda-5bbd-43d1-bea6-d3241b37c827")
 		)
@@ -10260,6 +10539,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 217.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 217.17 35.56 0)
 			(effects
 				(font
@@ -10461,6 +10749,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 50.8 88.9 0)
 			(effects
 				(font
@@ -10740,6 +11037,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 31.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27539f83-3ce2-46a5-bf22-9c521bec589b")
 		)
@@ -10970,6 +11276,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03235f54-83da-4c9d-88d7-e4fef25b5220")
 		)
@@ -11093,6 +11408,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 69.85 86.36 0)
 			(effects
 				(font
@@ -11232,6 +11556,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 234.95 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ada5eb35-553b-4377-9675-50b30f4fe1e5")
 		)
@@ -11341,6 +11674,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 260.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 260.35 38.1 0)
 			(effects
 				(font
@@ -11480,6 +11822,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 246.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8820741-a633-40e5-9142-8e96050be820")
 		)
@@ -11611,6 +11962,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 163.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fb22835-5b23-418a-97ce-564b16003c77")
 		)
@@ -11732,6 +12092,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 260.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 260.35 48.26 0)
 			(effects
 				(font
@@ -11953,6 +12322,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3f149fe-2c11-4e4d-bf3b-6109140539b2")
 		)
@@ -12074,6 +12452,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 153.67 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 153.67 125.73 0)
 			(effects
 				(font
@@ -12350,6 +12737,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 255.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "938d831d-ceb7-444e-8c84-76fb6b705e07")
 		)
@@ -12497,6 +12893,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 87.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9f1aaeb-33e1-49b3-acac-8d2276decf23")
 		)
@@ -12618,6 +13023,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 139.7 125.73 0)
 			(effects
 				(font
@@ -12842,6 +13256,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 99.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fd4f385-a1e8-4c3d-a821-049d3c1666a5")
 		)
@@ -12989,6 +13412,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 274.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "733604f0-5283-4ff0-a5b4-a83a464d3fa6")
 		)
@@ -13121,6 +13553,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 224.79 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "695ce84f-7313-4730-b7ed-768613c06e52")
 		)
@@ -13243,6 +13684,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 219.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b843a9be-90cb-4917-b115-8db119a2e516")
 		)
@@ -13354,6 +13804,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 62.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 62.23 140.97 0)
 			(effects
 				(font
@@ -13645,6 +14104,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 288.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d6ace7b-2cff-4291-9692-955ab2034f5f")
 		)
@@ -13717,6 +14185,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 229.87 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 229.87 69.85 0)
 			(effects
 				(font
@@ -13903,6 +14380,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 73.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 73.66 133.35 0)
 			(effects
 				(font

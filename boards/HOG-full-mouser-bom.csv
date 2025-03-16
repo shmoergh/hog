@@ -1,0 +1,110 @@
+Board,Reference,Value,Footprint,Quantity,Mouser Part No,Part URL,Vendor
+Core,C241,10u,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,1,598-106RSS050M,https://mou.sr/3VxA0hV,Mouser
+Core,C248,1u (foil or electrolite),Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,1,80-R82EC4100Z370K,https://mou.sr/3ZROEn2,Mouser
+Core,"C251,C255",22n-47n (foil),Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm,2,80-R82EC1330AA50K,https://mou.sr/3BhmOHr,Mouser
+Core,"J201,J202,J203,J204",Conn_02x08_Counter_Clockwise,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,4,737-RS2-16-G,https://mou.sr/3OWyRwS,Mouser
+Core,J214,Conn_02x04_Counter_Clockwise,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,1,737-RS2-08-G,https://mou.sr/41qYCwK,Mouser
+Core,J_POWER201,Conn_02x05_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,1,737-RS2-10-G,https://mou.sr/3ZuUKrQ,Mouser
+Core,"Q201,Q204",2N3906,Package_TO_SOT_THT:TO-92L_Inline_Wide,2,512-2N3906BU,https://mou.sr/3ZrOXn8,Mouser
+Core,"Q203,Q206",MMBFJ111,PCM_Package_TO_SOT_SMD_AKL:SOT-23_Handsoldering,2,512-MMBFJ111,https://mou.sr/3Us0WP4,Mouser
+Core,"Q208,Q209,Q210",BC548C,Package_TO_SOT_THT:TO-92L_Inline_Wide,3,637-BC548C,https://mou.sr/4fhkHkJ,Mouser
+Core,"R203,R218",91k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,603-MFR50SFTE52-91K,https://mou.sr/3Vwa9XS,Mouser
+Core,"R204,R219",6.2k (50ppm),Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,603-MFR50SFTE52-6K2,https://mou.sr/3OL65PP,Mouser
+Core,"R206,R221",4R22 (50ppm),Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,603-MFR50SFTE52-4R22,https://mou.sr/49tYeQ0,Mouser
+Core,R268,470,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,603-MFR-25FBF52-470R,https://mou.sr/3FKKllB,Mouser
+Core,"RV201,RV202,RV203,RV204,RV205,RV_HEADPHONE_LIM201",100k,"Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal",6,531-PT6KH104A1010PM,https://mou.sr/49zQlIS,Mouser
+Core,"RV_ADSR_MAX_VOLTAGE201,RV_TRI_BIAS201,RV_TRI_BIAS202",100k,Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal,3,652-3006P-1-104-LF,https://mou.sr/4ff5W1E,Mouser
+Core,RV_LINE_OUT_LVL201,10k,"Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal",1,531-PT6KH-10K,https://mou.sr/4gcYhlU,Mouser
+Core,"RV_SAW_BIAS201,RV_SAW_BIAS202",10k,Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal,2,652-3006P-1-103-LF,https://mou.sr/41xh2vW,Mouser
+Core,"R_WIDTH201,R_WIDTH202",20k,Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal,2,652-3006P-7-203-LF,https://mou.sr/41re1x3,Mouser
+Core,"TH201,TH202",PTS120601B100RP100,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,2,594-PTS120601B100RP,https://mou.sr/4g7SsGi,Mouser
+Core,U212,4002,Package_DIP:DIP-14_W7.62mm,1,595-CD4002BE,https://mou.sr/3JJTry1,Mouser
+MIDI2CV,"C1,C5,C6,C10",22p,-- mixed values --,4,594-K220J15C0GF53L2,https://mou.sr/3ZTXYXB,Mouser
+MIDI2CV,C2,330n,Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm,1,810-FA14X7R1H334KNU6,https://mou.sr/4gDlMo9,Mouser
+MIDI2CV,"C3,C4,C11",100n,Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm,3,594-K103K15X7RF5TK2,https://mou.sr/3VFZIRH,Mouser
+MIDI2CV,C7,10u,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,1,80-ESS106M035AC2EA,https://mou.sr/49DyMaU,Mouser
+MIDI2CV,"C8,C9",1u,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,2,140-SG1R0M1H0407P,https://mou.sr/41BqE8O,Mouser
+MIDI2CV,D1,1N4001,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,1,637-1N4001,https://mou.sr/3DfEJyK,Mouser
+MIDI2CV,D2,1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,1,512-1N4148,https://mou.sr/3ZP7Wt3,Mouser
+MIDI2CV,JP1,Jumper_2_Open,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal,1,737-PH1RB-02-UA,https://mou.sr/3D93YT9,Mouser
+MIDI2CV,J_IN1,Conn_01x06,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,1,737-RS1-06-G,https://mou.sr/3BuZUME,Mouser
+MIDI2CV,"J_OUT1,J_SWD_IO1",Conn_01x04,-- mixed values --,2,737-RS1-04-G,https://mou.sr/4gDjs0p,Mouser
+MIDI2CV,J_SWCLKDIO1,Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal,1,737-PH1RB-02-UA,https://mou.sr/3D93YT9,Mouser
+MIDI2CV,Q_GATE_LED1,2N3904,Package_TO_SOT_THT:TO-92_Inline_Wide,1,637-2N3904,https://mou.sr/4febysZ,Mouser
+MIDI2CV,"R1,R3",220,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,603-MFR-25FTF52-220R,https://mou.sr/41wmEVF,Mouser
+MIDI2CV,R2,4.7k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,603-MFR-25FBF52-4K7,https://mou.sr/4i8N07f,Mouser
+MIDI2CV,"R4,R12",47k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,603-MFR-25FBF52-47K,https://mou.sr/3XWs8rz,Mouser
+MIDI2CV,"R5,R17",100k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,603-MFR-25FRF52100K,https://mou.sr/4hEwI4G,Mouser
+MIDI2CV,"R6,R13",68k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,603-MFR-25FBF52-68K,https://mou.sr/4gyTECt,Mouser
+MIDI2CV,"R7,R18",51k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,603-MFR-25FBF52-51K,https://mou.sr/43NIOFo,Mouser
+MIDI2CV,R8,10k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,603-MFR25SFRF52-10K,https://mou.sr/3XU3MyE,Mouser
+MIDI2CV,"R9,R10,R14,R15,R16,R19",1k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,6,603-MFR-25FBF52-1K,https://mou.sr/43MmrAb,Mouser
+MIDI2CV,R11,470,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,603-MFR-25FBF52-470R,https://mou.sr/3XTF2Xk,Mouser
+MIDI2CV,U1,LM7805_TO220,Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown,1,926-LM7805CT/NOPB,https://mou.sr/4gwivXu,Mouser
+MIDI2CV,U2,6N138,Package_DIP:DIP-8_W7.62mm_LongPads,1,859-6N138M,https://mou.sr/3VDrRsD,Mouser
+MIDI2CV,"U3,U6",LM358,Package_DIP:DIP-8_W7.62mm_LongPads,2,595-LM358P,https://mou.sr/4izjQPc,Mouser
+MIDI2CV,U4,MCP4822,Package_DIP:DIP-8_W7.62mm_LongPads,1,579-MCP4822-E/P,https://mou.sr/4gecDm5,Mouser
+MIDI2CV,U5,Pico,MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH,1,358-SC0915,https://mou.sr/49BoTdS,Mouser
+PSU,IC1,NSD10-12D12,NSD1012D5,1,709-NSD10-12D12,https://mou.sr/3ZpECrS,Mouser
+PSU,J1,Conn_02x04_Odd_Even,Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical,1,737-RS2-08-G,https://mou.sr/41qYCwK,Mouser
+PSU,J2,Conn_02x05_Odd_Even,Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical,1,737-RS2-10-G,https://mou.sr/3ZuUKrQ,Mouser
+Filter,"C9,C11,C13",1n (Foil),Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm,3,80-R82EC1100SH50J,https://mou.sr/3ZRLX4F,Mouser
+Filter,C17,470n (foil),Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm,1,80-R82EC1470DQ50K,https://mou.sr/4g5F5Xb,Mouser
+Filter,C18,1u (Foil),Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm,1,80-R82EC4100Z370K,https://mou.sr/3ZROEn2,Mouser
+Filter,J1,Eurorack Power,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,1,737-RS2-10-G,https://mou.sr/3ZTZokP,Mouser
+Filter,J3,Conn_02x08_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,1,737-RS2-16-G,https://mou.sr/3DcrsXN,Mouser
+Filter,JP_INT_EXT1,Internal/External CV,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,1,737-PH1-20-UA,https://mou.sr/4gqTRHQ,Mouser
+Filter,Q1,BC547B,Package_TO_SOT_THT:TO-92_Inline_Wide,1,637-BC547B,https://mou.sr/49DWqUL,Mouser
+Filter,R3,6.8k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,603-CFR-25JB-52-6K8,https://mou.sr/3FwCIPM,Mouser
+Filter,R4,3.3k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,603-CFR-25JB-52-3K3,https://mou.sr/4bzT0TY,Mouser
+Filter,RV_BALANCE1,1k,"Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal",1,531-PT6KH-1K,https://mou.sr/3DgNY1x,Mouser
+Filter,RV_BIAS1,10k,"Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal",1,531-PT6KH-10K,https://mou.sr/49CavSt,Mouser
+Filter,RV_MAX_RESO1,100k,"Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal",1,531-PT6KH104A1010PM,https://mou.sr/3OVlmh2,Mouser
+UI,"C1,C2",100u,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,2,80-ESS107M025AE2AA,https://mou.sr/3ZTs1yq,Mouser
+UI,C3,1n,Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm,1,594-K102M15X7RF53L2,https://mou.sr/3OTl4qX,Mouser
+UI,C4,10n,Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm,1,594-K103K15X7RF5TK2,https://mou.sr/49C1dG8,Mouser
+UI,C5,47u,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,1,667-ECE-A1VKS470I,https://mou.sr/4iyQHDI,Mouser
+UI,"C7,C8,C9,C10",100n,Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm,4,594-K103K15X7RF5TK2,https://mou.sr/3VFZIRH,Mouser
+UI,C12,470n,Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm,1,80-C315C474K5R,https://mou.sr/4ggiw21,Mouser
+UI,"D1,D3,D_ON_OFF1",LED Blue,LED_THT:LED_D5.0mm,3,859-LTL-1CHG,https://mou.sr/3OXMWKk,Mouser
+UI,D2,8.2V,Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal,1,625-BZX85C8V2,https://mou.sr/3DeplTn,Mouser
+UI,"J1,J2,J3,J4",Conn_02x08_Counter_Clockwise,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,4,649-1012938191601BLF,https://mou.sr/3ZS3vh3,Mouser
+UI,J5,Conn_02x04_Counter_Clockwise,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,1,737-PH2-08-UA,https://mou.sr/4gxLnib,Mouser
+UI,J6,Barrel_Jack_Switch,Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002,1,710-694106301002,https://mou.sr/4a9ckVQ,Mouser
+UI,J8,Conn_01x06,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,1,737-PH1-20-UA,https://mou.sr/4gqTRHQ,Mouser
+UI,J9,Conn_02x04_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,1,737-PH2-08-UA,https://mou.sr/4gxLnib,Mouser
+UI,"J_EXT_CUTOFF1,J_GATE1,J_HEADPHONES1,J_MIDI_IN1,J_PITCH1,J_VCO2_PITCH1",SJ1-3554NG,Shmoergh_Custom_Footprints:CUI_SJ1-3554NG,6,490-SJ1-3554NG,https://mou.sr/3Qs21VB,Mouser
+UI,J_FILTER_CONN1,Conn_02x08_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,1,649-1012938191601BLF,https://mou.sr/3ZS3vh3,Mouser
+UI,"J_MAIN_POWER1,J_POWER1",Conn_02x05_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,2,737-PH2-10-UA,https://mou.sr/3D13TAT,Mouser
+UI,"Q1,Q2",2N3904,Package_TO_SOT_THT:TO-92L_Inline_Wide,2,637-2N3904,https://mou.sr/4febysZ,Mouser
+UI,R1,1k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,603-MFR-25FBF52-1K,https://mou.sr/43MmrAb,Mouser
+UI,"R2,R44,R45",200k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,3,603-MFR-25FTF52-200K,https://mou.sr/49BK9jG,Mouser
+UI,"R3,R4,R5,R6,R7,R14,R15,R16,R17",10k (0.1%),Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,9,660-MF1/4CCT52R1002B,https://mou.sr/4fj3JT3,Mouser
+UI,R8,150k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,603-MFR-25FBF52-150K,https://mou.sr/3DLvBCw,Mouser
+UI,"R9,R10,R26,R30,R38,R40,R49",100k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,7,603-MFR-25FRF52100K,https://mou.sr/4hEwI4G,Mouser
+UI,"R11,R12,R13,R19,R20,R21,R22,R25,R31,R32,R33",100k (1%),Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,11,603-MFR-25FRF52100K,https://mou.sr/4hEwI4G,Mouser
+UI,"R18,R23,R24,R39",82k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,4,603-MFR-25FBF52-82K,https://mou.sr/4bFupx1,Mouser
+UI,"R27,R28,R35,R36,R43,R50,R51",10k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,7,603-MFR25SFRF52-10K,https://mou.sr/3XU3MyE,Mouser
+UI,R29,330k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,603-MFR-25FRF52-330K,https://mou.sr/3FzGuYE,Mouser
+UI,R34,2k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,603-MFR-25FTF52-2K,https://mou.sr/425kXjj,Mouser
+UI,"R37,R41",20k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,603-MFR-25FRF5220K,https://mou.sr/4bBnUeQ,Mouser
+UI,R42,4.7k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,603-MFR-25FBF52-4K7,https://mou.sr/4i8N07f,Mouser
+UI,"R46,R47",220,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,603-MFR-25FTE52-220R,https://mou.sr/428sz4x,Mouser
+UI,R48,47k,Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,603-MFR-25FTE52-47K,https://mou.sr/4iUy6Bg,Mouser
+UI,"RV1,RV2",50k prec.,Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal,2,652-3006P-1-503-LF,https://mou.sr/3ZEVzhM,Mouser
+UI,"RV_ATTACK_LONG1,RV_DECAY_SHORT1,RV_DIRTY_AMP1,RV_EXT_CUTOFF_GAIN1,RV_GLIDE_AMNT1,RV_NARROW_WIDTH1,RV_PLAYGROUND_HALF1,RV_RELEASE_MIN1,RV_RELEASE_SHORT1,RV_SUSTAIN_LVL1,RV_SYNC_VIBRATO_DAMP1,RV_TRACKING_LVL1,RV_VCA_PLYGND_BIAS1",100k,Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical,13,652-3306F-1-104,https://mou.sr/3OVBYFf,Mouser
+UI,RV_ATTACK_SHORT1,10k,Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical,1,652-3306F-1-103,https://mou.sr/41GreC6,Mouser
+UI,"RV_CUTOFF1,RV_VCO2_TUNER1",100k,Shmoergh_Custom_Footprints:Potentiometer_Bourns_Single-PTV09A,2,652-PTV09A4025FB104,https://mou.sr/3Us6dpJ,Mouser
+UI,RV_FINE_TUNE1,10k,Shmoergh_Custom_Footprints:Potentiometer_Bourns_PTD901-2015_Single_Horizontal,1,PTD901-1015K-B103,https://mou.sr/4aB7CRn,Mouser
+UI,"RV_LFO1_AMOUNT1,RV_LFO1_SPEED1,RV_LFO2_AMOUNT1,RV_LFO2_SPEED1,RV_NOISE_VOLUME1,RV_VCO2_VOLUME1",A100k,Shmoergh_Custom_Footprints:Potentiometer_Bourns_Single-PTV09A,6,652-PTV09A-4025UA104,https://mou.sr/44vDepN,Mouser
+UI,RV_MAIN_VCO_5V1,10k,Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal,1,652-3006P-1-103-LF,https://mou.sr/41xh2vW,Mouser
+UI,"RV_PWM_LEVEL1,RV_SUSTAIN_MAX1",200k,Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical,2,652-3306F-1-204,https://mou.sr/3P2IKcd,Mouser
+UI,RV_RESO_DIRTY1,50k,Shmoergh_Custom_Footprints:Potentiometer_Bourns_Dual-PTV112-4,1,652-PTV112-4425AB503,https://mou.sr/3UKAAJn,Mouser
+UI,RV_RINGTIME1,500k,Shmoergh_Custom_Footprints:Potentiometer_Bourns_Dual-PTV112-4,1,652-PTV1124420AA504,https://mou.sr/47iqFh2,Mouser
+UI,RV_VOLUME1,A10k,Shmoergh_Custom_Footprints:Potentiometer_Bourns_Single-PTV09A,1,652-PTV09A4025FA103,https://mou.sr/4bCOV0e,Mouser
+UI,S1,PB400EEQR1BLK,Shmoergh_Custom_Footprints:SW_PB400EEQR1BLK,1,612-PB400EEQR1BLK,https://mou.sr/3TDv9tV,Mouser
+UI,"SW_OCTAVE1,SW_WAVESHAPE1",SW_Rotary2x5,Shmoergh_Custom_Footprints:SW_SR2512F-2x5-rotary,2,105-SR2512F-25NS,https://mou.sr/49HHdSv,Mouser
+UI,SW_PLAYGROUND1,SW_Rotary3x4,Shmoergh_Custom_Footprints:SW_SR2512F-3x4-rotary,1,105-SR2512F-34NS,https://mou.sr/3wb0uwA,Mouser
+UI,"U1,U2",TL072,PCM_Package_DIP_AKL:DIP-8_W7.62mm_Socket_LongPads,2,595-TL072IP,https://mou.sr/4g5XjI5,Mouser
+UI,U_5VREF1,LM336Z5,Package_TO_SOT_THT:TO-92L_Inline_Wide,1,926-LM336Z-50/NOPB,https://mou.sr/3y3TEcP,Mouser
+UI,U_ADSR_SW_IC1,CD4053B,Package_DIP:DIP-16_W7.62mm,1,595-CD4053BE,https://mou.sr/4a7avII,Mouser

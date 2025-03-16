@@ -2624,6 +2624,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 30.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "163415d5-e0ea-4e22-b247-44f9766bf646")
 		)
@@ -2755,6 +2764,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 96.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d607e3f4-63f8-46a6-b7e3-0b49f1062e1d")
 		)
@@ -2849,6 +2867,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ea37028-7169-457e-a5ed-5333db351c6c")
 		)
@@ -2914,6 +2941,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 76.2 76.2 0)
 			(effects
 				(font
@@ -3097,6 +3133,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "747e915a-e19e-4da7-a14c-50a732d4e784")
 		)
@@ -3218,6 +3263,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 152.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 152.4 177.8 0)
 			(effects
 				(font
@@ -3466,6 +3520,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 76.2 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72e1449f-dd8b-4bb9-9b05-efb24b2f377a")
 		)
@@ -3586,6 +3649,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 149.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 149.86 85.09 0)
 			(effects
 				(font
@@ -3874,6 +3946,15 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
+			(at 45.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 45.72 181.61 0)
 			(effects
 				(font
@@ -4206,6 +4287,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf4fdb9a-ccd3-4de7-9119-4d5a91dc7ac9")
 		)
@@ -4319,6 +4409,15 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
+			(at 30.48 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 30.48 181.61 0)
 			(effects
 				(font
@@ -4608,6 +4707,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 102.87 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7ec4edc-f3c4-455a-bde6-353392de8ff5")
 		)
@@ -4729,6 +4837,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 95.25 81.28 0)
 			(effects
 				(font
@@ -4868,6 +4985,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 102.87 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 102.87 173.99 0)
 			(effects
 				(font
@@ -5328,6 +5454,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 45.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "467449a3-cdd0-4af3-bb61-6177a2dd6dd1")
 		)
@@ -5552,6 +5687,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "252fa178-eb6b-4cc0-aaf6-da680b9ac35e")
 		)
@@ -5757,6 +5901,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 167.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 167.64 87.63 0)
 			(effects
 				(font

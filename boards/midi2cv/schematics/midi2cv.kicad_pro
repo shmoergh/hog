@@ -618,7 +618,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Vendor"
     },
     "connection_grid_size": 50.0,
     "drawing": {

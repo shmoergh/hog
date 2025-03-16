@@ -2549,7 +2549,6 @@
 	)
 	(label "PLAYGROUND_DEST"
 		(at 135.89 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2560,7 +2559,6 @@
 	)
 	(label "PLAYGROUND_SOURCE"
 		(at 135.89 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2660,7 +2658,6 @@
 	(hierarchical_label "VCO2_SELECTED_WAVE"
 		(shape input)
 		(at 102.87 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2672,7 +2669,6 @@
 	(hierarchical_label "VCO2_SYNC_VIBRATO_CV"
 		(shape output)
 		(at 104.14 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2684,7 +2680,6 @@
 	(hierarchical_label "FILTER_CUTOFF_CV"
 		(shape output)
 		(at 104.14 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2696,7 +2691,6 @@
 	(hierarchical_label "VCO2_SELECTED_WAVE"
 		(shape input)
 		(at 102.87 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2708,7 +2702,6 @@
 	(hierarchical_label "LFO_B_CV"
 		(shape input)
 		(at 179.07 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2720,7 +2713,6 @@
 	(hierarchical_label "VCO2_SELECTED_WAVE"
 		(shape input)
 		(at 59.69 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3900,7 +3892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF1002T50 "
+		(property "Part No." "603-MFR25SFRF52-10K "
 			(at 107.95 116.84 0)
 			(effects
 				(font
@@ -3909,7 +3901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3VFoGR5"
+		(property "Part URL" "https://mou.sr/3XU3MyE"
 			(at 107.95 116.84 0)
 			(effects
 				(font

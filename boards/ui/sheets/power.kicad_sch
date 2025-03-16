@@ -4937,7 +4937,6 @@
 	)
 	(label "12VDC_WALLWART"
 		(at 90.17 34.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4948,7 +4947,6 @@
 	)
 	(label "12VDC_SW_NEG"
 		(at 111.76 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4959,7 +4957,6 @@
 	)
 	(label "12VDC_SW_POS"
 		(at 116.84 34.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6749,7 +6746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF1002T50 "
+		(property "Part No." "603-MFR25SFRF52-10K "
 			(at 190.5 87.63 0)
 			(effects
 				(font
@@ -6758,7 +6755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3VFoGR5"
+		(property "Part URL" "https://mou.sr/3XU3MyE"
 			(at 190.5 87.63 0)
 			(effects
 				(font
@@ -7079,7 +7076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF1002T50 "
+		(property "Part No." "603-MFR25SFRF52-10K "
 			(at 171.45 96.52 0)
 			(effects
 				(font
@@ -7088,7 +7085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3VFoGR5"
+		(property "Part URL" "https://mou.sr/3XU3MyE"
 			(at 171.45 96.52 0)
 			(effects
 				(font
@@ -7516,7 +7513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-CFR0W4J0202B00 "
+		(property "Part No." "603-MFR-25FTF52-2K"
 			(at 116.84 77.47 0)
 			(effects
 				(font
@@ -7525,7 +7522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3BpNNAx"
+		(property "Part URL" "https://mou.sr/425kXjj"
 			(at 116.84 77.47 0)
 			(effects
 				(font

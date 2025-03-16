@@ -2513,7 +2513,6 @@
 	)
 	(label "MIDI_GATE_A"
 		(at 231.14 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2524,7 +2523,6 @@
 	)
 	(label "MIDI_5T"
 		(at 163.83 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2535,7 +2533,6 @@
 	)
 	(label "MIDI_PITCH_B"
 		(at 231.14 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2546,7 +2543,6 @@
 	)
 	(label "MIDI_4R"
 		(at 214.63 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2557,7 +2553,6 @@
 	)
 	(label "MIDI_PITCH_A"
 		(at 173.99 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2568,7 +2563,6 @@
 	)
 	(label "MIDI_4R"
 		(at 163.83 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2579,7 +2573,6 @@
 	)
 	(label "MIDI_PITCH_A"
 		(at 231.14 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2590,7 +2583,6 @@
 	)
 	(label "MIDI_GATE_A"
 		(at 173.99 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2601,7 +2593,6 @@
 	)
 	(label "MIDI_5T"
 		(at 214.63 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2612,7 +2603,6 @@
 	)
 	(label "MIDI_PITCH_B"
 		(at 173.99 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2646,7 +2636,6 @@
 	(hierarchical_label "FINE_TUNE"
 		(shape input)
 		(at 59.69 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2658,7 +2647,6 @@
 	(hierarchical_label "LINE_OUT"
 		(shape output)
 		(at 185.42 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2670,7 +2658,6 @@
 	(hierarchical_label "PITCH"
 		(shape input)
 		(at 160.02 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2682,7 +2669,6 @@
 	(hierarchical_label "LED_K(GND)"
 		(shape output)
 		(at 232.41 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2694,7 +2680,6 @@
 	(hierarchical_label "GATE"
 		(shape input)
 		(at 160.02 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2706,7 +2691,6 @@
 	(hierarchical_label "LED_A(5V)"
 		(shape output)
 		(at 232.41 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2718,7 +2702,6 @@
 	(hierarchical_label "VCO2_PITCH"
 		(shape input)
 		(at 213.36 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2730,7 +2713,6 @@
 	(hierarchical_label "EXT_CUTOFF"
 		(shape input)
 		(at 213.36 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2742,7 +2724,6 @@
 	(hierarchical_label "HEADPHONES"
 		(shape output)
 		(at 185.42 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2805,7 +2786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF8202B00 "
+		(property "Part No." "603-MFR-25FBF52-82K "
 			(at 67.31 78.74 0)
 			(effects
 				(font
@@ -2814,7 +2795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3Djf3kL"
+		(property "Part URL" "https://mou.sr/4bFupx1"
 			(at 67.31 78.74 0)
 			(effects
 				(font
@@ -4612,7 +4593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF8202B00 "
+		(property "Part No." "603-MFR-25FBF52-82K "
 			(at 67.31 99.06 0)
 			(effects
 				(font
@@ -4621,7 +4602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3Djf3kL"
+		(property "Part URL" "https://mou.sr/4bFupx1"
 			(at 67.31 99.06 0)
 			(effects
 				(font

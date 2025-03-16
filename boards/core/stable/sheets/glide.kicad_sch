@@ -1824,7 +1824,6 @@
 	(hierarchical_label "PITCH"
 		(shape input)
 		(at 71.12 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1836,7 +1835,6 @@
 	(hierarchical_label "PITCH_BUFFERED"
 		(shape output)
 		(at 119.38 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1848,7 +1846,6 @@
 	(hierarchical_label "GLIDED_PITCH"
 		(shape output)
 		(at 204.47 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1860,7 +1857,6 @@
 	(hierarchical_label "GLIDE_AMOUNT"
 		(shape input)
 		(at 157.48 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2033,6 +2029,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9874ffd-7bd6-47b6-a7a2-d10b44dd5b5c")
 		)
@@ -2163,6 +2168,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 25.4 180.34 0)
 			(effects
 				(font
@@ -2302,6 +2316,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 34.29 176.53 0)
 			(effects
 				(font
@@ -2510,6 +2533,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 161.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f90d790-dfd6-4fee-b6d4-9fdcd5c890fb")
 		)
@@ -2621,6 +2653,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 176.53 86.36 0)
 			(effects
 				(font
@@ -2765,6 +2806,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c83a9302-0a91-40ff-9857-89eb87c5d3c6")
 		)
@@ -2878,6 +2928,15 @@
 			)
 		)
 		(property "Vendor" "JLCPCB"
+			(at 34.29 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 34.29 184.15 0)
 			(effects
 				(font

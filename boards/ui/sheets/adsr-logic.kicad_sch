@@ -4709,7 +4709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF1002T50 "
+		(property "Part No." "603-MFR25SFRF52-10K "
 			(at 172.72 81.28 0)
 			(effects
 				(font
@@ -4718,7 +4718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3VFoGR5"
+		(property "Part URL" "https://mou.sr/3XU3MyE"
 			(at 172.72 81.28 0)
 			(effects
 				(font
@@ -4823,7 +4823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-CFR0W4J0473B00 "
+		(property "Part No." "603-MFR-25FTE52-47K "
 			(at 87.63 144.78 0)
 			(effects
 				(font
@@ -4832,7 +4832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/49BslVE"
+		(property "Part URL" "https://mou.sr/4iUy6Bg"
 			(at 87.63 144.78 0)
 			(effects
 				(font
@@ -5739,7 +5739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF1003T50 "
+		(property "Part No." "603-MFR-25FRF52100K"
 			(at 87.63 154.94 0)
 			(effects
 				(font
@@ -5748,7 +5748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3BGpE8K"
+		(property "Part URL" "https://mou.sr/4hEwI4G"
 			(at 87.63 154.94 0)
 			(effects
 				(font
@@ -8670,7 +8670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "303-MF0W4FF4701A10 "
+		(property "Part No." "603-MFR-25FBF52-4K7"
 			(at 64.77 170.18 0)
 			(effects
 				(font
@@ -8679,7 +8679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4fkq2ri"
+		(property "Part URL" "https://mou.sr/4i8N07f"
 			(at 64.77 170.18 0)
 			(effects
 				(font
