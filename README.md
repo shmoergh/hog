@@ -13,7 +13,7 @@ Latest revision: rev #3.
 
 The HOG is a very fun but equally advanced electronics project. It's fully open source and we've put together a build guide for the brave ones who decide to build one. Let us know if you have questions and definitely share some pics of your builds (follow [Shmøergh on Instagram](https://www.instagram.com/shmoergh/)).
 
-[Open build guide &rarr;](https://www.shmoergh.com/hog-build-guide)
+[Open build guide &rarr;](https://www.shmoergh.com/guides/hog-build-guide)
 
 
 ## BOMs
