@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6N138SM
+D VDE recognition (pending)  Ordering option V, e.g., 6N138VM ; Superior CTR-2000%; CTR guaranteed 070C; Superior CMR-10kV/s ; U.L. recognized (File # E90700, Vol. 2) ; Low current  0.5mA ; Dual Channel  HCPL2730M, HCPL2731M (coming soon)
+K
+F https://www.onsemi.com/pub/Collateral/HCPL2731M-D.PDF
+$ENDCMP
+#
+#End Doc Library
