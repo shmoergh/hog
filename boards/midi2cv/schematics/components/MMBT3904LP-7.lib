@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MMBT3904LP-7
+#/790578/253071/2.50/3/2/Transistor BJT NPN
+DEF MMBT3904LP-7 Q 0 30 Y Y 1 F N
+F0 "Q" 550 50 50 H V L CNN
+F1 "MMBT3904LP-7" 550 -50 50 H V L CNN
+F2 "MMBT3904LP7" 550 -150 50 H I L CNN
+F3 "https://www.diodes.com//assets/Datasheets/ds31835.pdf" 550 -250 50 H I L CNN
+F4 "Bipolar Transistors - BJT NPN SM SIG 60V VCBO 40V VCEO 6.0 VEBO" 550 -350 50 H I L CNN "Description"
+F5 "0.53" 550 -450 50 H I L CNN "Height"
+F6 "621-MMBT3904LP-7" 550 -550 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMBT3904LP-7?qs=%2FX1MCKV%2F%2FFnn%252BN4rMimMow%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Incorporated" 550 -750 50 H I L CNN "Manufacturer_Name"
+F9 "MMBT3904LP-7" 550 -850 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 400 -300 100 U 50 50 0 0 P
+X ~ 3 400 300 100 D 50 50 0 0 P
+P 2 0 1 20 300 100 300 -100 N
+P 2 0 1 6 300 50 400 150 N
+P 2 0 1 6 300 -50 400 -150 N
+P 2 0 1 6 400 -150 400 -200 N
+P 2 0 1 6 400 150 400 200 N
+P 2 0 1 6 100 0 300 0 N
+C 350 0 158 0 1 10 N
+P 4 0 1 10 330 -100 350 -80 370 -120 330 -100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

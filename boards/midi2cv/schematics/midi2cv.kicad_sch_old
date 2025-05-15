@@ -8613,7 +8613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:CAPC2013X140N"
 			(at 51.7652 179.07 0)
 			(effects
 				(font
@@ -8622,7 +8622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 50.8 175.26 0)
 			(effects
 				(font
@@ -8631,7 +8631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "330nF 50V 0805 Multilayer Ceramic Capacitors MLCC"
+		(property "Description" ""
 			(at 50.8 175.26 0)
 			(effects
 				(font
@@ -8640,7 +8640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "CL21B334KBFNNNE"
+		(property "Part No." "581-08055C334KAT2A"
 			(at 50.8 175.26 0)
 			(effects
 				(font
@@ -8649,7 +8649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C73142"
+		(property "Part URL" "https://mou.sr/4m0Ga5Y"
 			(at 50.8 175.26 0)
 			(effects
 				(font
@@ -8658,7 +8658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 50.8 175.26 0)
 			(effects
 				(font
@@ -8667,7 +8667,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C73142"
+		(property "LCSC" "C527609"
 			(at 50.8 175.26 0)
 			(effects
 				(font
@@ -8790,7 +8790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 112.522 120.65 90)
 			(effects
 				(font
@@ -8799,7 +8799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 114.3 120.65 0)
 			(effects
 				(font
@@ -8808,7 +8808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220Ω 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 114.3 120.65 0)
 			(effects
 				(font
@@ -8817,7 +8817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "1206W4J0221T5E"
+		(property "Part No." "603-RT1206FRE07220RL"
 			(at 114.3 120.65 0)
 			(effects
 				(font
@@ -8826,7 +8826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4mi3dcP"
 			(at 114.3 120.65 0)
 			(effects
 				(font
@@ -8835,7 +8835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 114.3 120.65 0)
 			(effects
 				(font
@@ -8968,7 +8968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 229.362 151.13 90)
 			(effects
 				(font
@@ -8977,7 +8977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -8986,7 +8986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -8995,7 +8995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "1206W4F1003T5E"
+		(property "Part No." "603-RT1206FRE07100KL"
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -9004,7 +9004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C17900"
+		(property "Part URL" "https://mou.sr/4gCb2WS"
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -9013,7 +9013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -9411,7 +9411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 201.422 48.26 90)
 			(effects
 				(font
@@ -9420,7 +9420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -9429,7 +9429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -9438,7 +9438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "1206W4F4702T5E"
+		(property "Part No." "603-RT1206FRE0747KL"
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -9447,7 +9447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C25833"
+		(property "Part URL" "https://mou.sr/43e4fPd"
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -9456,7 +9456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -9721,7 +9721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 292.1 49.022 90)
 			(effects
 				(font
@@ -9730,7 +9730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 292.1 50.8 0)
 			(effects
 				(font
@@ -9739,7 +9739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "68kΩ 1206 250mW Thin Film Resistor 200V Resistor"
+		(property "Description" ""
 			(at 292.1 50.8 0)
 			(effects
 				(font
@@ -9748,7 +9748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "RT1206BRD0768KL"
+		(property "Part No." "603-RT1206FRE0768KL"
 			(at 292.1 50.8 0)
 			(effects
 				(font
@@ -9757,7 +9757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C706422"
+		(property "Part URL" "https://mou.sr/44RVOdE"
 			(at 292.1 50.8 0)
 			(effects
 				(font
@@ -9766,7 +9766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 292.1 50.8 0)
 			(effects
 				(font
@@ -10197,7 +10197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:CAPC1005X61N"
 			(at 288.29 41.6052 0)
 			(effects
 				(font
@@ -10206,7 +10206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/general_purpose-3169586.pdf"
 			(at 292.1 40.64 0)
 			(effects
 				(font
@@ -10215,7 +10215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22pF 50V 0402 Multilayer Ceramic Capacitors MLCC"
+		(property "Description" ""
 			(at 292.1 40.64 0)
 			(effects
 				(font
@@ -10224,7 +10224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "GRM1555C1H220JA01D"
+		(property "Part No." "581-0402NPO220JT2AT"
 			(at 292.1 40.64 0)
 			(effects
 				(font
@@ -10233,7 +10233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C76960"
+		(property "Part URL" "https://mou.sr/4mi4xwj"
 			(at 292.1 40.64 0)
 			(effects
 				(font
@@ -10242,7 +10242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 292.1 40.64 0)
 			(effects
 				(font
@@ -10434,7 +10434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 218.44 85.852 90)
 			(effects
 				(font
@@ -10443,7 +10443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -10452,7 +10452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -10461,7 +10461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "RC1206FR-071KL"
+		(property "Part No." "603-RT1206FRE131KL"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -10470,7 +10470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C131398"
+		(property "Part URL" "https://mou.sr/43nuyld"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -10479,7 +10479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -10606,7 +10606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 107.442 133.35 90)
 			(effects
 				(font
@@ -10615,7 +10615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -10624,7 +10624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -10633,7 +10633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "1206W4F4701T5E"
+		(property "Part No." "603-RT1206FRE074K7L"
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -10642,7 +10642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4iL4mq0"
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -10651,7 +10651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -10950,6 +10950,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5b533cb4-b2aa-4ef7-99b0-ad38b8d63bdc")
 		(property "Reference" "C7"
 			(at 45.72 173.101 0)
@@ -10969,7 +10970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:CAPC2012X94N"
 			(at 42.8752 179.07 0)
 			(effects
 				(font
@@ -10987,7 +10988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF 35V 0603 Multilayer Ceramic Capacitors MLCC"
+		(property "Description" ""
 			(at 41.91 175.26 0)
 			(effects
 				(font
@@ -10996,7 +10997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "GRM188R6YA106MA73D"
+		(property "Part No." "581-08055C103K"
 			(at 41.91 175.26 0)
 			(effects
 				(font
@@ -11005,7 +11006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C194427"
+		(property "Part URL" "https://mou.sr/3RN3uWZ"
 			(at 41.91 175.26 0)
 			(effects
 				(font
@@ -11014,7 +11015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 41.91 175.26 0)
 			(effects
 				(font
@@ -11206,7 +11207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 237.49 29.972 90)
 			(effects
 				(font
@@ -11215,7 +11216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -11224,7 +11225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -11233,7 +11234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "RC1206FR-071KL"
+		(property "Part No." "603-RT1206FRE131KL"
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -11242,7 +11243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/43nuyld"
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -11251,7 +11252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -11382,7 +11383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 222.25 49.022 90)
 			(effects
 				(font
@@ -11391,7 +11392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 222.25 50.8 0)
 			(effects
 				(font
@@ -11400,7 +11401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "68kΩ 1206 250mW Thin Film Resistor 200V Resistor"
+		(property "Description" ""
 			(at 222.25 50.8 0)
 			(effects
 				(font
@@ -11409,7 +11410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "RT1206BRD0768KL"
+		(property "Part No." "603-RT1206FRE0768KL"
 			(at 222.25 50.8 0)
 			(effects
 				(font
@@ -11418,7 +11419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C706422"
+		(property "Part URL" "https://mou.sr/44RVOdE"
 			(at 222.25 50.8 0)
 			(effects
 				(font
@@ -11427,7 +11428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 222.25 50.8 0)
 			(effects
 				(font
@@ -11761,7 +11762,7 @@
 				)
 			)
 		)
-		(property "Value" "S1A"
+		(property "Value" "M1"
 			(at 35.56 165.7096 0)
 			(effects
 				(font
@@ -11769,7 +11770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Shmoergh_Custom_Footprints:DIOM5027X250N"
 			(at 35.56 168.91 0)
 			(effects
 				(font
@@ -11778,7 +11779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/s1m-d.pdf"
+		(property "Datasheet" "https://diotec.com/request/datasheet/m1.pdf"
 			(at 35.56 168.91 0)
 			(effects
 				(font
@@ -11787,7 +11788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A 50V 1.1V@1A SMA(DO-214AC) Diode"
+		(property "Description" ""
 			(at 35.56 168.91 0)
 			(effects
 				(font
@@ -11796,7 +11797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "S1A"
+		(property "Part No." "637-M1"
 			(at 35.56 168.91 0)
 			(effects
 				(font
@@ -11805,7 +11806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C232824"
+		(property "Part URL" "https://mou.sr/3sutOw1"
 			(at 35.56 168.91 0)
 			(effects
 				(font
@@ -11814,7 +11815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 35.56 168.91 0)
 			(effects
 				(font
@@ -11878,7 +11879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:CAPC1005X61N"
 			(at 218.44 41.6052 0)
 			(effects
 				(font
@@ -11887,7 +11888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/general_purpose-3169586.pdf"
 			(at 222.25 40.64 0)
 			(effects
 				(font
@@ -11896,7 +11897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22pF 50V 0402 Multilayer Ceramic Capacitors MLCC"
+		(property "Description" ""
 			(at 222.25 40.64 0)
 			(effects
 				(font
@@ -11905,7 +11906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "GRM1555C1H220JA01D"
+		(property "Part No." "581-0402NPO220JT2AT"
 			(at 222.25 40.64 0)
 			(effects
 				(font
@@ -11914,7 +11915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C76960"
+		(property "Part URL" "https://mou.sr/4mi4xwj"
 			(at 222.25 40.64 0)
 			(effects
 				(font
@@ -11923,7 +11924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 222.25 40.64 0)
 			(effects
 				(font
@@ -12202,7 +12203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF 50V 1206 Multilayer Ceramic Capacitors MLCC"
+		(property "Description" ""
 			(at 224.79 95.25 0)
 			(effects
 				(font
@@ -12220,7 +12221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C1848"
+		(property "Part URL" ""
 			(at 224.79 95.25 0)
 			(effects
 				(font
@@ -12485,7 +12486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 251.46 97.282 90)
 			(effects
 				(font
@@ -12494,7 +12495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -12503,7 +12504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "51kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -12512,7 +12513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "RC1206FR-0751KL"
+		(property "Part No." "603-RT1206FRE0751KL"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -12521,7 +12522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C114947"
+		(property "Part URL" "https://mou.sr/4jUWmDO"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -12530,7 +12531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -12663,7 +12664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:CAPC1005X71N"
 			(at 194.0052 181.61 0)
 			(effects
 				(font
@@ -12672,7 +12673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 193.04 177.8 0)
 			(effects
 				(font
@@ -12681,7 +12682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 50V 0603 Multilayer Ceramic Capacitors MLCC"
+		(property "Description" ""
 			(at 193.04 177.8 0)
 			(effects
 				(font
@@ -12690,7 +12691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "CL10B104KB8NNNC"
+		(property "Part No." "581-04025C104KAT4A"
 			(at 193.04 177.8 0)
 			(effects
 				(font
@@ -12699,7 +12700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C1591"
+		(property "Part URL" "https://mou.sr/3YsdWXH"
 			(at 193.04 177.8 0)
 			(effects
 				(font
@@ -12708,7 +12709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 193.04 177.8 0)
 			(effects
 				(font
@@ -12969,7 +12970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 271.272 48.26 90)
 			(effects
 				(font
@@ -12978,7 +12979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 273.05 48.26 0)
 			(effects
 				(font
@@ -12987,7 +12988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 273.05 48.26 0)
 			(effects
 				(font
@@ -13005,7 +13006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C25833"
+		(property "Part URL" "https://mou.sr/43e4fPd"
 			(at 273.05 48.26 0)
 			(effects
 				(font
@@ -13014,7 +13015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 273.05 48.26 0)
 			(effects
 				(font
@@ -13072,7 +13073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 270.51 88.392 90)
 			(effects
 				(font
@@ -13081,7 +13082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 270.51 90.17 0)
 			(effects
 				(font
@@ -13090,7 +13091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 270.51 90.17 0)
 			(effects
 				(font
@@ -13099,7 +13100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "RC1206FR-071KL"
+		(property "Part No." "603-RT1206FRE131KL"
 			(at 270.51 90.17 0)
 			(effects
 				(font
@@ -13108,7 +13109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/43nuyld"
 			(at 270.51 90.17 0)
 			(effects
 				(font
@@ -13117,7 +13118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 270.51 90.17 0)
 			(effects
 				(font
@@ -13934,7 +13935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:CAPC1005X61N"
 			(at 247.65 153.3652 0)
 			(effects
 				(font
@@ -13943,7 +13944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/general_purpose-3169586.pdf"
 			(at 251.46 152.4 0)
 			(effects
 				(font
@@ -13952,7 +13953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22pF 50V 0402 Multilayer Ceramic Capacitors MLCC"
+		(property "Description" ""
 			(at 251.46 152.4 0)
 			(effects
 				(font
@@ -13961,7 +13962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "GRM1555C1H220JA01D"
+		(property "Part No." "581-0402NPO220JT2AT"
 			(at 251.46 152.4 0)
 			(effects
 				(font
@@ -13970,7 +13971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C76960"
+		(property "Part URL" "https://mou.sr/4mi4xwj"
 			(at 251.46 152.4 0)
 			(effects
 				(font
@@ -13979,7 +13980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 251.46 152.4 0)
 			(effects
 				(font
@@ -14037,7 +14038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 251.46 141.732 90)
 			(effects
 				(font
@@ -14046,7 +14047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -14055,7 +14056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "51kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -14064,7 +14065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "RC1206FR-0751KL"
+		(property "Part No." "603-RT1206FRE0751KL"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -14073,7 +14074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C114947"
+		(property "Part URL" "https://mou.sr/4jUWmDO"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -14082,7 +14083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -14140,7 +14141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 270.51 132.842 90)
 			(effects
 				(font
@@ -14149,7 +14150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 270.51 134.62 0)
 			(effects
 				(font
@@ -14158,7 +14159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 270.51 134.62 0)
 			(effects
 				(font
@@ -14167,7 +14168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "RC1206FR-071KL"
+		(property "Part No." "603-RT1206FRE131KL"
 			(at 270.51 134.62 0)
 			(effects
 				(font
@@ -14176,7 +14177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/43nuyld"
 			(at 270.51 134.62 0)
 			(effects
 				(font
@@ -14185,7 +14186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Mouser"
 			(at 270.51 134.62 0)
 			(effects
 				(font
@@ -14830,7 +14831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uF 50V 1206 Multilayer Ceramic Capacitors MLCC"
+		(property "Description" ""
 			(at 224.79 139.7 0)
 			(effects
 				(font
@@ -14848,7 +14849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C1848"
+		(property "Part URL" ""
 			(at 224.79 139.7 0)
 			(effects
 				(font
@@ -14982,7 +14983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:CAPC1005X61N"
 			(at 247.65 108.9152 0)
 			(effects
 				(font
@@ -15000,7 +15001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22pF 50V 0402 Multilayer Ceramic Capacitors MLCC"
+		(property "Description" ""
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -15009,7 +15010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "GRM1555C1H220JA01D"
+		(property "Part No." "581-0402NPO220JT2AT"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -15018,7 +15019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C76960"
+		(property "Part URL" "https://mou.sr/4mi4xwj"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -15027,7 +15028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -15412,7 +15413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 218.44 130.302 90)
 			(effects
 				(font
@@ -15421,7 +15422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -15430,7 +15431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -15439,7 +15440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "RC1206FR-071KL"
+		(property "Part No." "603-RT1206FRE131KL"
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -15448,7 +15449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C131398"
+		(property "Part URL" "https://mou.sr/43nuyld"
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -15457,7 +15458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -15582,7 +15583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 307.34 29.972 90)
 			(effects
 				(font
@@ -15591,7 +15592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 307.34 31.75 0)
 			(effects
 				(font
@@ -15600,7 +15601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 307.34 31.75 0)
 			(effects
 				(font
@@ -15609,7 +15610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "RC1206FR-071KL"
+		(property "Part No." "603-RT1206FRE131KL"
 			(at 307.34 31.75 0)
 			(effects
 				(font
@@ -15618,7 +15619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/43nuyld"
 			(at 307.34 31.75 0)
 			(effects
 				(font
@@ -15627,7 +15628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 307.34 31.75 0)
 			(effects
 				(font
@@ -15860,7 +15861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:CAPC1005X71N"
 			(at 94.9452 179.07 0)
 			(effects
 				(font
@@ -15878,7 +15879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 50V 0603 Multilayer Ceramic Capacitors MLCC"
+		(property "Description" ""
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -15887,7 +15888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "CL10B104KB8NNNC"
+		(property "Part No." "581-04025C104KAT4A"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -15896,7 +15897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C1591"
+		(property "Part URL" "https://mou.sr/3YsdWXH"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -15905,7 +15906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -15971,7 +15972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 158.242 88.9 90)
 			(effects
 				(font
@@ -15980,7 +15981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -15989,7 +15990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "470Ω 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -15998,7 +15999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "RC1206FR-07470RL"
+		(property "Part No." "603-RT1206FRE07470RL"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -16007,7 +16008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C114945"
+		(property "Part URL" "https://mou.sr/3Z1Vh57"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -16016,7 +16017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -16082,7 +16083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 147.32 100.838 90)
 			(effects
 				(font
@@ -16091,7 +16092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -16100,7 +16101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -16109,7 +16110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "AC1206FR-0710KL"
+		(property "Part No." "603-RT1206FRE1310KL"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -16118,7 +16119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C144520"
+		(property "Part URL" "https://mou.sr/4jFsUCk"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -16127,7 +16128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -16193,7 +16194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 229.362 106.68 90)
 			(effects
 				(font
@@ -16202,7 +16203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -16211,7 +16212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100kΩ 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -16220,7 +16221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "1206W4F1003T5E"
+		(property "Part No." "603-RT1206FRE07100KL"
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -16229,7 +16230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C17900"
+		(property "Part URL" "https://mou.sr/4gCb2WS"
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -16238,7 +16239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -16304,7 +16305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:CAPC1005X71N"
 			(at 182.5752 181.61 0)
 			(effects
 				(font
@@ -16313,7 +16314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 181.61 177.8 0)
 			(effects
 				(font
@@ -16322,7 +16323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 50V 0603 Multilayer Ceramic Capacitors MLCC"
+		(property "Description" ""
 			(at 181.61 177.8 0)
 			(effects
 				(font
@@ -16331,7 +16332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "CL10B104KB8NNNC"
+		(property "Part No." "581-04025C104KAT4A"
 			(at 181.61 177.8 0)
 			(effects
 				(font
@@ -16340,7 +16341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://jlcpcb.com/partdetail/C1591"
+		(property "Part URL" "https://mou.sr/3YsdWXH"
 			(at 181.61 177.8 0)
 			(effects
 				(font
@@ -16349,7 +16350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 181.61 177.8 0)
 			(effects
 				(font
@@ -16536,7 +16537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Shmoergh_Custom_Footprints:RESC3116X65N"
 			(at 62.23 120.142 90)
 			(effects
 				(font
@@ -16545,7 +16546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -16554,7 +16555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220Ω 1206 250mW Thick Film Resistors 200V Resistor"
+		(property "Description" ""
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -16563,7 +16564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "1206W4J0221T5E"
+		(property "Part No." "603-RT1206FRE07220RL"
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -16572,7 +16573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" ""
+		(property "Part URL" "https://mou.sr/4mi3dcP"
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -16581,7 +16582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "JLCPCB"
+		(property "Vendor" "Mouser"
 			(at 62.23 121.92 0)
 			(effects
 				(font
