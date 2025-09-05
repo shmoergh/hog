@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MMBT3904LP-7
+D Bipolar Transistors - BJT NPN SM SIG 60V VCBO 40V VCEO 6.0 VEBO
+K
+F https://www.diodes.com//assets/Datasheets/ds31835.pdf
+$ENDCMP
+#
+#End Doc Library

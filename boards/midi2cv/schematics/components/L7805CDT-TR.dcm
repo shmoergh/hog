@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L7805CDT-TR
+D Linear Voltage Regulators 5.0V 1.0A Positive
+K
+F https://componentsearchengine.com/Datasheets/2/L7805CDT-TR.pdf
+$ENDCMP
+#
+#End Doc Library

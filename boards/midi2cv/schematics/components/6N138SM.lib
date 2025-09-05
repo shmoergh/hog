@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 6N138SM
+#/16095109/253071/2.50/8/2/Phototransistor
+DEF 6N138SM Q 0 30 Y Y 1 F N
+F0 "Q" 950 300 50 H V L CNN
+F1 "6N138SM" 950 200 50 H V L CNN
+F2 "SOP254P1030X508-8N" 950 100 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/HCPL2731M-D.PDF" 950 0 50 H I L CNN
+F4 "VDE recognition (pending)  Ordering option V, e.g., 6N138VM ; Superior CTR-2000%; CTR guaranteed 070C; Superior CMR-10kV/s ; U.L. recognized (File # E90700, Vol. 2) ; Low current  0.5mA ; Dual Channel  HCPL2730M, HCPL2731M (coming soon)" 950 -100 50 H I L CNN "Description"
+F5 "5.08" 950 -200 50 H I L CNN "Height"
+F6 "onsemi" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "6N138SM" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "512-6N138SM" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/6N138SM?qs=wuRI32rFNSGzC7v3bZoRig%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "6N138SM" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/6n138sm/on-semiconductor?utm_currency=USD&region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X N/C_1 1 0 0 200 R 50 50 0 0 P
+X VF+ 2 0 -100 200 R 50 50 0 0 P
+X VF- 3 0 -200 200 R 50 50 0 0 P
+X N/C_2 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1100 0 200 L 50 50 0 0 P
+X VB 7 1100 -100 200 L 50 50 0 0 P
+X VO 6 1100 -200 200 L 50 50 0 0 P
+X GND 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

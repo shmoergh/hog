@@ -1,15 +1,19 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "03511da7-c2b3-499d-90b2-98ae4b6cdf64")
 	(paper "User" 350 210)
 	(lib_symbols
 		(symbol "+12V_1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,7 +85,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -93,7 +97,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -124,12 +128,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "+3.3V_1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -201,7 +210,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -213,7 +222,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -244,12 +253,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "+5V_1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -321,7 +335,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -333,7 +347,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -364,6 +378,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Amplifier_Operational:LM358"
 			(pin_names
@@ -456,17 +471,17 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -492,17 +507,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -581,24 +596,6 @@
 			)
 			(symbol "LM358_3_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -616,7 +613,26 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Analog_DAC:MCP4822"
 			(pin_names
@@ -691,6 +707,18 @@
 			(symbol "MCP4822_0_0"
 				(polyline
 					(pts
+						(xy 0 -0.889) (xy 0.508 -1.397) (xy -0.508 -1.397) (xy 0 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0 -1.778) (xy 0 -0.635)
 					)
 					(stroke
@@ -715,7 +743,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.143) (xy 2.286 -1.905)
+						(xy 0.381 -0.889) (xy -0.381 -0.889) (xy -0.508 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -725,10 +753,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.381 -0.889) (xy -0.381 -0.889) (xy -0.508 -1.016)
-					)
+				(rectangle
+					(start 0.762 -0.381)
+					(end -0.762 -2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -751,19 +778,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.889) (xy 0.508 -1.397) (xy -0.508 -1.397) (xy 0 -0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -3.81) (xy 9.525 -3.81) (xy 9.525 -5.08) (xy 10.16 -5.08)
+						(xy 2.286 -1.143) (xy 2.286 -1.905)
 					)
 					(stroke
 						(width 0)
@@ -785,9 +800,10 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.762 -0.381)
-					(end -0.762 -2.032)
+				(polyline
+					(pts
+						(xy 6.985 -3.81) (xy 9.525 -3.81) (xy 9.525 -5.08) (xy 10.16 -5.08)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -806,7 +822,7 @@
 					)
 				)
 				(text "DAC"
-					(at 3.81 -3.81 0)
+					(at 3.81 1.27 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -814,7 +830,7 @@
 					)
 				)
 				(text "DAC"
-					(at 3.81 1.27 0)
+					(at 3.81 -3.81 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -847,18 +863,6 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -3.81) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.27 1.27) (xy -1.27 1.27)
 					)
 					(stroke
@@ -871,7 +875,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.985 -3.81) (xy 5.715 -1.905) (xy 1.27 -1.905) (xy 1.27 -5.715) (xy 5.715 -5.715) (xy 6.985 -3.81)
+						(xy 1.27 -3.81) (xy -1.27 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -893,44 +897,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 6.985 -3.81) (xy 5.715 -1.905) (xy 1.27 -1.905) (xy 1.27 -5.715) (xy 5.715 -5.715) (xy 6.985 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "MCP4822_1_1"
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "Vdd"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input clock
 					(at -12.7 2.54 0)
 					(length 2.54)
@@ -942,6 +922,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "~{LDAC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -968,16 +966,16 @@
 					)
 				)
 				(pin input line
-					(at -12.7 0 0)
+					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "~{LDAC}"
+					(name "~{CS}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -985,17 +983,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 -5.08 180)
+				(pin power_in line
+					(at 0 10.16 270)
 					(length 2.54)
-					(name "VB"
+					(name "Vdd"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1039,7 +1037,26 @@
 						)
 					)
 				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "VB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:DIN-5_180degree"
 			(pin_names
@@ -1110,12 +1127,24 @@
 				)
 			)
 			(symbol "DIN-5_180degree_0_1"
-				(arc
-					(start -5.08 0)
-					(mid -3.8609 -3.3364)
-					(end -0.762 -5.08)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -4.318 2.54) (xy -2.794 2.286)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.556 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1146,10 +1175,22 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 0) (xy -3.556 0)
+						(xy -0.762 -4.953) (xy -0.762 -4.191) (xy 0.762 -4.191) (xy 0.762 -4.953)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.8673 -3.3444)
+					(end 0.762 -5.08)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1168,54 +1209,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.556 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -4.318 2.54) (xy -2.794 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 4.318 2.54) (xy 2.794 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -4.953) (xy -0.762 -4.191) (xy 0.762 -4.191) (xy 0.762 -4.953)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 0 3.302)
 					(radius 0.508)
@@ -1228,9 +1221,21 @@
 					)
 				)
 				(arc
-					(start 0.762 -5.08)
-					(mid 3.8685 -3.343)
+					(start -5.08 0)
+					(mid 0 5.0579)
 					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.762 -5.08)
+					(mid -3.8597 -3.3379)
+					(end -5.08 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1261,12 +1266,24 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 5.08 0)
-					(mid 0 5.0579)
-					(end -5.08 0)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 2.794 2.286)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1275,6 +1292,24 @@
 				)
 			)
 			(symbol "DIN-5_180degree_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1312,42 +1347,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "~"
@@ -1365,11 +1364,32 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1436,14 +1456,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -1458,14 +1478,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -1505,10 +1525,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1575,19 +1598,19 @@
 			)
 			(symbol "Conn_01x04_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1608,8 +1631,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1619,14 +1642,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -1702,10 +1725,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1772,41 +1798,19 @@
 			)
 			(symbol "Conn_01x06_1_1"
 				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1827,8 +1831,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1838,14 +1842,36 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -1957,9 +1983,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -2032,7 +2061,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -2044,7 +2073,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -2093,9 +2122,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -2251,11 +2283,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2353,10 +2390,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2365,10 +2402,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2414,11 +2451,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2486,10 +2528,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2510,7 +2564,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2522,22 +2576,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2583,9 +2625,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -2704,12 +2749,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2800,12 +2850,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_2"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2896,10 +2951,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Isolator:6N138"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2978,166 +3036,22 @@
 				)
 				(polyline
 					(pts
-						(xy -4.572 -0.635) (xy -3.302 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 -0.635) (xy -0.381 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -2.667) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -2.413) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 3.175 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.429 -3.937) (xy 4.572 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.429 -3.683) (xy 4.572 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -1.524) (xy 1.397 -3.556) (xy 1.397 -3.556)
-					)
-					(stroke
-						(width 0.3556)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 2.54 5.08) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.429 -2.794) (xy 3.429 -4.826) (xy 3.429 -4.826)
-					)
-					(stroke
-						(width 0.3556)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.048 2.54) (xy 3.048 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -5.08 -2.54) (xy -3.937 -2.54) (xy -3.937 2.54) (xy -5.08 2.54)
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 -0.635) (xy -3.302 -0.635)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3158,43 +3072,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 -0.635) (xy 0.889 -1.905) (xy -0.381 -1.905) (xy 0.254 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.254 -2.54) (xy 0.254 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.413 -3.683) (xy 2.159 -3.175) (xy 1.905 -3.429) (xy 2.413 -3.683)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -4.953) (xy 4.191 -4.445) (xy 3.937 -4.699) (xy 4.445 -4.953)
+						(xy -2.794 0.508) (xy -1.524 0.508) (xy -1.905 0.381) (xy -1.905 0.635) (xy -1.524 0.508)
 					)
 					(stroke
 						(width 0)
@@ -3218,7 +3096,187 @@
 				)
 				(polyline
 					(pts
-						(xy -2.794 0.508) (xy -1.524 0.508) (xy -1.905 0.381) (xy -1.905 0.635) (xy -1.524 0.508)
+						(xy 0.254 -0.635) (xy 0.889 -1.905) (xy -0.381 -1.905) (xy 0.254 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 -0.635) (xy -0.381 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.254 -2.54) (xy 0.254 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -1.524) (xy 1.397 -3.556) (xy 1.397 -3.556)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.413) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.667) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -3.683) (xy 2.159 -3.175) (xy 1.905 -3.429) (xy 2.413 -3.683)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 3.175 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.429 -2.794) (xy 3.429 -4.826) (xy 3.429 -4.826)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.429 -3.683) (xy 4.572 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.429 -3.937) (xy 4.572 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -4.953) (xy 4.191 -4.445) (xy 3.937 -4.699) (xy 4.445 -4.953)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.048 2.54) (xy 3.048 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -3230,24 +3288,6 @@
 				)
 			)
 			(symbol "6N138_1_1"
-				(pin no_connect line
-					(at -5.08 5.08 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -3285,8 +3325,28 @@
 					)
 				)
 				(pin no_connect line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
 					(at -5.08 -5.08 0)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -3303,34 +3363,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 5.08 180)
 					(length 2.54)
-					(name "GND"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "VO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3357,16 +3399,34 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "VCC"
+					(name "VO2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3375,10 +3435,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Jumper:Jumper_2_Open"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3469,9 +3532,9 @@
 			)
 			(symbol "Jumper_2_Open_0_1"
 				(arc
-					(start 1.524 1.27)
+					(start -1.524 1.27)
 					(mid 0 1.778)
-					(end -1.524 1.27)
+					(end 1.524 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -3519,6 +3582,213 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "L7805CDT-TR:L7805CDT-TR"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 15.24 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L7805CDT-TR"
+				(at 15.24 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "L7805CDTTR"
+				(at 26.67 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/L7805CDT-TR.pdf"
+				(at 26.67 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Linear Voltage Regulators 5.0V 1.0A Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Linear Voltage Regulators 5.0V 1.0A Positive"
+				(at 26.67 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.63"
+				(at 26.67 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 26.67 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "L7805CDT-TR"
+				(at 26.67 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-L7805CDT-TR"
+				(at 26.67 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7805CDT-TR?qs=gq%2F78KzUDX67VndS%2FbSB4Q%3D%3D"
+				(at 26.67 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "L7805CDT-TR"
+				(at 26.67 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/l7805cdt-tr/stmicroelectronics?utm_currency=USD&region=europe"
+				(at 26.67 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "L7805CDT-TR_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "INPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "L7805CDT-TR_1_0"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "L7805CDT-TR_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 25.4 2.54) (xy 25.4 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "MCU_RaspberryPi_and_Boards:Pico"
 			(exclude_from_sim no)
@@ -3602,6 +3872,150 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 21.59 0)
+					(length 2.54)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 19.05 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 16.51 0)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 13.97 0)
+					(length 2.54)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 11.43 0)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 8.89 0)
+					(length 2.54)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 3.81 0)
+					(length 2.54)
+					(name "GPIO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3790,24 +4204,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 21.59 0)
-					(length 2.54)
-					(name "GPIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -17.78 -24.13 0)
 					(length 2.54)
 					(name "GPIO15"
@@ -3818,402 +4214,6 @@
 						)
 					)
 					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -24.13 180)
-					(length 2.54)
-					(name "GPIO16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -21.59 180)
-					(length 2.54)
-					(name "GPIO17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -19.05 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -16.51 180)
-					(length 2.54)
-					(name "GPIO18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -13.97 180)
-					(length 2.54)
-					(name "GPIO19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -11.43 180)
-					(length 2.54)
-					(name "GPIO20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -8.89 180)
-					(length 2.54)
-					(name "GPIO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -6.35 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -3.81 180)
-					(length 2.54)
-					(name "GPIO22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 19.05 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -1.27 180)
-					(length 2.54)
-					(name "RUN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 1.27 180)
-					(length 2.54)
-					(name "GPIO26_ADC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 3.81 180)
-					(length 2.54)
-					(name "GPIO27_ADC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 6.35 180)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 8.89 180)
-					(length 2.54)
-					(name "GPIO28_ADC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 11.43 180)
-					(length 2.54)
-					(name "ADC_VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 13.97 180)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 16.51 180)
-					(length 2.54)
-					(name "3V3_EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 19.05 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 21.59 180)
-					(length 2.54)
-					(name "VSYS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 16.51 0)
-					(length 2.54)
-					(name "GPIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 24.13 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4275,53 +4275,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -17.78 13.97 0)
+				(pin power_in line
+					(at 17.78 24.13 180)
 					(length 2.54)
-					(name "GPIO3"
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 11.43 0)
-					(length 2.54)
-					(name "GPIO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 8.89 0)
-					(length 2.54)
-					(name "GPIO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "40"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4330,16 +4294,16 @@
 					)
 				)
 				(pin power_in line
-					(at -17.78 6.35 0)
+					(at 17.78 21.59 180)
 					(length 2.54)
-					(name "GND"
+					(name "VSYS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "39"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4348,16 +4312,322 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 3.81 0)
+					(at 17.78 19.05 180)
 					(length 2.54)
-					(name "GPIO6"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 16.51 180)
+					(length 2.54)
+					(name "3V3_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 13.97 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 11.43 180)
+					(length 2.54)
+					(name "ADC_VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 8.89 180)
+					(length 2.54)
+					(name "GPIO28_ADC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 6.35 180)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 3.81 180)
+					(length 2.54)
+					(name "GPIO27_ADC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 1.27 180)
+					(length 2.54)
+					(name "GPIO26_ADC0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -1.27 180)
+					(length 2.54)
+					(name "RUN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -3.81 180)
+					(length 2.54)
+					(name "GPIO22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -8.89 180)
+					(length 2.54)
+					(name "GPIO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -11.43 180)
+					(length 2.54)
+					(name "GPIO20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -13.97 180)
+					(length 2.54)
+					(name "GPIO19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -16.51 180)
+					(length 2.54)
+					(name "GPIO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -19.05 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -21.59 180)
+					(length 2.54)
+					(name "GPIO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -24.13 180)
+					(length 2.54)
+					(name "GPIO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4366,6 +4636,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -4448,12 +4719,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PWR_FLAG_1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4544,150 +4820,13 @@
 					)
 				)
 			)
-		)
-		(symbol "Regulator_Linear:LM7805_TO220"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM7805_TO220"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1A Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM7805_TO220_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM7805_TO220_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:2N3904"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4760,6 +4899,18 @@
 			(symbol "2N3904_0_1"
 				(polyline
 					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
@@ -4782,12 +4933,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4806,37 +4956,8 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "2N3904_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 5.715)
@@ -4873,13 +4994,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4951,7 +5095,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4963,7 +5107,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4994,12 +5138,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5090,7 +5239,111 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(arc
+		(start 246.38 66.04)
+		(mid 231.9478 65.3225)
+		(end 222.25 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0be0fe15-f3d1-488c-b87a-4ad6ec06d8eb)
+	)
+	(text "This LED is on the UI board\nhere it's just for illustration."
+		(exclude_from_sim no)
+		(at 165.608 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07366f2a-983b-4824-9a12-c497993fe293")
+	)
+	(text "When flashing programs to MCU, this \njumper MUST BE disconnected. The \nMCU should receive its power from \nthe SWD device (another RPi Pico, \nPicoprobe)."
+		(exclude_from_sim no)
+		(at 57.15 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0baf147f-473f-4d11-9abd-eb91b60fdcef")
+	)
+	(text "Convert 0-4095mV to \nabout 0-10V range"
+		(exclude_from_sim no)
+		(at 295.91 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18c676eb-b750-4afd-a705-43d4d33836cf")
+	)
+	(text "Amplification\n3.3V to 5V -> R7=51k\n3.3V to 8.25V -> R7=130k"
+		(exclude_from_sim no)
+		(at 268.732 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d990985-4f01-4405-b1bc-a3372d4520f5")
+	)
+	(text "Amplify 3.3V to 5V"
+		(exclude_from_sim no)
+		(at 240.03 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0071b57-6840-4851-b65f-0fdf2327a3e1")
+	)
+	(text "Convert 0-4095mV to \nabout 0-10V range"
+		(exclude_from_sim no)
+		(at 226.06 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b64bd6a2-4a56-4fa1-9ca9-15b3e72100fe")
+	)
+	(text "Calibration\n————————\nThe max output of the DAC is 4095mV. At this point the CV output \nshould be 10000mV (10V) to cover the 10 octave range. This is an \namplification of A = 10000 / 4095 = 2.442. This op-amp configuration \nprovides a fairly close amplification to this depending on the \naccuracy of R1, R2 and R3.\n\nTo further refine the output use the firmware calibration."
+		(exclude_from_sim no)
+		(at 247.904 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8b8aaa0-a9f1-4949-bbff-55d65ceb0517")
+	)
+	(text "Amplification\n3.3V to 5V -> R18=51k\n3.3V to 8.25V -> R18=130k"
+		(exclude_from_sim no)
+		(at 271.018 146.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8edfb3b-7bf6-4210-bacd-eb027580dc97")
 	)
 	(junction
 		(at 224.79 132.08)
@@ -5129,16 +5382,16 @@
 		(uuid "3c3c68e4-7592-4aef-aa76-164363202198")
 	)
 	(junction
-		(at 93.98 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f0a4f8f-ab31-44d7-be00-2346e2e0fa25")
-	)
-	(junction
 		(at 231.14 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44a33e3f-b3ec-4d6c-a0d6-29073ae12a67")
+	)
+	(junction
+		(at 93.98 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bbac29f-fc49-4e52-89da-57936e6904a7")
 	)
 	(junction
 		(at 238.76 99.06)
@@ -5171,7 +5424,7 @@
 		(uuid "6372f607-8d72-450a-aa09-2a532827b9e4")
 	)
 	(junction
-		(at 68.58 168.91)
+		(at 50.8 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "661d1fcb-9d5e-4205-94df-1adf2e651f8a")
@@ -5219,12 +5472,6 @@
 		(uuid "8b5b30c0-3a91-4a05-860c-acb648489b19")
 	)
 	(junction
-		(at 82.55 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "908a0297-4ccd-4cb1-af14-d9275cfa7ed7")
-	)
-	(junction
 		(at 69.85 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5237,7 +5484,7 @@
 		(uuid "988c3a6c-302b-4d0a-8ab1-1c24325d07cd")
 	)
 	(junction
-		(at 68.58 181.61)
+		(at 50.8 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1c79194-134c-473c-b490-680f0eae9826")
@@ -5255,7 +5502,7 @@
 		(uuid "b004d137-318c-4202-9a81-3b4ec77de2f2")
 	)
 	(junction
-		(at 59.69 168.91)
+		(at 41.91 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfaa620b-975d-4aa2-9aed-73678204d0b6")
@@ -5301,6 +5548,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f12d17a7-479b-4fd2-8250-96612873de2b")
+	)
+	(junction
+		(at 60.96 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f242c274-0c4e-47cb-b4b3-4ae29894fcd0")
 	)
 	(junction
 		(at 114.3 127)
@@ -5444,16 +5697,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 181.61) (xy 82.55 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d525cb0-c665-4a4e-858a-f920bca807b2")
-	)
-	(wire
-		(pts
 			(xy 224.79 143.51) (xy 224.79 146.05)
 		)
 		(stroke
@@ -5504,13 +5747,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 171.45) (xy 59.69 168.91)
+			(xy 41.91 171.45) (xy 41.91 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1041e259-a77f-4761-a1d7-3f4f1e9fd3b2")
+	)
+	(wire
+		(pts
+			(xy 60.96 181.61) (xy 93.98 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1078e10a-1b09-4ab4-af46-3527066709b4")
 	)
 	(wire
 		(pts
@@ -5694,7 +5947,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 179.07) (xy 59.69 181.61)
+			(xy 41.91 179.07) (xy 41.91 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5824,7 +6077,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 168.91) (xy 74.93 168.91)
+			(xy 50.8 168.91) (xy 60.96 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5854,7 +6107,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 181.61) (xy 93.98 181.61)
+			(xy 50.8 181.61) (xy 60.96 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6044,7 +6297,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 168.91) (xy 68.58 168.91)
+			(xy 41.91 168.91) (xy 50.8 168.91)
 		)
 		(stroke
 			(width 0)
@@ -6214,6 +6467,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 168.91) (xy 93.98 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6888271a-020b-46cc-9528-042e4842f5d7")
+	)
+	(wire
+		(pts
 			(xy 238.76 92.71) (xy 238.76 99.06)
 		)
 		(stroke
@@ -6284,7 +6547,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 168.91) (xy 59.69 168.91)
+			(xy 39.37 168.91) (xy 41.91 168.91)
 		)
 		(stroke
 			(width 0)
@@ -6594,6 +6857,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 171.45) (xy 60.96 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbedf7b-6f25-4d98-ab01-67ce612ec0b2")
+	)
+	(wire
+		(pts
 			(xy 35.56 132.08) (xy 69.85 132.08)
 		)
 		(stroke
@@ -6704,7 +6977,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 184.15) (xy 68.58 181.61)
+			(xy 50.8 184.15) (xy 50.8 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6814,16 +7087,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 168.91) (xy 93.98 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1e067b0-d282-46f4-b8ec-36335dd68a0c")
-	)
-	(wire
-		(pts
 			(xy 148.59 55.88) (xy 163.83 55.88)
 		)
 		(stroke
@@ -6864,7 +7127,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 171.45) (xy 68.58 168.91)
+			(xy 50.8 171.45) (xy 50.8 168.91)
 		)
 		(stroke
 			(width 0)
@@ -6894,7 +7157,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 166.37) (xy 40.64 168.91)
+			(xy 22.86 166.37) (xy 22.86 168.91)
 		)
 		(stroke
 			(width 0)
@@ -7064,7 +7327,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 181.61) (xy 68.58 179.07)
+			(xy 50.8 181.61) (xy 50.8 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7124,7 +7387,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 168.91) (xy 49.53 168.91)
+			(xy 22.86 168.91) (xy 31.75 168.91)
 		)
 		(stroke
 			(width 0)
@@ -7214,7 +7477,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 181.61) (xy 68.58 181.61)
+			(xy 41.91 181.61) (xy 50.8 181.61)
 		)
 		(stroke
 			(width 0)
@@ -7484,16 +7747,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 176.53) (xy 82.55 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff2f3162-dc82-4f77-bc55-51f167861879")
-	)
-	(wire
-		(pts
 			(xy 95.25 168.91) (xy 93.98 168.91)
 		)
 		(stroke
@@ -7501,109 +7754,6 @@
 			(type default)
 		)
 		(uuid "ffde0ae8-3cda-401c-9a61-33e42e88f777")
-	)
-	(arc
-		(start 246.38 66.04)
-		(mid 231.9478 65.3225)
-		(end 222.25 54.61)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0be0fe15-f3d1-488c-b87a-4ad6ec06d8eb)
-	)
-	(text "This LED is on the UI board\nhere it's just for illustration."
-		(exclude_from_sim no)
-		(at 165.608 72.644 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07366f2a-983b-4824-9a12-c497993fe293")
-	)
-	(text "When flashing programs to MCU, this \njumper MUST BE disconnected. The \nMCU should receive its power from \nthe SWD device (another RPi Pico, \nPicoprobe)."
-		(exclude_from_sim no)
-		(at 57.15 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "0baf147f-473f-4d11-9abd-eb91b60fdcef")
-	)
-	(text "Convert 0-4095mV to \nabout 0-10V range"
-		(exclude_from_sim no)
-		(at 295.91 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18c676eb-b750-4afd-a705-43d4d33836cf")
-	)
-	(text "Amplification\n3.3V to 5V -> R7=51k\n3.3V to 8.25V -> R7=130k"
-		(exclude_from_sim no)
-		(at 268.732 107.696 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d990985-4f01-4405-b1bc-a3372d4520f5")
-	)
-	(text "Amplify 3.3V to 5V"
-		(exclude_from_sim no)
-		(at 240.03 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0071b57-6840-4851-b65f-0fdf2327a3e1")
-	)
-	(text "Convert 0-4095mV to \nabout 0-10V range"
-		(exclude_from_sim no)
-		(at 226.06 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b64bd6a2-4a56-4fa1-9ca9-15b3e72100fe")
-	)
-	(text "Calibration\n————————\nThe max output of the DAC is 4095mV. At this point the CV output \nshould be 10000mV (10V) to cover the 10 octave range. This is an \namplification of A = 10000 / 4095 = 2.442. This op-amp configuration \nprovides a fairly close amplification to this depending on the \naccuracy of R1, R2 and R3.\n\nTo further refine the output use the firmware calibration."
-		(exclude_from_sim no)
-		(at 247.904 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8b8aaa0-a9f1-4949-bbff-55d65ceb0517")
-	)
-	(text "Amplification\n3.3V to 5V -> R18=51k\n3.3V to 8.25V -> R18=130k"
-		(exclude_from_sim no)
-		(at 271.018 146.558 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f8edfb3b-7bf6-4210-bacd-eb027580dc97")
 	)
 	(global_label "PITCH_B"
 		(shape input)
@@ -8438,7 +8588,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 175.26 0)
+		(at 50.8 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8446,7 +8596,7 @@
 		(dnp no)
 		(uuid "06db7213-b23a-4067-b1f3-1e5faf663118")
 		(property "Reference" "C2"
-			(at 71.501 174.0916 0)
+			(at 53.721 174.0916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8605,7 @@
 			)
 		)
 		(property "Value" "330n"
-			(at 71.501 176.403 0)
+			(at 53.721 176.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,8 +8613,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 69.5452 179.07 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 51.7652 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,8 +8622,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 68.58 175.26 0)
+		(property "Datasheet" ""
+			(at 50.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8481,8 +8631,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 175.26 0)
+		(property "Description" "330nF 50V 0805 Multilayer Ceramic Capacitors MLCC"
+			(at 50.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,8 +8640,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "810-FA14X7R1H334KNU6 "
-			(at 68.58 175.26 0)
+		(property "Part No." "CL21B334KBFNNNE"
+			(at 50.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,8 +8649,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4gDlMo9"
-			(at 68.58 175.26 0)
+		(property "Part URL" "https://jlcpcb.com/partdetail/C73142"
+			(at 50.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8508,8 +8658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
-			(at 68.58 175.26 0)
+		(property "Vendor" "JLCPCB"
+			(at 50.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8517,8 +8667,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 68.58 175.26 0)
+		(property "LCSC" "C73142"
+			(at 50.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 112.522 120.65 90)
 			(effects
 				(font
@@ -8649,7 +8799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.3 120.65 0)
 			(effects
 				(font
@@ -8658,7 +8808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "220Ω 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 114.3 120.65 0)
 			(effects
 				(font
@@ -8667,7 +8817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FTF52-220R"
+		(property "Part No." "1206W4J0221T5E"
 			(at 114.3 120.65 0)
 			(effects
 				(font
@@ -8676,7 +8826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/41wmEVF"
+		(property "Part URL" ""
 			(at 114.3 120.65 0)
 			(effects
 				(font
@@ -8685,7 +8835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 114.3 120.65 0)
 			(effects
 				(font
@@ -8694,7 +8844,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25363"
 			(at 114.3 120.65 0)
 			(effects
 				(font
@@ -8727,7 +8877,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 68.58 184.15 0)
+		(at 50.8 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8736,7 +8886,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bf192e8-076f-4250-89d8-e331005ffee7")
 		(property "Reference" "#PWR04"
-			(at 68.58 190.5 0)
+			(at 50.8 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8745,7 +8895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 189.23 0)
+			(at 50.8 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8753,7 +8903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 184.15 0)
+			(at 50.8 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,7 +8912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 184.15 0)
+			(at 50.8 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8771,7 +8921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 184.15 0)
+			(at 50.8 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,7 +8968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 229.362 151.13 90)
 			(effects
 				(font
@@ -8827,7 +8977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -8836,7 +8986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -8845,7 +8995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FRF52100K"
+		(property "Part No." "1206W4F1003T5E"
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -8854,7 +9004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4hEwI4G"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C17900"
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -8863,7 +9013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -8872,7 +9022,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17900"
 			(at 231.14 151.13 0)
 			(effects
 				(font
@@ -8976,7 +9126,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7203002"
 			(at 86.36 63.5 0)
 			(effects
 				(font
@@ -9261,7 +9411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 201.422 48.26 90)
 			(effects
 				(font
@@ -9270,7 +9420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -9279,7 +9429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -9288,7 +9438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-47K"
+		(property "Part No." "1206W4F4702T5E"
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -9297,7 +9447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3XWs8rz"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C25833"
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -9306,7 +9456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -9315,7 +9465,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25833"
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -9571,7 +9721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 292.1 49.022 90)
 			(effects
 				(font
@@ -9580,7 +9730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 292.1 50.8 0)
 			(effects
 				(font
@@ -9589,7 +9739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "68kΩ 1206 250mW Thin Film Resistor 200V Resistor"
 			(at 292.1 50.8 0)
 			(effects
 				(font
@@ -9598,7 +9748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-68K"
+		(property "Part No." "RT1206BRD0768KL"
 			(at 292.1 50.8 0)
 			(effects
 				(font
@@ -9607,7 +9757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4gyTECt"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C706422"
 			(at 292.1 50.8 0)
 			(effects
 				(font
@@ -9616,7 +9766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 292.1 50.8 0)
 			(effects
 				(font
@@ -9625,7 +9775,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C706422"
 			(at 292.1 50.8 0)
 			(effects
 				(font
@@ -9674,7 +9824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
 			(at 248.92 90.17 0)
 			(effects
 				(font
@@ -9683,7 +9833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm358ba.pdf"
 			(at 248.92 90.17 0)
 			(effects
 				(font
@@ -9701,7 +9851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "595-LM358P "
+		(property "Part No." "595-LM358BIDDFR"
 			(at 248.92 90.17 0)
 			(effects
 				(font
@@ -9710,7 +9860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4izjQPc"
+		(property "Part URL" "https://mou.sr/4k5MS96"
 			(at 248.92 90.17 0)
 			(effects
 				(font
@@ -9728,7 +9878,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4366960"
 			(at 248.92 90.17 0)
 			(effects
 				(font
@@ -10047,7 +10197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 288.29 41.6052 0)
 			(effects
 				(font
@@ -10056,7 +10206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 292.1 40.64 0)
 			(effects
 				(font
@@ -10065,7 +10215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22pF 50V 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 292.1 40.64 0)
 			(effects
 				(font
@@ -10074,7 +10224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "594-K220J15C0GF53L2 "
+		(property "Part No." "GRM1555C1H220JA01D"
 			(at 292.1 40.64 0)
 			(effects
 				(font
@@ -10083,7 +10233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3ZTXYXB"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C76960"
 			(at 292.1 40.64 0)
 			(effects
 				(font
@@ -10092,7 +10242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 292.1 40.64 0)
 			(effects
 				(font
@@ -10101,7 +10251,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76960"
 			(at 292.1 40.64 0)
 			(effects
 				(font
@@ -10284,7 +10434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 218.44 85.852 90)
 			(effects
 				(font
@@ -10293,7 +10443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -10302,7 +10452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -10311,7 +10461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-1K"
+		(property "Part No." "RC1206FR-071KL"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -10320,7 +10470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/43MmrAb"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C131398"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -10329,7 +10479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -10338,7 +10488,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C131398"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -10456,7 +10606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 107.442 133.35 90)
 			(effects
 				(font
@@ -10465,7 +10615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -10474,7 +10624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -10483,7 +10633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-4K7"
+		(property "Part No." "1206W4F4701T5E"
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -10492,7 +10642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4i8N07f"
+		(property "Part URL" ""
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -10501,7 +10651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -10510,7 +10660,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17936"
 			(at 109.22 133.35 0)
 			(effects
 				(font
@@ -10794,16 +10944,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 59.69 175.26 0)
+		(at 41.91 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5b533cb4-b2aa-4ef7-99b0-ad38b8d63bdc")
 		(property "Reference" "C7"
-			(at 63.5 173.101 0)
+			(at 45.72 173.101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10812,7 +10961,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 63.5 175.641 0)
+			(at 45.72 175.641 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10820,8 +10969,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 60.6552 179.07 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 42.8752 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10829,8 +10978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 59.69 175.26 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
+			(at 41.91 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10838,8 +10987,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 59.69 175.26 0)
+		(property "Description" "10uF 35V 0603 Multilayer Ceramic Capacitors MLCC"
+			(at 41.91 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10847,8 +10996,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "80-ESS106M035AC2EA "
-			(at 59.69 175.26 0)
+		(property "Part No." "GRM188R6YA106MA73D"
+			(at 41.91 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10856,8 +11005,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/49DyMaU"
-			(at 59.69 175.26 0)
+		(property "Part URL" "https://jlcpcb.com/partdetail/C194427"
+			(at 41.91 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10865,8 +11014,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
-			(at 59.69 175.26 0)
+		(property "Vendor" "JLCPCB"
+			(at 41.91 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10874,8 +11023,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 59.69 175.26 0)
+		(property "LCSC" "C194427"
+			(at 41.91 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,7 +11206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 237.49 29.972 90)
 			(effects
 				(font
@@ -11066,7 +11215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -11075,7 +11224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -11084,7 +11233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-1K"
+		(property "Part No." "RC1206FR-071KL"
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -11093,7 +11242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/43MmrAb"
+		(property "Part URL" ""
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -11102,7 +11251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -11111,7 +11260,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C131398"
 			(at 237.49 31.75 0)
 			(effects
 				(font
@@ -11233,7 +11382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 222.25 49.022 90)
 			(effects
 				(font
@@ -11242,7 +11391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 50.8 0)
 			(effects
 				(font
@@ -11251,7 +11400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "68kΩ 1206 250mW Thin Film Resistor 200V Resistor"
 			(at 222.25 50.8 0)
 			(effects
 				(font
@@ -11260,7 +11409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-68K"
+		(property "Part No." "RT1206BRD0768KL"
 			(at 222.25 50.8 0)
 			(effects
 				(font
@@ -11269,7 +11418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4gyTECt"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C706422"
 			(at 222.25 50.8 0)
 			(effects
 				(font
@@ -11278,7 +11427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 222.25 50.8 0)
 			(effects
 				(font
@@ -11287,7 +11436,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C706422"
 			(at 222.25 50.8 0)
 			(effects
 				(font
@@ -11318,6 +11467,167 @@
 		)
 	)
 	(symbol
+		(lib_id "L7805CDT-TR:L7805CDT-TR")
+		(at 60.96 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6889f037-f5c4-478c-8540-63be1988a847")
+		(property "Reference" "U1"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L7805CDT-TR"
+			(at 76.2 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L7805CDTTR"
+			(at 87.63 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/L7805CDT-TR.pdf"
+			(at 87.63 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Linear Voltage Regulators 5.0V 1.0A Positive"
+			(at 60.96 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Linear Voltage Regulators 5.0V 1.0A Positive"
+			(at 87.63 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.63"
+			(at 87.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 87.63 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "L7805CDT-TR"
+			(at 87.63 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-L7805CDT-TR"
+			(at 87.63 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L7805CDT-TR?qs=gq%2F78KzUDX67VndS%2FbSB4Q%3D%3D"
+			(at 87.63 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "L7805CDT-TR"
+			(at 87.63 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/l7805cdt-tr/stmicroelectronics?utm_currency=USD&region=europe"
+			(at 87.63 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C310413"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "420a48d8-9667-4305-ac17-d149938bb1fe")
+		)
+		(pin "1"
+			(uuid "98d4e506-c84d-402a-8cde-d86586106172")
+		)
+		(pin "2"
+			(uuid "5f332a42-f8dc-4dc5-b298-cb3a8236dea7")
+		)
+		(instances
+			(project ""
+				(path "/03511da7-c2b3-499d-90b2-98ae4b6cdf64"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 157.48 99.06 0)
 		(unit 1)
@@ -11335,7 +11645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "MMBT3904LP-7"
 			(at 162.3314 100.203 0)
 			(effects
 				(font
@@ -11344,7 +11654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+		(property "Footprint" "Shmoergh_Custom_Footprints:MMBT3904LP7"
 			(at 162.56 100.965 0)
 			(effects
 				(font
@@ -11355,7 +11665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/115/ds31835-3215659.pdf"
 			(at 157.48 99.06 0)
 			(effects
 				(font
@@ -11374,7 +11684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "637-2N3904 "
+		(property "Part No." "621-MMBT3904LP-7"
 			(at 157.48 99.06 0)
 			(effects
 				(font
@@ -11383,7 +11693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4febysZ"
+		(property "Part URL" "https://mou.sr/3GCKpEu"
 			(at 157.48 99.06 0)
 			(effects
 				(font
@@ -11401,7 +11711,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C460099"
 			(at 157.48 99.06 0)
 			(effects
 				(font
@@ -11436,7 +11746,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 53.34 168.91 180)
+		(at 35.56 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11444,32 +11754,23 @@
 		(dnp no)
 		(uuid "6e52d7b9-255b-4ba2-8ded-b673e2d49619")
 		(property "Reference" "D1"
-			(at 53.34 163.3982 0)
+			(at 35.56 163.3982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4001"
-			(at 53.34 165.7096 0)
+		(property "Value" "S1A"
+			(at 35.56 165.7096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 53.34 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 168.91 0)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 35.56 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11477,8 +11778,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 53.34 168.91 0)
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/s1m-d.pdf"
+			(at 35.56 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11486,8 +11787,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "637-1N4001 "
-			(at 53.34 168.91 0)
+		(property "Description" "1A 50V 1.1V@1A SMA(DO-214AC) Diode"
+			(at 35.56 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11495,8 +11796,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3DfEJyK"
-			(at 53.34 168.91 0)
+		(property "Part No." "S1A"
+			(at 35.56 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11504,8 +11805,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
-			(at 53.34 168.91 0)
+		(property "Part URL" "https://jlcpcb.com/partdetail/C232824"
+			(at 35.56 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11513,8 +11814,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 53.34 168.91 0)
+		(property "Vendor" "JLCPCB"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C232824"
+			(at 35.56 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11568,7 +11878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 218.44 41.6052 0)
 			(effects
 				(font
@@ -11577,7 +11887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 222.25 40.64 0)
 			(effects
 				(font
@@ -11586,7 +11896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22pF 50V 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 222.25 40.64 0)
 			(effects
 				(font
@@ -11595,7 +11905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "594-K220J15C0GF53L2 "
+		(property "Part No." "GRM1555C1H220JA01D"
 			(at 222.25 40.64 0)
 			(effects
 				(font
@@ -11604,7 +11914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3ZTXYXB"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C76960"
 			(at 222.25 40.64 0)
 			(effects
 				(font
@@ -11613,7 +11923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 222.25 40.64 0)
 			(effects
 				(font
@@ -11622,7 +11932,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76960"
 			(at 222.25 40.64 0)
 			(effects
 				(font
@@ -11677,7 +11987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
 			(at 220.98 31.75 0)
 			(effects
 				(font
@@ -11686,7 +11996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm358ba.pdf"
 			(at 220.98 31.75 0)
 			(effects
 				(font
@@ -11704,7 +12014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "595-LM358P "
+		(property "Part No." "595-LM358BIDDFR"
 			(at 220.98 31.75 0)
 			(effects
 				(font
@@ -11713,7 +12023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4izjQPc"
+		(property "Part URL" "https://mou.sr/4k5MS96"
 			(at 220.98 31.75 0)
 			(effects
 				(font
@@ -11731,7 +12041,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4366960"
 			(at 220.98 31.75 0)
 			(effects
 				(font
@@ -11874,7 +12184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 225.7552 99.06 0)
 			(effects
 				(font
@@ -11883,7 +12193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 224.79 95.25 0)
 			(effects
 				(font
@@ -11892,7 +12202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1uF 50V 1206 Multilayer Ceramic Capacitors MLCC"
 			(at 224.79 95.25 0)
 			(effects
 				(font
@@ -11901,7 +12211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "140-SG1R0M1H0407P "
+		(property "Part No." "CL31B105KBHNNNE"
 			(at 224.79 95.25 0)
 			(effects
 				(font
@@ -11910,7 +12220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/41BqE8O"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C1848"
 			(at 224.79 95.25 0)
 			(effects
 				(font
@@ -11919,7 +12229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 224.79 95.25 0)
 			(effects
 				(font
@@ -11928,7 +12238,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1848"
 			(at 224.79 95.25 0)
 			(effects
 				(font
@@ -11979,7 +12289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
 			(at 172.72 177.8 0)
 			(effects
 				(font
@@ -11988,7 +12298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm358ba.pdf"
 			(at 172.72 177.8 0)
 			(effects
 				(font
@@ -12006,7 +12316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "595-LM358P "
+		(property "Part No." "595-LM358BIDDFR"
 			(at 172.72 177.8 0)
 			(effects
 				(font
@@ -12015,7 +12325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4izjQPc"
+		(property "Part URL" "https://mou.sr/4k5MS96"
 			(at 172.72 177.8 0)
 			(effects
 				(font
@@ -12033,7 +12343,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4366960"
 			(at 172.72 177.8 0)
 			(effects
 				(font
@@ -12175,7 +12485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 251.46 97.282 90)
 			(effects
 				(font
@@ -12184,7 +12494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -12193,7 +12503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "51kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -12202,7 +12512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-51K"
+		(property "Part No." "RC1206FR-0751KL"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -12211,7 +12521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/43NIOFo"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C114947"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -12220,7 +12530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -12229,7 +12539,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C114947"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -12353,7 +12663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 194.0052 181.61 0)
 			(effects
 				(font
@@ -12362,7 +12672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 193.04 177.8 0)
 			(effects
 				(font
@@ -12371,7 +12681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 50V 0603 Multilayer Ceramic Capacitors MLCC"
 			(at 193.04 177.8 0)
 			(effects
 				(font
@@ -12380,7 +12690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "594-K103K15X7RF5TK2 "
+		(property "Part No." "CL10B104KB8NNNC"
 			(at 193.04 177.8 0)
 			(effects
 				(font
@@ -12389,7 +12699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3VFZIRH"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C1591"
 			(at 193.04 177.8 0)
 			(effects
 				(font
@@ -12398,7 +12708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 193.04 177.8 0)
 			(effects
 				(font
@@ -12407,7 +12717,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
 			(at 193.04 177.8 0)
 			(effects
 				(font
@@ -12659,7 +12969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 271.272 48.26 90)
 			(effects
 				(font
@@ -12668,7 +12978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 273.05 48.26 0)
 			(effects
 				(font
@@ -12677,7 +12987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 273.05 48.26 0)
 			(effects
 				(font
@@ -12686,7 +12996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-47K"
+		(property "Part No." "603-RT1206FRE0747KL"
 			(at 273.05 48.26 0)
 			(effects
 				(font
@@ -12695,7 +13005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3XWs8rz"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C25833"
 			(at 273.05 48.26 0)
 			(effects
 				(font
@@ -12704,7 +13014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 273.05 48.26 0)
 			(effects
 				(font
@@ -12713,7 +13023,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25833"
 			(at 273.05 48.26 0)
 			(effects
 				(font
@@ -12762,7 +13072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 270.51 88.392 90)
 			(effects
 				(font
@@ -12771,7 +13081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 270.51 90.17 0)
 			(effects
 				(font
@@ -12780,7 +13090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 270.51 90.17 0)
 			(effects
 				(font
@@ -12789,7 +13099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-1K"
+		(property "Part No." "RC1206FR-071KL"
 			(at 270.51 90.17 0)
 			(effects
 				(font
@@ -12798,7 +13108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/43MmrAb"
+		(property "Part URL" ""
 			(at 270.51 90.17 0)
 			(effects
 				(font
@@ -12807,7 +13117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 270.51 90.17 0)
 			(effects
 				(font
@@ -12816,7 +13126,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C131398"
 			(at 270.51 90.17 0)
 			(effects
 				(font
@@ -13369,7 +13679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
 			(at 248.92 134.62 0)
 			(effects
 				(font
@@ -13423,7 +13733,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4366960"
 			(at 248.92 134.62 0)
 			(effects
 				(font
@@ -13624,7 +13934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 247.65 153.3652 0)
 			(effects
 				(font
@@ -13633,7 +13943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 251.46 152.4 0)
 			(effects
 				(font
@@ -13642,7 +13952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22pF 50V 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 251.46 152.4 0)
 			(effects
 				(font
@@ -13651,7 +13961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "594-K220J15C0GF53L2 "
+		(property "Part No." "GRM1555C1H220JA01D"
 			(at 251.46 152.4 0)
 			(effects
 				(font
@@ -13660,7 +13970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3ZTXYXB"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C76960"
 			(at 251.46 152.4 0)
 			(effects
 				(font
@@ -13669,7 +13979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 251.46 152.4 0)
 			(effects
 				(font
@@ -13678,7 +13988,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76960"
 			(at 251.46 152.4 0)
 			(effects
 				(font
@@ -13727,7 +14037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 251.46 141.732 90)
 			(effects
 				(font
@@ -13736,7 +14046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -13745,7 +14055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "51kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -13754,7 +14064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-51K"
+		(property "Part No." "RC1206FR-0751KL"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -13763,7 +14073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/43NIOFo"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C114947"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -13772,7 +14082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -13781,7 +14091,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C114947"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -13830,7 +14140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 270.51 132.842 90)
 			(effects
 				(font
@@ -13839,7 +14149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 270.51 134.62 0)
 			(effects
 				(font
@@ -13848,7 +14158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 270.51 134.62 0)
 			(effects
 				(font
@@ -13857,7 +14167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-1K"
+		(property "Part No." "RC1206FR-071KL"
 			(at 270.51 134.62 0)
 			(effects
 				(font
@@ -13866,7 +14176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/43MmrAb"
+		(property "Part URL" ""
 			(at 270.51 134.62 0)
 			(effects
 				(font
@@ -13875,7 +14185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" ""
 			(at 270.51 134.62 0)
 			(effects
 				(font
@@ -13884,7 +14194,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C131398"
 			(at 270.51 134.62 0)
 			(effects
 				(font
@@ -13993,7 +14303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "FDLL4148"
 			(at 71.882 128.143 90)
 			(effects
 				(font
@@ -14002,7 +14312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Shmoergh_Custom_Footprints:FDLL4448"
 			(at 69.85 127 0)
 			(effects
 				(font
@@ -14011,7 +14321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/1N914_D-3574539.pdf"
 			(at 69.85 127 0)
 			(effects
 				(font
@@ -14029,7 +14339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "512-1N4148 "
+		(property "Part No." "512-FDLL4148"
 			(at 69.85 127 0)
 			(effects
 				(font
@@ -14038,7 +14348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3ZP7Wt3"
+		(property "Part URL" "https://mou.sr/4lXd5bs"
 			(at 69.85 127 0)
 			(effects
 				(font
@@ -14056,7 +14366,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C896730"
 			(at 69.85 127 0)
 			(effects
 				(font
@@ -14237,7 +14547,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP4822"
+		(property "Value" "MCP4822-E/SN"
 			(at 163.83 30.734 0)
 			(effects
 				(font
@@ -14245,7 +14555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Shmoergh_Custom_Footprints:SOIC127P600X175-8N"
 			(at 184.15 50.8 0)
 			(effects
 				(font
@@ -14263,7 +14573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)"
 			(at 163.83 43.18 0)
 			(effects
 				(font
@@ -14272,7 +14582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "579-MCP4822-E/P "
+		(property "Part No." "579-MCP4822-E/SN"
 			(at 163.83 43.18 0)
 			(effects
 				(font
@@ -14281,7 +14591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4gecDm5"
+		(property "Part URL" "https://mou.sr/433P9dX"
 			(at 163.83 43.18 0)
 			(effects
 				(font
@@ -14299,7 +14609,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C16040"
 			(at 163.83 43.18 0)
 			(effects
 				(font
@@ -14364,7 +14674,7 @@
 				)
 			)
 		)
-		(property "Value" "6N138"
+		(property "Value" "6N138SM"
 			(at 93.98 114.9096 0)
 			(effects
 				(font
@@ -14372,7 +14682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Shmoergh_Custom_Footprints:SOP254P1030X508-8N"
 			(at 101.346 132.08 0)
 			(effects
 				(font
@@ -14381,7 +14691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/hcpl2731m-d.pdf"
 			(at 101.346 132.08 0)
 			(effects
 				(font
@@ -14399,7 +14709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "859-6N138M "
+		(property "Part No." "512-6N138SM"
 			(at 93.98 124.46 0)
 			(effects
 				(font
@@ -14408,7 +14718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3VDrRsD"
+		(property "Part URL" "https://mou.sr/43fQ9Nm"
 			(at 93.98 124.46 0)
 			(effects
 				(font
@@ -14426,7 +14736,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17369018"
 			(at 93.98 124.46 0)
 			(effects
 				(font
@@ -14502,7 +14812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 225.7552 143.51 0)
 			(effects
 				(font
@@ -14511,7 +14821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 224.79 139.7 0)
 			(effects
 				(font
@@ -14520,7 +14830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1uF 50V 1206 Multilayer Ceramic Capacitors MLCC"
 			(at 224.79 139.7 0)
 			(effects
 				(font
@@ -14529,7 +14839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "140-SG1R0M1H0407P "
+		(property "Part No." "CL31B105KBHNNNE"
 			(at 224.79 139.7 0)
 			(effects
 				(font
@@ -14538,7 +14848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/41BqE8O"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C1848"
 			(at 224.79 139.7 0)
 			(effects
 				(font
@@ -14547,7 +14857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 224.79 139.7 0)
 			(effects
 				(font
@@ -14556,7 +14866,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1848"
 			(at 224.79 139.7 0)
 			(effects
 				(font
@@ -14672,7 +14982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 247.65 108.9152 0)
 			(effects
 				(font
@@ -14681,7 +14991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/general_purpose-3169586.pdf"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -14690,7 +15000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22pF 50V 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -14699,7 +15009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "594-K220J15C0GF53L2 "
+		(property "Part No." "GRM1555C1H220JA01D"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -14708,7 +15018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3ZTXYXB"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C76960"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -14717,7 +15027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -14726,7 +15036,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76960"
 			(at 251.46 107.95 0)
 			(effects
 				(font
@@ -14781,7 +15091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
 			(at 290.83 31.75 0)
 			(effects
 				(font
@@ -14835,7 +15145,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4366960"
 			(at 290.83 31.75 0)
 			(effects
 				(font
@@ -15102,7 +15412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 218.44 130.302 90)
 			(effects
 				(font
@@ -15111,7 +15421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -15120,7 +15430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -15129,7 +15439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-1K"
+		(property "Part No." "RC1206FR-071KL"
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -15138,7 +15448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/43MmrAb"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C131398"
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -15147,7 +15457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -15156,7 +15466,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C131398"
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -15183,7 +15493,7 @@
 	(symbol
 		(lib_name "+12V_1")
 		(lib_id "power:+12V")
-		(at 40.64 166.37 0)
+		(at 22.86 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15192,7 +15502,7 @@
 		(fields_autoplaced yes)
 		(uuid "daff153c-4f83-4270-9914-efe2172e8ef4")
 		(property "Reference" "#PWR02"
-			(at 40.64 170.18 0)
+			(at 22.86 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15201,7 +15511,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 40.64 161.29 0)
+			(at 22.86 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15209,7 +15519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 166.37 0)
+			(at 22.86 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15218,7 +15528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 166.37 0)
+			(at 22.86 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15227,7 +15537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 40.64 166.37 0)
+			(at 22.86 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15242,119 +15552,6 @@
 			(project ""
 				(path "/03511da7-c2b3-499d-90b2-98ae4b6cdf64"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM7805_TO220")
-		(at 82.55 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd43c553-a5d1-4c48-8db3-64b00af9a87e")
-		(property "Reference" "U1"
-			(at 82.55 162.7632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM7805_TO220"
-			(at 82.55 165.0746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 82.55 163.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 82.55 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part No." "926-LM7805CT/NOPB "
-			(at 82.55 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part URL" "https://mou.sr/4gwivXu"
-			(at 82.55 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Mouser"
-			(at 82.55 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 82.55 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fbd59b6-b962-462e-9eb0-f1ae7a965d90")
-		)
-		(pin "2"
-			(uuid "02d12b83-b469-443e-a862-350d6b48d71f")
-		)
-		(pin "3"
-			(uuid "11195a6b-7d7d-4aa9-aa7e-ee6d05e04628")
-		)
-		(instances
-			(project "midi2cv"
-				(path "/03511da7-c2b3-499d-90b2-98ae4b6cdf64"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-			(project "pico-midi2cv"
-				(path "/99b7021b-377d-4a0e-ba1f-884e654d501a"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -15385,7 +15582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 307.34 29.972 90)
 			(effects
 				(font
@@ -15394,7 +15591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 307.34 31.75 0)
 			(effects
 				(font
@@ -15403,7 +15600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 307.34 31.75 0)
 			(effects
 				(font
@@ -15412,7 +15609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-1K"
+		(property "Part No." "RC1206FR-071KL"
 			(at 307.34 31.75 0)
 			(effects
 				(font
@@ -15421,7 +15618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/43MmrAb"
+		(property "Part URL" ""
 			(at 307.34 31.75 0)
 			(effects
 				(font
@@ -15430,7 +15627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 307.34 31.75 0)
 			(effects
 				(font
@@ -15439,7 +15636,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C131398"
 			(at 307.34 31.75 0)
 			(effects
 				(font
@@ -15663,7 +15860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.9452 179.07 0)
 			(effects
 				(font
@@ -15672,7 +15869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -15681,7 +15878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 50V 0603 Multilayer Ceramic Capacitors MLCC"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -15690,7 +15887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "594-K103K15X7RF5TK2 "
+		(property "Part No." "CL10B104KB8NNNC"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -15699,7 +15896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3VFZIRH"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C1591"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -15708,7 +15905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -15717,7 +15914,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -15774,7 +15971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 158.242 88.9 90)
 			(effects
 				(font
@@ -15783,7 +15980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -15792,7 +15989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "470Ω 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -15801,7 +15998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FBF52-470R"
+		(property "Part No." "RC1206FR-07470RL"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -15810,7 +16007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3XTF2Xk"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C114945"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -15819,7 +16016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -15828,7 +16025,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C114945"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -15885,7 +16082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 147.32 100.838 90)
 			(effects
 				(font
@@ -15894,7 +16091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -15903,7 +16100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -15912,7 +16109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR25SFRF52-10K"
+		(property "Part No." "AC1206FR-0710KL"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -15921,7 +16118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3XU3MyE"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C144520"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -15930,7 +16127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -15939,7 +16136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C144520"
 			(at 147.32 99.06 0)
 			(effects
 				(font
@@ -15996,7 +16193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 229.362 106.68 90)
 			(effects
 				(font
@@ -16005,7 +16202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -16014,7 +16211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100kΩ 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -16023,7 +16220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FRF52100K"
+		(property "Part No." "1206W4F1003T5E"
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -16032,7 +16229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/4hEwI4G"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C17900"
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -16041,7 +16238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -16050,7 +16247,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17900"
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -16107,7 +16304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 182.5752 181.61 0)
 			(effects
 				(font
@@ -16116,7 +16313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 181.61 177.8 0)
 			(effects
 				(font
@@ -16125,7 +16322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 50V 0603 Multilayer Ceramic Capacitors MLCC"
 			(at 181.61 177.8 0)
 			(effects
 				(font
@@ -16134,7 +16331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "594-K103K15X7RF5TK2 "
+		(property "Part No." "CL10B104KB8NNNC"
 			(at 181.61 177.8 0)
 			(effects
 				(font
@@ -16143,7 +16340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/3VFZIRH"
+		(property "Part URL" "https://jlcpcb.com/partdetail/C1591"
 			(at 181.61 177.8 0)
 			(effects
 				(font
@@ -16152,7 +16349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 181.61 177.8 0)
 			(effects
 				(font
@@ -16161,7 +16358,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
 			(at 181.61 177.8 0)
 			(effects
 				(font
@@ -16218,7 +16415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
 			(at 165.1 177.8 0)
 			(effects
 				(font
@@ -16272,7 +16469,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4366960"
 			(at 165.1 177.8 0)
 			(effects
 				(font
@@ -16339,7 +16536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shmoergh_Custom_Footprints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 62.23 120.142 90)
 			(effects
 				(font
@@ -16348,7 +16545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -16357,7 +16554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "220Ω 1206 250mW Thick Film Resistors 200V Resistor"
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -16366,7 +16563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part No." "603-MFR-25FTF52-220R"
+		(property "Part No." "1206W4J0221T5E"
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -16375,7 +16572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "https://mou.sr/41wmEVF"
+		(property "Part URL" ""
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -16384,7 +16581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "Mouser"
+		(property "Vendor" "JLCPCB"
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -16393,7 +16590,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25363"
 			(at 62.23 121.92 0)
 			(effects
 				(font
@@ -16428,4 +16625,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

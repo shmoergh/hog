@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDLL4148
+D Diode Ultra Fast 100V 0.2A 2-Pin LL-34
+K
+F https://www.onsemi.com/pub/Collateral/1N914-D.PDF
+$ENDCMP
+#
+#End Doc Library

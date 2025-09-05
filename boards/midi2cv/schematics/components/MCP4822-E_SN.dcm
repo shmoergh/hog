@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP4822-E_SN
+D D/A Converter 12-Bit 2ch SPI SOIC8
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-4/sf-00090084.pdf
+$ENDCMP
+#
+#End Doc Library
